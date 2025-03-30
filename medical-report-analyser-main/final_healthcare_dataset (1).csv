@@ -1,0 +1,650 @@
+Patient_ID,Age_x,Gender_x,Test_Name,Value,Unit,Status,Comment,Name,Age_y,Gender_y,Blood Type,Medical Condition,Date of Admission,Doctor,Hospital,Insurance Provider,Admission Type,Discharge Date,Medication,Test Results
+102,47,Male,Hemoglobin,14.21,g/dL,Normal,Normal range for males,AdriaN BuckLEY,22,Female,A-,Arthritis,2023-10-11,Julie Ramirez,"Lin Thompson Wells, and",Blue Cross,Urgent,2023-10-27,Penicillin,Normal
+102,47,Male,RBC,3.46,Million cells/µL,Low,Normal for males,AdriaN BuckLEY,22,Female,A-,Arthritis,2023-10-11,Julie Ramirez,"Lin Thompson Wells, and",Blue Cross,Urgent,2023-10-27,Penicillin,Normal
+102,47,Male,Cholesterol_Total,134.36,mg/dL,Normal,Desirable range,AdriaN BuckLEY,22,Female,A-,Arthritis,2023-10-11,Julie Ramirez,"Lin Thompson Wells, and",Blue Cross,Urgent,2023-10-27,Penicillin,Normal
+102,47,Male,Glucose_Fasting,81.16,mg/dL,Normal,Normal fasting glucose,AdriaN BuckLEY,22,Female,A-,Arthritis,2023-10-11,Julie Ramirez,"Lin Thompson Wells, and",Blue Cross,Urgent,2023-10-27,Penicillin,Normal
+102,47,Male,Bilirubin_Total,0.85,mg/dL,Normal,Normal range,AdriaN BuckLEY,22,Female,A-,Arthritis,2023-10-11,Julie Ramirez,"Lin Thompson Wells, and",Blue Cross,Urgent,2023-10-27,Penicillin,Normal
+102,47,Male,TSH,2.17,mIU/L,Normal,Normal range,AdriaN BuckLEY,22,Female,A-,Arthritis,2023-10-11,Julie Ramirez,"Lin Thompson Wells, and",Blue Cross,Urgent,2023-10-27,Penicillin,Normal
+108,35,Male,Hemoglobin,14.1,g/dL,Normal,Normal range for males,JAmES pattERson,23,Female,A+,Arthritis,2019-11-03,Kristina Frazier,Cruz-Santiago,UnitedHealthcare,Urgent,2019-11-29,Penicillin,Abnormal
+108,35,Male,RBC,7.25,Million cells/µL,High,Normal for males,JAmES pattERson,23,Female,A+,Arthritis,2019-11-03,Kristina Frazier,Cruz-Santiago,UnitedHealthcare,Urgent,2019-11-29,Penicillin,Abnormal
+108,35,Male,Cholesterol_Total,136.44,mg/dL,Normal,Desirable range,JAmES pattERson,23,Female,A+,Arthritis,2019-11-03,Kristina Frazier,Cruz-Santiago,UnitedHealthcare,Urgent,2019-11-29,Penicillin,Abnormal
+108,35,Male,Glucose_Fasting,89.52,mg/dL,Normal,Normal fasting glucose,JAmES pattERson,23,Female,A+,Arthritis,2019-11-03,Kristina Frazier,Cruz-Santiago,UnitedHealthcare,Urgent,2019-11-29,Penicillin,Abnormal
+108,35,Male,Creatinine,1.13,mg/dL,Normal,Normal for males,JAmES pattERson,23,Female,A+,Arthritis,2019-11-03,Kristina Frazier,Cruz-Santiago,UnitedHealthcare,Urgent,2019-11-29,Penicillin,Abnormal
+108,35,Male,Bilirubin_Total,0.21,mg/dL,Normal,Normal range,JAmES pattERson,23,Female,A+,Arthritis,2019-11-03,Kristina Frazier,Cruz-Santiago,UnitedHealthcare,Urgent,2019-11-29,Penicillin,Abnormal
+108,35,Male,TSH,4.1,mIU/L,High,Normal range,JAmES pattERson,23,Female,A+,Arthritis,2019-11-03,Kristina Frazier,Cruz-Santiago,UnitedHealthcare,Urgent,2019-11-29,Penicillin,Abnormal
+109,22,Female,Hemoglobin,13.11,g/dL,Low,Normal range for males,PAUl hEndERsOn,72,Female,AB+,Hypertension,2020-05-15,Stephanie Kramer,Wilson Group,Medicare,Emergency,2020-06-08,Paracetamol,Inconclusive
+109,22,Female,RBC,6.16,Million cells/µL,High,Normal for males,PAUl hEndERsOn,72,Female,AB+,Hypertension,2020-05-15,Stephanie Kramer,Wilson Group,Medicare,Emergency,2020-06-08,Paracetamol,Inconclusive
+109,22,Female,Cholesterol_Total,187.84,mg/dL,Normal,Desirable range,PAUl hEndERsOn,72,Female,AB+,Hypertension,2020-05-15,Stephanie Kramer,Wilson Group,Medicare,Emergency,2020-06-08,Paracetamol,Inconclusive
+109,22,Female,Glucose_Fasting,81.1,mg/dL,Normal,Normal fasting glucose,PAUl hEndERsOn,72,Female,AB+,Hypertension,2020-05-15,Stephanie Kramer,Wilson Group,Medicare,Emergency,2020-06-08,Paracetamol,Inconclusive
+109,22,Female,Creatinine,1.23,mg/dL,Normal,Normal for males,PAUl hEndERsOn,72,Female,AB+,Hypertension,2020-05-15,Stephanie Kramer,Wilson Group,Medicare,Emergency,2020-06-08,Paracetamol,Inconclusive
+109,22,Female,Bilirubin_Total,2.54,mg/dL,High,Normal range,PAUl hEndERsOn,72,Female,AB+,Hypertension,2020-05-15,Stephanie Kramer,Wilson Group,Medicare,Emergency,2020-06-08,Paracetamol,Inconclusive
+109,22,Female,TSH,0.84,mIU/L,Normal,Normal range,PAUl hEndERsOn,72,Female,AB+,Hypertension,2020-05-15,Stephanie Kramer,Wilson Group,Medicare,Emergency,2020-06-08,Paracetamol,Inconclusive
+113,68,Female,Hemoglobin,13.72,g/dL,Normal,Normal range for males,NIcOlE LUcErO,70,Female,O-,Diabetes,2022-03-12,Christine Johnson,"and Garcia Morris Cunningham,",Cigna,Emergency,2022-03-29,Lipitor,Abnormal
+113,68,Female,Hemoglobin,13.72,g/dL,Normal,Normal range for males,LArry rodgeRs,23,Female,B-,Hypertension,2022-08-03,Eric Kelly,"and Mason Smith Chase,",Cigna,Elective,2022-08-10,Aspirin,Inconclusive
+113,68,Female,RBC,7.09,Million cells/µL,High,Normal for males,NIcOlE LUcErO,70,Female,O-,Diabetes,2022-03-12,Christine Johnson,"and Garcia Morris Cunningham,",Cigna,Emergency,2022-03-29,Lipitor,Abnormal
+113,68,Female,RBC,7.09,Million cells/µL,High,Normal for males,LArry rodgeRs,23,Female,B-,Hypertension,2022-08-03,Eric Kelly,"and Mason Smith Chase,",Cigna,Elective,2022-08-10,Aspirin,Inconclusive
+113,68,Female,Cholesterol_Total,137.57,mg/dL,Normal,Desirable range,NIcOlE LUcErO,70,Female,O-,Diabetes,2022-03-12,Christine Johnson,"and Garcia Morris Cunningham,",Cigna,Emergency,2022-03-29,Lipitor,Abnormal
+113,68,Female,Cholesterol_Total,137.57,mg/dL,Normal,Desirable range,LArry rodgeRs,23,Female,B-,Hypertension,2022-08-03,Eric Kelly,"and Mason Smith Chase,",Cigna,Elective,2022-08-10,Aspirin,Inconclusive
+113,68,Female,Glucose_Fasting,95.42,mg/dL,Normal,Normal fasting glucose,NIcOlE LUcErO,70,Female,O-,Diabetes,2022-03-12,Christine Johnson,"and Garcia Morris Cunningham,",Cigna,Emergency,2022-03-29,Lipitor,Abnormal
+113,68,Female,Glucose_Fasting,95.42,mg/dL,Normal,Normal fasting glucose,LArry rodgeRs,23,Female,B-,Hypertension,2022-08-03,Eric Kelly,"and Mason Smith Chase,",Cigna,Elective,2022-08-10,Aspirin,Inconclusive
+113,68,Female,Creatinine,1.28,mg/dL,Normal,Normal for males,NIcOlE LUcErO,70,Female,O-,Diabetes,2022-03-12,Christine Johnson,"and Garcia Morris Cunningham,",Cigna,Emergency,2022-03-29,Lipitor,Abnormal
+113,68,Female,Creatinine,1.28,mg/dL,Normal,Normal for males,LArry rodgeRs,23,Female,B-,Hypertension,2022-08-03,Eric Kelly,"and Mason Smith Chase,",Cigna,Elective,2022-08-10,Aspirin,Inconclusive
+113,68,Female,Bilirubin_Total,0.89,mg/dL,Normal,Normal range,NIcOlE LUcErO,70,Female,O-,Diabetes,2022-03-12,Christine Johnson,"and Garcia Morris Cunningham,",Cigna,Emergency,2022-03-29,Lipitor,Abnormal
+113,68,Female,Bilirubin_Total,0.89,mg/dL,Normal,Normal range,LArry rodgeRs,23,Female,B-,Hypertension,2022-08-03,Eric Kelly,"and Mason Smith Chase,",Cigna,Elective,2022-08-10,Aspirin,Inconclusive
+113,68,Female,TSH,4.68,mIU/L,High,Normal range,NIcOlE LUcErO,70,Female,O-,Diabetes,2022-03-12,Christine Johnson,"and Garcia Morris Cunningham,",Cigna,Emergency,2022-03-29,Lipitor,Abnormal
+113,68,Female,TSH,4.68,mIU/L,High,Normal range,LArry rodgeRs,23,Female,B-,Hypertension,2022-08-03,Eric Kelly,"and Mason Smith Chase,",Cigna,Elective,2022-08-10,Aspirin,Inconclusive
+114,21,Female,Hemoglobin,13.7,g/dL,Normal,Normal range for males,haley perkins,63,Female,A+,Arthritis,2020-06-23,Erica Spencer,Cervantes-Wells,UnitedHealthcare,Elective,2020-07-14,Paracetamol,Normal
+114,21,Female,RBC,4.95,Million cells/µL,Normal,Normal for males,haley perkins,63,Female,A+,Arthritis,2020-06-23,Erica Spencer,Cervantes-Wells,UnitedHealthcare,Elective,2020-07-14,Paracetamol,Normal
+114,21,Female,Cholesterol_Total,135.79,mg/dL,Normal,Desirable range,haley perkins,63,Female,A+,Arthritis,2020-06-23,Erica Spencer,Cervantes-Wells,UnitedHealthcare,Elective,2020-07-14,Paracetamol,Normal
+114,21,Female,Glucose_Fasting,99.0,mg/dL,Normal,Normal fasting glucose,haley perkins,63,Female,A+,Arthritis,2020-06-23,Erica Spencer,Cervantes-Wells,UnitedHealthcare,Elective,2020-07-14,Paracetamol,Normal
+114,21,Female,Creatinine,0.24,mg/dL,Low,Normal for males,haley perkins,63,Female,A+,Arthritis,2020-06-23,Erica Spencer,Cervantes-Wells,UnitedHealthcare,Elective,2020-07-14,Paracetamol,Normal
+114,21,Female,Bilirubin_Total,2.05,mg/dL,High,Normal range,haley perkins,63,Female,A+,Arthritis,2020-06-23,Erica Spencer,Cervantes-Wells,UnitedHealthcare,Elective,2020-07-14,Paracetamol,Normal
+114,21,Female,TSH,0.64,mIU/L,Normal,Normal range,haley perkins,63,Female,A+,Arthritis,2020-06-23,Erica Spencer,Cervantes-Wells,UnitedHealthcare,Elective,2020-07-14,Paracetamol,Normal
+115,18,Male,Hemoglobin,14.72,g/dL,Normal,Normal range for males,tIMOTHY burNs,67,Female,A-,Asthma,2023-06-28,Krista Smith,Jones LLC,Blue Cross,Elective,2023-07-02,Aspirin,Normal
+115,18,Male,RBC,3.75,Million cells/µL,Low,Normal for males,tIMOTHY burNs,67,Female,A-,Asthma,2023-06-28,Krista Smith,Jones LLC,Blue Cross,Elective,2023-07-02,Aspirin,Normal
+115,18,Male,Cholesterol_Total,173.45,mg/dL,Normal,Desirable range,tIMOTHY burNs,67,Female,A-,Asthma,2023-06-28,Krista Smith,Jones LLC,Blue Cross,Elective,2023-07-02,Aspirin,Normal
+115,18,Male,Glucose_Fasting,99.44,mg/dL,Normal,Normal fasting glucose,tIMOTHY burNs,67,Female,A-,Asthma,2023-06-28,Krista Smith,Jones LLC,Blue Cross,Elective,2023-07-02,Aspirin,Normal
+115,18,Male,Creatinine,1.34,mg/dL,High,Normal for males,tIMOTHY burNs,67,Female,A-,Asthma,2023-06-28,Krista Smith,Jones LLC,Blue Cross,Elective,2023-07-02,Aspirin,Normal
+119,21,Male,Hemoglobin,14.01,g/dL,Normal,Normal range for males,dR. EilEEn thomPsoN,59,Male,A+,Asthma,2021-08-02,Donna Martinez MD,and Sons Smith,Aetna,Urgent,2021-08-12,Lipitor,Inconclusive
+119,21,Male,RBC,6.34,Million cells/µL,High,Normal for males,dR. EilEEn thomPsoN,59,Male,A+,Asthma,2021-08-02,Donna Martinez MD,and Sons Smith,Aetna,Urgent,2021-08-12,Lipitor,Inconclusive
+119,21,Male,Cholesterol_Total,191.48,mg/dL,Normal,Desirable range,dR. EilEEn thomPsoN,59,Male,A+,Asthma,2021-08-02,Donna Martinez MD,and Sons Smith,Aetna,Urgent,2021-08-12,Lipitor,Inconclusive
+119,21,Male,Glucose_Fasting,96.25,mg/dL,Normal,Normal fasting glucose,dR. EilEEn thomPsoN,59,Male,A+,Asthma,2021-08-02,Donna Martinez MD,and Sons Smith,Aetna,Urgent,2021-08-12,Lipitor,Inconclusive
+119,21,Male,Creatinine,2.67,mg/dL,High,Normal for males,dR. EilEEn thomPsoN,59,Male,A+,Asthma,2021-08-02,Donna Martinez MD,and Sons Smith,Aetna,Urgent,2021-08-12,Lipitor,Inconclusive
+119,21,Male,TSH,3.94,mIU/L,Normal,Normal range,dR. EilEEn thomPsoN,59,Male,A+,Asthma,2021-08-02,Donna Martinez MD,and Sons Smith,Aetna,Urgent,2021-08-12,Lipitor,Inconclusive
+120,39,Male,Hemoglobin,15.14,g/dL,Normal,Normal range for males,MR. TYler TAYLOR Phd,80,Male,A+,Diabetes,2022-11-05,Robert Salazar,Dean-Hawkins,UnitedHealthcare,Emergency,2022-11-25,Lipitor,Abnormal
+120,39,Male,RBC,6.75,Million cells/µL,High,Normal for males,MR. TYler TAYLOR Phd,80,Male,A+,Diabetes,2022-11-05,Robert Salazar,Dean-Hawkins,UnitedHealthcare,Emergency,2022-11-25,Lipitor,Abnormal
+120,39,Male,Cholesterol_Total,186.72,mg/dL,Normal,Desirable range,MR. TYler TAYLOR Phd,80,Male,A+,Diabetes,2022-11-05,Robert Salazar,Dean-Hawkins,UnitedHealthcare,Emergency,2022-11-25,Lipitor,Abnormal
+120,39,Male,Glucose_Fasting,96.06,mg/dL,Normal,Normal fasting glucose,MR. TYler TAYLOR Phd,80,Male,A+,Diabetes,2022-11-05,Robert Salazar,Dean-Hawkins,UnitedHealthcare,Emergency,2022-11-25,Lipitor,Abnormal
+120,39,Male,Creatinine,0.96,mg/dL,Normal,Normal for males,MR. TYler TAYLOR Phd,80,Male,A+,Diabetes,2022-11-05,Robert Salazar,Dean-Hawkins,UnitedHealthcare,Emergency,2022-11-25,Lipitor,Abnormal
+120,39,Male,Bilirubin_Total,2.9,mg/dL,High,Normal range,MR. TYler TAYLOR Phd,80,Male,A+,Diabetes,2022-11-05,Robert Salazar,Dean-Hawkins,UnitedHealthcare,Emergency,2022-11-25,Lipitor,Abnormal
+120,39,Male,TSH,3.94,mIU/L,Normal,Normal range,MR. TYler TAYLOR Phd,80,Male,A+,Diabetes,2022-11-05,Robert Salazar,Dean-Hawkins,UnitedHealthcare,Emergency,2022-11-25,Lipitor,Abnormal
+131,76,Male,Hemoglobin,13.43,g/dL,Low,Normal range for males,johN THoMaS,74,Female,A+,Arthritis,2021-11-13,Mark Padilla,Simpson-Mccall,UnitedHealthcare,Emergency,2021-12-07,Paracetamol,Inconclusive
+131,76,Male,RBC,4.8,Million cells/µL,Normal,Normal for males,johN THoMaS,74,Female,A+,Arthritis,2021-11-13,Mark Padilla,Simpson-Mccall,UnitedHealthcare,Emergency,2021-12-07,Paracetamol,Inconclusive
+131,76,Male,Cholesterol_Total,179.62,mg/dL,Normal,Desirable range,johN THoMaS,74,Female,A+,Arthritis,2021-11-13,Mark Padilla,Simpson-Mccall,UnitedHealthcare,Emergency,2021-12-07,Paracetamol,Inconclusive
+131,76,Male,Glucose_Fasting,84.74,mg/dL,Normal,Normal fasting glucose,johN THoMaS,74,Female,A+,Arthritis,2021-11-13,Mark Padilla,Simpson-Mccall,UnitedHealthcare,Emergency,2021-12-07,Paracetamol,Inconclusive
+131,76,Male,Creatinine,0.77,mg/dL,Normal,Normal for males,johN THoMaS,74,Female,A+,Arthritis,2021-11-13,Mark Padilla,Simpson-Mccall,UnitedHealthcare,Emergency,2021-12-07,Paracetamol,Inconclusive
+131,76,Male,TSH,3.41,mIU/L,Normal,Normal range,johN THoMaS,74,Female,A+,Arthritis,2021-11-13,Mark Padilla,Simpson-Mccall,UnitedHealthcare,Emergency,2021-12-07,Paracetamol,Inconclusive
+134,35,Male,Hemoglobin,15.88,g/dL,Normal,Normal range for males,connOR HANsEn,75,Female,A+,Diabetes,2019-12-12,Kenneth Fletcher,"Powers Miller, and Flores",Cigna,Emergency,2019-12-28,Penicillin,Abnormal
+134,35,Male,Hemoglobin,15.88,g/dL,Normal,Normal range for males,ChAd MorEnO,67,Male,AB+,Hypertension,2020-08-26,Connie Boyd,Inc Skinner,Aetna,Urgent,2020-08-27,Penicillin,Abnormal
+134,35,Male,RBC,4.83,Million cells/µL,Normal,Normal for males,connOR HANsEn,75,Female,A+,Diabetes,2019-12-12,Kenneth Fletcher,"Powers Miller, and Flores",Cigna,Emergency,2019-12-28,Penicillin,Abnormal
+134,35,Male,RBC,4.83,Million cells/µL,Normal,Normal for males,ChAd MorEnO,67,Male,AB+,Hypertension,2020-08-26,Connie Boyd,Inc Skinner,Aetna,Urgent,2020-08-27,Penicillin,Abnormal
+134,35,Male,Cholesterol_Total,144.2,mg/dL,Normal,Desirable range,connOR HANsEn,75,Female,A+,Diabetes,2019-12-12,Kenneth Fletcher,"Powers Miller, and Flores",Cigna,Emergency,2019-12-28,Penicillin,Abnormal
+134,35,Male,Cholesterol_Total,144.2,mg/dL,Normal,Desirable range,ChAd MorEnO,67,Male,AB+,Hypertension,2020-08-26,Connie Boyd,Inc Skinner,Aetna,Urgent,2020-08-27,Penicillin,Abnormal
+134,35,Male,Glucose_Fasting,72.76,mg/dL,Normal,Normal fasting glucose,connOR HANsEn,75,Female,A+,Diabetes,2019-12-12,Kenneth Fletcher,"Powers Miller, and Flores",Cigna,Emergency,2019-12-28,Penicillin,Abnormal
+134,35,Male,Glucose_Fasting,72.76,mg/dL,Normal,Normal fasting glucose,ChAd MorEnO,67,Male,AB+,Hypertension,2020-08-26,Connie Boyd,Inc Skinner,Aetna,Urgent,2020-08-27,Penicillin,Abnormal
+134,35,Male,Bilirubin_Total,0.34,mg/dL,Normal,Normal range,connOR HANsEn,75,Female,A+,Diabetes,2019-12-12,Kenneth Fletcher,"Powers Miller, and Flores",Cigna,Emergency,2019-12-28,Penicillin,Abnormal
+134,35,Male,Bilirubin_Total,0.34,mg/dL,Normal,Normal range,ChAd MorEnO,67,Male,AB+,Hypertension,2020-08-26,Connie Boyd,Inc Skinner,Aetna,Urgent,2020-08-27,Penicillin,Abnormal
+134,35,Male,TSH,3.37,mIU/L,Normal,Normal range,connOR HANsEn,75,Female,A+,Diabetes,2019-12-12,Kenneth Fletcher,"Powers Miller, and Flores",Cigna,Emergency,2019-12-28,Penicillin,Abnormal
+134,35,Male,TSH,3.37,mIU/L,Normal,Normal range,ChAd MorEnO,67,Male,AB+,Hypertension,2020-08-26,Connie Boyd,Inc Skinner,Aetna,Urgent,2020-08-27,Penicillin,Abnormal
+135,35,Male,Hemoglobin,16.24,g/dL,Normal,Normal range for males,JONathAn yaTeS,57,Female,AB-,Arthritis,2023-07-24,Cynthia Scott,Sons Hodges and,Aetna,Elective,2023-08-11,Paracetamol,Abnormal
+135,35,Male,RBC,5.74,Million cells/µL,Normal,Normal for males,JONathAn yaTeS,57,Female,AB-,Arthritis,2023-07-24,Cynthia Scott,Sons Hodges and,Aetna,Elective,2023-08-11,Paracetamol,Abnormal
+135,35,Male,Cholesterol_Total,184.04,mg/dL,Normal,Desirable range,JONathAn yaTeS,57,Female,AB-,Arthritis,2023-07-24,Cynthia Scott,Sons Hodges and,Aetna,Elective,2023-08-11,Paracetamol,Abnormal
+135,35,Male,Glucose_Fasting,73.49,mg/dL,Normal,Normal fasting glucose,JONathAn yaTeS,57,Female,AB-,Arthritis,2023-07-24,Cynthia Scott,Sons Hodges and,Aetna,Elective,2023-08-11,Paracetamol,Abnormal
+135,35,Male,Creatinine,0.7,mg/dL,Normal,Normal for males,JONathAn yaTeS,57,Female,AB-,Arthritis,2023-07-24,Cynthia Scott,Sons Hodges and,Aetna,Elective,2023-08-11,Paracetamol,Abnormal
+135,35,Male,Bilirubin_Total,1.24,mg/dL,High,Normal range,JONathAn yaTeS,57,Female,AB-,Arthritis,2023-07-24,Cynthia Scott,Sons Hodges and,Aetna,Elective,2023-08-11,Paracetamol,Abnormal
+135,35,Male,TSH,2.28,mIU/L,Normal,Normal range,JONathAn yaTeS,57,Female,AB-,Arthritis,2023-07-24,Cynthia Scott,Sons Hodges and,Aetna,Elective,2023-08-11,Paracetamol,Abnormal
+138,36,Male,Hemoglobin,14.84,g/dL,Normal,Normal range for males,BRandOn coLLINS,77,Female,O+,Asthma,2019-07-19,Cameron Young,Lopez PLC,Cigna,Urgent,2019-07-29,Ibuprofen,Abnormal
+138,36,Male,RBC,5.52,Million cells/µL,Normal,Normal for males,BRandOn coLLINS,77,Female,O+,Asthma,2019-07-19,Cameron Young,Lopez PLC,Cigna,Urgent,2019-07-29,Ibuprofen,Abnormal
+138,36,Male,Cholesterol_Total,156.18,mg/dL,Normal,Desirable range,BRandOn coLLINS,77,Female,O+,Asthma,2019-07-19,Cameron Young,Lopez PLC,Cigna,Urgent,2019-07-29,Ibuprofen,Abnormal
+138,36,Male,Glucose_Fasting,85.78,mg/dL,Normal,Normal fasting glucose,BRandOn coLLINS,77,Female,O+,Asthma,2019-07-19,Cameron Young,Lopez PLC,Cigna,Urgent,2019-07-29,Ibuprofen,Abnormal
+138,36,Male,Creatinine,1.29,mg/dL,Normal,Normal for males,BRandOn coLLINS,77,Female,O+,Asthma,2019-07-19,Cameron Young,Lopez PLC,Cigna,Urgent,2019-07-29,Ibuprofen,Abnormal
+138,36,Male,Bilirubin_Total,0.03,mg/dL,Low,Normal range,BRandOn coLLINS,77,Female,O+,Asthma,2019-07-19,Cameron Young,Lopez PLC,Cigna,Urgent,2019-07-29,Ibuprofen,Abnormal
+138,36,Male,TSH,0.97,mIU/L,Normal,Normal range,BRandOn coLLINS,77,Female,O+,Asthma,2019-07-19,Cameron Young,Lopez PLC,Cigna,Urgent,2019-07-29,Ibuprofen,Abnormal
+144,19,Female,Hemoglobin,13.99,g/dL,Normal,Normal range for males,cathERinE gArDnEr,79,Female,A-,Hypertension,2019-08-19,David Ruiz,James Ltd,Medicare,Elective,2019-08-26,Lipitor,Abnormal
+144,19,Female,RBC,6.5,Million cells/µL,High,Normal for males,cathERinE gArDnEr,79,Female,A-,Hypertension,2019-08-19,David Ruiz,James Ltd,Medicare,Elective,2019-08-26,Lipitor,Abnormal
+144,19,Female,Cholesterol_Total,147.36,mg/dL,Normal,Desirable range,cathERinE gArDnEr,79,Female,A-,Hypertension,2019-08-19,David Ruiz,James Ltd,Medicare,Elective,2019-08-26,Lipitor,Abnormal
+144,19,Female,Glucose_Fasting,70.78,mg/dL,Normal,Normal fasting glucose,cathERinE gArDnEr,79,Female,A-,Hypertension,2019-08-19,David Ruiz,James Ltd,Medicare,Elective,2019-08-26,Lipitor,Abnormal
+144,19,Female,Creatinine,0.92,mg/dL,Normal,Normal for males,cathERinE gArDnEr,79,Female,A-,Hypertension,2019-08-19,David Ruiz,James Ltd,Medicare,Elective,2019-08-26,Lipitor,Abnormal
+144,19,Female,Bilirubin_Total,1.9,mg/dL,High,Normal range,cathERinE gArDnEr,79,Female,A-,Hypertension,2019-08-19,David Ruiz,James Ltd,Medicare,Elective,2019-08-26,Lipitor,Abnormal
+144,19,Female,TSH,1.93,mIU/L,Normal,Normal range,cathERinE gArDnEr,79,Female,A-,Hypertension,2019-08-19,David Ruiz,James Ltd,Medicare,Elective,2019-08-26,Lipitor,Abnormal
+152,80,Female,Hemoglobin,12.61,g/dL,Low,Normal range for males,kayLa padillA,63,Male,B-,Asthma,2020-09-24,Jermaine Peters,"and Morales Jennings Cook,",Aetna,Emergency,2020-10-08,Penicillin,Inconclusive
+152,80,Female,RBC,5.58,Million cells/µL,Normal,Normal for males,kayLa padillA,63,Male,B-,Asthma,2020-09-24,Jermaine Peters,"and Morales Jennings Cook,",Aetna,Emergency,2020-10-08,Penicillin,Inconclusive
+152,80,Female,Cholesterol_Total,125.91,mg/dL,Normal,Desirable range,kayLa padillA,63,Male,B-,Asthma,2020-09-24,Jermaine Peters,"and Morales Jennings Cook,",Aetna,Emergency,2020-10-08,Penicillin,Inconclusive
+152,80,Female,Glucose_Fasting,89.52,mg/dL,Normal,Normal fasting glucose,kayLa padillA,63,Male,B-,Asthma,2020-09-24,Jermaine Peters,"and Morales Jennings Cook,",Aetna,Emergency,2020-10-08,Penicillin,Inconclusive
+152,80,Female,Creatinine,1.69,mg/dL,High,Normal for males,kayLa padillA,63,Male,B-,Asthma,2020-09-24,Jermaine Peters,"and Morales Jennings Cook,",Aetna,Emergency,2020-10-08,Penicillin,Inconclusive
+152,80,Female,Bilirubin_Total,1.16,mg/dL,Normal,Normal range,kayLa padillA,63,Male,B-,Asthma,2020-09-24,Jermaine Peters,"and Morales Jennings Cook,",Aetna,Emergency,2020-10-08,Penicillin,Inconclusive
+152,80,Female,TSH,0.28,mIU/L,Low,Normal range,kayLa padillA,63,Male,B-,Asthma,2020-09-24,Jermaine Peters,"and Morales Jennings Cook,",Aetna,Emergency,2020-10-08,Penicillin,Inconclusive
+157,69,Female,Hemoglobin,14.63,g/dL,Normal,Normal range for males,mr. KenNEth MoORE,34,Female,A+,Diabetes,2022-06-21,James Ellis,Serrano-Dixon,UnitedHealthcare,Emergency,2022-06-30,Lipitor,Abnormal
+157,69,Female,Hemoglobin,14.63,g/dL,Normal,Normal range for males,kyLE bEnneTT,22,Male,O+,Hypertension,2023-09-09,John Smith,"Knight and Nguyen, Riggs",UnitedHealthcare,Urgent,2023-09-23,Ibuprofen,Abnormal
+157,69,Female,RBC,5.65,Million cells/µL,Normal,Normal for males,mr. KenNEth MoORE,34,Female,A+,Diabetes,2022-06-21,James Ellis,Serrano-Dixon,UnitedHealthcare,Emergency,2022-06-30,Lipitor,Abnormal
+157,69,Female,RBC,5.65,Million cells/µL,Normal,Normal for males,kyLE bEnneTT,22,Male,O+,Hypertension,2023-09-09,John Smith,"Knight and Nguyen, Riggs",UnitedHealthcare,Urgent,2023-09-23,Ibuprofen,Abnormal
+157,69,Female,Cholesterol_Total,159.92,mg/dL,Normal,Desirable range,mr. KenNEth MoORE,34,Female,A+,Diabetes,2022-06-21,James Ellis,Serrano-Dixon,UnitedHealthcare,Emergency,2022-06-30,Lipitor,Abnormal
+157,69,Female,Cholesterol_Total,159.92,mg/dL,Normal,Desirable range,kyLE bEnneTT,22,Male,O+,Hypertension,2023-09-09,John Smith,"Knight and Nguyen, Riggs",UnitedHealthcare,Urgent,2023-09-23,Ibuprofen,Abnormal
+157,69,Female,Glucose_Fasting,75.13,mg/dL,Normal,Normal fasting glucose,mr. KenNEth MoORE,34,Female,A+,Diabetes,2022-06-21,James Ellis,Serrano-Dixon,UnitedHealthcare,Emergency,2022-06-30,Lipitor,Abnormal
+157,69,Female,Glucose_Fasting,75.13,mg/dL,Normal,Normal fasting glucose,kyLE bEnneTT,22,Male,O+,Hypertension,2023-09-09,John Smith,"Knight and Nguyen, Riggs",UnitedHealthcare,Urgent,2023-09-23,Ibuprofen,Abnormal
+157,69,Female,Creatinine,0.08,mg/dL,Low,Normal for males,mr. KenNEth MoORE,34,Female,A+,Diabetes,2022-06-21,James Ellis,Serrano-Dixon,UnitedHealthcare,Emergency,2022-06-30,Lipitor,Abnormal
+157,69,Female,Creatinine,0.08,mg/dL,Low,Normal for males,kyLE bEnneTT,22,Male,O+,Hypertension,2023-09-09,John Smith,"Knight and Nguyen, Riggs",UnitedHealthcare,Urgent,2023-09-23,Ibuprofen,Abnormal
+157,69,Female,Bilirubin_Total,2.44,mg/dL,High,Normal range,mr. KenNEth MoORE,34,Female,A+,Diabetes,2022-06-21,James Ellis,Serrano-Dixon,UnitedHealthcare,Emergency,2022-06-30,Lipitor,Abnormal
+157,69,Female,Bilirubin_Total,2.44,mg/dL,High,Normal range,kyLE bEnneTT,22,Male,O+,Hypertension,2023-09-09,John Smith,"Knight and Nguyen, Riggs",UnitedHealthcare,Urgent,2023-09-23,Ibuprofen,Abnormal
+157,69,Female,TSH,2.69,mIU/L,Normal,Normal range,mr. KenNEth MoORE,34,Female,A+,Diabetes,2022-06-21,James Ellis,Serrano-Dixon,UnitedHealthcare,Emergency,2022-06-30,Lipitor,Abnormal
+157,69,Female,TSH,2.69,mIU/L,Normal,Normal range,kyLE bEnneTT,22,Male,O+,Hypertension,2023-09-09,John Smith,"Knight and Nguyen, Riggs",UnitedHealthcare,Urgent,2023-09-23,Ibuprofen,Abnormal
+162,67,Male,Hemoglobin,14.16,g/dL,Normal,Normal range for males,PeTER fiTzgeRaLd,73,Male,AB+,Obesity,2020-05-15,Angela Contreras,Garner-Bowman,Medicare,Urgent,2020-05-20,Aspirin,Abnormal
+162,67,Male,Hemoglobin,14.16,g/dL,Normal,Normal range for males,mIcHAeL MaRTIn,84,Male,A+,Asthma,2022-09-06,John Summers,Sons Horn and,Cigna,Urgent,2022-09-27,Ibuprofen,Inconclusive
+162,67,Male,RBC,3.9,Million cells/µL,Low,Normal for males,PeTER fiTzgeRaLd,73,Male,AB+,Obesity,2020-05-15,Angela Contreras,Garner-Bowman,Medicare,Urgent,2020-05-20,Aspirin,Abnormal
+162,67,Male,RBC,3.9,Million cells/µL,Low,Normal for males,mIcHAeL MaRTIn,84,Male,A+,Asthma,2022-09-06,John Summers,Sons Horn and,Cigna,Urgent,2022-09-27,Ibuprofen,Inconclusive
+162,67,Male,Cholesterol_Total,144.86,mg/dL,Normal,Desirable range,PeTER fiTzgeRaLd,73,Male,AB+,Obesity,2020-05-15,Angela Contreras,Garner-Bowman,Medicare,Urgent,2020-05-20,Aspirin,Abnormal
+162,67,Male,Cholesterol_Total,144.86,mg/dL,Normal,Desirable range,mIcHAeL MaRTIn,84,Male,A+,Asthma,2022-09-06,John Summers,Sons Horn and,Cigna,Urgent,2022-09-27,Ibuprofen,Inconclusive
+162,67,Male,Glucose_Fasting,92.55,mg/dL,Normal,Normal fasting glucose,PeTER fiTzgeRaLd,73,Male,AB+,Obesity,2020-05-15,Angela Contreras,Garner-Bowman,Medicare,Urgent,2020-05-20,Aspirin,Abnormal
+162,67,Male,Glucose_Fasting,92.55,mg/dL,Normal,Normal fasting glucose,mIcHAeL MaRTIn,84,Male,A+,Asthma,2022-09-06,John Summers,Sons Horn and,Cigna,Urgent,2022-09-27,Ibuprofen,Inconclusive
+162,67,Male,Creatinine,0.67,mg/dL,Low,Normal for males,PeTER fiTzgeRaLd,73,Male,AB+,Obesity,2020-05-15,Angela Contreras,Garner-Bowman,Medicare,Urgent,2020-05-20,Aspirin,Abnormal
+162,67,Male,Creatinine,0.67,mg/dL,Low,Normal for males,mIcHAeL MaRTIn,84,Male,A+,Asthma,2022-09-06,John Summers,Sons Horn and,Cigna,Urgent,2022-09-27,Ibuprofen,Inconclusive
+162,67,Male,Bilirubin_Total,0.68,mg/dL,Normal,Normal range,PeTER fiTzgeRaLd,73,Male,AB+,Obesity,2020-05-15,Angela Contreras,Garner-Bowman,Medicare,Urgent,2020-05-20,Aspirin,Abnormal
+162,67,Male,Bilirubin_Total,0.68,mg/dL,Normal,Normal range,mIcHAeL MaRTIn,84,Male,A+,Asthma,2022-09-06,John Summers,Sons Horn and,Cigna,Urgent,2022-09-27,Ibuprofen,Inconclusive
+162,67,Male,TSH,0.33,mIU/L,Low,Normal range,PeTER fiTzgeRaLd,73,Male,AB+,Obesity,2020-05-15,Angela Contreras,Garner-Bowman,Medicare,Urgent,2020-05-20,Aspirin,Abnormal
+162,67,Male,TSH,0.33,mIU/L,Low,Normal range,mIcHAeL MaRTIn,84,Male,A+,Asthma,2022-09-06,John Summers,Sons Horn and,Cigna,Urgent,2022-09-27,Ibuprofen,Inconclusive
+180,65,Male,Hemoglobin,18.32,g/dL,High,Normal range for males,PeGGY LEe,24,Female,A-,Obesity,2022-04-08,Patrick Burns,"Nelson Walker Myers, and",UnitedHealthcare,Elective,2022-04-13,Lipitor,Abnormal
+180,65,Male,RBC,5.28,Million cells/µL,Normal,Normal for males,PeGGY LEe,24,Female,A-,Obesity,2022-04-08,Patrick Burns,"Nelson Walker Myers, and",UnitedHealthcare,Elective,2022-04-13,Lipitor,Abnormal
+180,65,Male,Cholesterol_Total,124.82,mg/dL,Low,Desirable range,PeGGY LEe,24,Female,A-,Obesity,2022-04-08,Patrick Burns,"Nelson Walker Myers, and",UnitedHealthcare,Elective,2022-04-13,Lipitor,Abnormal
+180,65,Male,Glucose_Fasting,96.97,mg/dL,Normal,Normal fasting glucose,PeGGY LEe,24,Female,A-,Obesity,2022-04-08,Patrick Burns,"Nelson Walker Myers, and",UnitedHealthcare,Elective,2022-04-13,Lipitor,Abnormal
+180,65,Male,Creatinine,1.7,mg/dL,High,Normal for males,PeGGY LEe,24,Female,A-,Obesity,2022-04-08,Patrick Burns,"Nelson Walker Myers, and",UnitedHealthcare,Elective,2022-04-13,Lipitor,Abnormal
+180,65,Male,Bilirubin_Total,0.36,mg/dL,Normal,Normal range,PeGGY LEe,24,Female,A-,Obesity,2022-04-08,Patrick Burns,"Nelson Walker Myers, and",UnitedHealthcare,Elective,2022-04-13,Lipitor,Abnormal
+180,65,Male,TSH,3.37,mIU/L,Normal,Normal range,PeGGY LEe,24,Female,A-,Obesity,2022-04-08,Patrick Burns,"Nelson Walker Myers, and",UnitedHealthcare,Elective,2022-04-13,Lipitor,Abnormal
+182,41,Female,Hemoglobin,15.8,g/dL,Normal,Normal range for males,bROOkE brady,44,Female,AB+,Cancer,2021-10-08,Roberta Stewart,Morris-Arellano,UnitedHealthcare,Urgent,2021-10-13,Paracetamol,Normal
+182,41,Female,RBC,4.3,Million cells/µL,Low,Normal for males,bROOkE brady,44,Female,AB+,Cancer,2021-10-08,Roberta Stewart,Morris-Arellano,UnitedHealthcare,Urgent,2021-10-13,Paracetamol,Normal
+182,41,Female,Cholesterol_Total,192.16,mg/dL,Normal,Desirable range,bROOkE brady,44,Female,AB+,Cancer,2021-10-08,Roberta Stewart,Morris-Arellano,UnitedHealthcare,Urgent,2021-10-13,Paracetamol,Normal
+182,41,Female,Glucose_Fasting,91.3,mg/dL,Normal,Normal fasting glucose,bROOkE brady,44,Female,AB+,Cancer,2021-10-08,Roberta Stewart,Morris-Arellano,UnitedHealthcare,Urgent,2021-10-13,Paracetamol,Normal
+182,41,Female,Creatinine,0.21,mg/dL,Low,Normal for males,bROOkE brady,44,Female,AB+,Cancer,2021-10-08,Roberta Stewart,Morris-Arellano,UnitedHealthcare,Urgent,2021-10-13,Paracetamol,Normal
+182,41,Female,Bilirubin_Total,1.05,mg/dL,Normal,Normal range,bROOkE brady,44,Female,AB+,Cancer,2021-10-08,Roberta Stewart,Morris-Arellano,UnitedHealthcare,Urgent,2021-10-13,Paracetamol,Normal
+182,41,Female,TSH,4.76,mIU/L,High,Normal range,bROOkE brady,44,Female,AB+,Cancer,2021-10-08,Roberta Stewart,Morris-Arellano,UnitedHealthcare,Urgent,2021-10-13,Paracetamol,Normal
+196,67,Female,Hemoglobin,16.7,g/dL,Normal,Normal range for males,ThomAS morsE,81,Male,A+,Hypertension,2020-01-27,Jennifer Carter,Meadows Group,Cigna,Urgent,2020-02-09,Aspirin,Normal
+196,67,Female,RBC,5.72,Million cells/µL,Normal,Normal for males,ThomAS morsE,81,Male,A+,Hypertension,2020-01-27,Jennifer Carter,Meadows Group,Cigna,Urgent,2020-02-09,Aspirin,Normal
+196,67,Female,Cholesterol_Total,127.84,mg/dL,Normal,Desirable range,ThomAS morsE,81,Male,A+,Hypertension,2020-01-27,Jennifer Carter,Meadows Group,Cigna,Urgent,2020-02-09,Aspirin,Normal
+196,67,Female,Glucose_Fasting,98.72,mg/dL,Normal,Normal fasting glucose,ThomAS morsE,81,Male,A+,Hypertension,2020-01-27,Jennifer Carter,Meadows Group,Cigna,Urgent,2020-02-09,Aspirin,Normal
+196,67,Female,Creatinine,1.18,mg/dL,Normal,Normal for males,ThomAS morsE,81,Male,A+,Hypertension,2020-01-27,Jennifer Carter,Meadows Group,Cigna,Urgent,2020-02-09,Aspirin,Normal
+196,67,Female,Bilirubin_Total,0.38,mg/dL,Normal,Normal range,ThomAS morsE,81,Male,A+,Hypertension,2020-01-27,Jennifer Carter,Meadows Group,Cigna,Urgent,2020-02-09,Aspirin,Normal
+205,31,Male,Hemoglobin,12.97,g/dL,Low,Normal range for males,DaNnY sMitH,76,Female,A-,Obesity,2022-09-22,Tiffany Mitchell,Cook PLC,Aetna,Emergency,2022-10-07,Aspirin,Normal
+205,31,Male,RBC,4.19,Million cells/µL,Low,Normal for males,DaNnY sMitH,76,Female,A-,Obesity,2022-09-22,Tiffany Mitchell,Cook PLC,Aetna,Emergency,2022-10-07,Aspirin,Normal
+205,31,Male,Cholesterol_Total,170.29,mg/dL,Normal,Desirable range,DaNnY sMitH,76,Female,A-,Obesity,2022-09-22,Tiffany Mitchell,Cook PLC,Aetna,Emergency,2022-10-07,Aspirin,Normal
+205,31,Male,Glucose_Fasting,79.56,mg/dL,Normal,Normal fasting glucose,DaNnY sMitH,76,Female,A-,Obesity,2022-09-22,Tiffany Mitchell,Cook PLC,Aetna,Emergency,2022-10-07,Aspirin,Normal
+205,31,Male,Creatinine,1.52,mg/dL,High,Normal for males,DaNnY sMitH,76,Female,A-,Obesity,2022-09-22,Tiffany Mitchell,Cook PLC,Aetna,Emergency,2022-10-07,Aspirin,Normal
+205,31,Male,TSH,0.82,mIU/L,Normal,Normal range,DaNnY sMitH,76,Female,A-,Obesity,2022-09-22,Tiffany Mitchell,Cook PLC,Aetna,Emergency,2022-10-07,Aspirin,Normal
+208,74,Female,Hemoglobin,16.38,g/dL,Normal,Normal range for males,PhILLIP lyOnS,53,Male,B-,Cancer,2022-09-14,Stephanie Clements,"Parsons, Hartman Martinez and",Blue Cross,Elective,2022-09-18,Aspirin,Normal
+208,74,Female,RBC,6.02,Million cells/µL,Normal,Normal for males,PhILLIP lyOnS,53,Male,B-,Cancer,2022-09-14,Stephanie Clements,"Parsons, Hartman Martinez and",Blue Cross,Elective,2022-09-18,Aspirin,Normal
+208,74,Female,Cholesterol_Total,189.05,mg/dL,Normal,Desirable range,PhILLIP lyOnS,53,Male,B-,Cancer,2022-09-14,Stephanie Clements,"Parsons, Hartman Martinez and",Blue Cross,Elective,2022-09-18,Aspirin,Normal
+208,74,Female,Glucose_Fasting,75.53,mg/dL,Normal,Normal fasting glucose,PhILLIP lyOnS,53,Male,B-,Cancer,2022-09-14,Stephanie Clements,"Parsons, Hartman Martinez and",Blue Cross,Elective,2022-09-18,Aspirin,Normal
+208,74,Female,Creatinine,0.87,mg/dL,Normal,Normal for males,PhILLIP lyOnS,53,Male,B-,Cancer,2022-09-14,Stephanie Clements,"Parsons, Hartman Martinez and",Blue Cross,Elective,2022-09-18,Aspirin,Normal
+208,74,Female,Bilirubin_Total,0.31,mg/dL,Normal,Normal range,PhILLIP lyOnS,53,Male,B-,Cancer,2022-09-14,Stephanie Clements,"Parsons, Hartman Martinez and",Blue Cross,Elective,2022-09-18,Aspirin,Normal
+208,74,Female,TSH,3.9,mIU/L,Normal,Normal range,PhILLIP lyOnS,53,Male,B-,Cancer,2022-09-14,Stephanie Clements,"Parsons, Hartman Martinez and",Blue Cross,Elective,2022-09-18,Aspirin,Normal
+211,47,Female,Hemoglobin,17.2,g/dL,Normal,Normal range for males,chRIsTOpHEr CHaPmAN,31,Female,O+,Hypertension,2021-12-01,Emily Patterson,Ltd Schwartz,Cigna,Elective,2021-12-09,Paracetamol,Normal
+211,47,Female,RBC,4.49,Million cells/µL,Low,Normal for males,chRIsTOpHEr CHaPmAN,31,Female,O+,Hypertension,2021-12-01,Emily Patterson,Ltd Schwartz,Cigna,Elective,2021-12-09,Paracetamol,Normal
+211,47,Female,Cholesterol_Total,167.94,mg/dL,Normal,Desirable range,chRIsTOpHEr CHaPmAN,31,Female,O+,Hypertension,2021-12-01,Emily Patterson,Ltd Schwartz,Cigna,Elective,2021-12-09,Paracetamol,Normal
+211,47,Female,Glucose_Fasting,99.25,mg/dL,Normal,Normal fasting glucose,chRIsTOpHEr CHaPmAN,31,Female,O+,Hypertension,2021-12-01,Emily Patterson,Ltd Schwartz,Cigna,Elective,2021-12-09,Paracetamol,Normal
+211,47,Female,Bilirubin_Total,2.75,mg/dL,High,Normal range,chRIsTOpHEr CHaPmAN,31,Female,O+,Hypertension,2021-12-01,Emily Patterson,Ltd Schwartz,Cigna,Elective,2021-12-09,Paracetamol,Normal
+211,47,Female,TSH,0.11,mIU/L,Low,Normal range,chRIsTOpHEr CHaPmAN,31,Female,O+,Hypertension,2021-12-01,Emily Patterson,Ltd Schwartz,Cigna,Elective,2021-12-09,Paracetamol,Normal
+212,38,Male,Hemoglobin,15.65,g/dL,Normal,Normal range for males,CasSAndrA Robinson,26,Female,B-,Hypertension,2021-12-19,Travis Parsons,Espinoza-Stone,Aetna,Urgent,2022-01-16,Ibuprofen,Normal
+212,38,Male,RBC,5.38,Million cells/µL,Normal,Normal for males,CasSAndrA Robinson,26,Female,B-,Hypertension,2021-12-19,Travis Parsons,Espinoza-Stone,Aetna,Urgent,2022-01-16,Ibuprofen,Normal
+212,38,Male,Cholesterol_Total,190.3,mg/dL,Normal,Desirable range,CasSAndrA Robinson,26,Female,B-,Hypertension,2021-12-19,Travis Parsons,Espinoza-Stone,Aetna,Urgent,2022-01-16,Ibuprofen,Normal
+212,38,Male,Glucose_Fasting,88.02,mg/dL,Normal,Normal fasting glucose,CasSAndrA Robinson,26,Female,B-,Hypertension,2021-12-19,Travis Parsons,Espinoza-Stone,Aetna,Urgent,2022-01-16,Ibuprofen,Normal
+212,38,Male,Creatinine,2.5,mg/dL,High,Normal for males,CasSAndrA Robinson,26,Female,B-,Hypertension,2021-12-19,Travis Parsons,Espinoza-Stone,Aetna,Urgent,2022-01-16,Ibuprofen,Normal
+212,38,Male,Bilirubin_Total,0.71,mg/dL,Normal,Normal range,CasSAndrA Robinson,26,Female,B-,Hypertension,2021-12-19,Travis Parsons,Espinoza-Stone,Aetna,Urgent,2022-01-16,Ibuprofen,Normal
+212,38,Male,TSH,2.1,mIU/L,Normal,Normal range,CasSAndrA Robinson,26,Female,B-,Hypertension,2021-12-19,Travis Parsons,Espinoza-Stone,Aetna,Urgent,2022-01-16,Ibuprofen,Normal
+223,51,Male,Hemoglobin,14.99,g/dL,Normal,Normal range for males,MaRy hUNter,38,Female,O-,Hypertension,2021-01-03,Jared Bruce Jr.,Gardner-Miller,Cigna,Emergency,2021-01-16,Penicillin,Normal
+223,51,Male,RBC,5.03,Million cells/µL,Normal,Normal for males,MaRy hUNter,38,Female,O-,Hypertension,2021-01-03,Jared Bruce Jr.,Gardner-Miller,Cigna,Emergency,2021-01-16,Penicillin,Normal
+223,51,Male,Cholesterol_Total,176.14,mg/dL,Normal,Desirable range,MaRy hUNter,38,Female,O-,Hypertension,2021-01-03,Jared Bruce Jr.,Gardner-Miller,Cigna,Emergency,2021-01-16,Penicillin,Normal
+223,51,Male,Glucose_Fasting,72.98,mg/dL,Normal,Normal fasting glucose,MaRy hUNter,38,Female,O-,Hypertension,2021-01-03,Jared Bruce Jr.,Gardner-Miller,Cigna,Emergency,2021-01-16,Penicillin,Normal
+223,51,Male,Creatinine,1.27,mg/dL,Normal,Normal for males,MaRy hUNter,38,Female,O-,Hypertension,2021-01-03,Jared Bruce Jr.,Gardner-Miller,Cigna,Emergency,2021-01-16,Penicillin,Normal
+223,51,Male,Bilirubin_Total,0.23,mg/dL,Normal,Normal range,MaRy hUNter,38,Female,O-,Hypertension,2021-01-03,Jared Bruce Jr.,Gardner-Miller,Cigna,Emergency,2021-01-16,Penicillin,Normal
+223,51,Male,TSH,5.01,mIU/L,High,Normal range,MaRy hUNter,38,Female,O-,Hypertension,2021-01-03,Jared Bruce Jr.,Gardner-Miller,Cigna,Emergency,2021-01-16,Penicillin,Normal
+226,47,Male,Hemoglobin,15.46,g/dL,Normal,Normal range for males,ANNE THOMPSoN,76,Female,O+,Diabetes,2024-03-24,Kyle Smith,Kemp-Munoz,Aetna,Elective,2024-04-14,Aspirin,Abnormal
+226,47,Male,RBC,5.13,Million cells/µL,Normal,Normal for males,ANNE THOMPSoN,76,Female,O+,Diabetes,2024-03-24,Kyle Smith,Kemp-Munoz,Aetna,Elective,2024-04-14,Aspirin,Abnormal
+226,47,Male,Cholesterol_Total,181.46,mg/dL,Normal,Desirable range,ANNE THOMPSoN,76,Female,O+,Diabetes,2024-03-24,Kyle Smith,Kemp-Munoz,Aetna,Elective,2024-04-14,Aspirin,Abnormal
+226,47,Male,Glucose_Fasting,92.6,mg/dL,Normal,Normal fasting glucose,ANNE THOMPSoN,76,Female,O+,Diabetes,2024-03-24,Kyle Smith,Kemp-Munoz,Aetna,Elective,2024-04-14,Aspirin,Abnormal
+226,47,Male,Creatinine,0.98,mg/dL,Normal,Normal for males,ANNE THOMPSoN,76,Female,O+,Diabetes,2024-03-24,Kyle Smith,Kemp-Munoz,Aetna,Elective,2024-04-14,Aspirin,Abnormal
+226,47,Male,TSH,3.22,mIU/L,Normal,Normal range,ANNE THOMPSoN,76,Female,O+,Diabetes,2024-03-24,Kyle Smith,Kemp-Munoz,Aetna,Elective,2024-04-14,Aspirin,Abnormal
+227,52,Female,Hemoglobin,17.99,g/dL,High,Normal range for males,MaRk foRD,18,Male,B+,Asthma,2022-10-18,Steven James,Luna Inc,UnitedHealthcare,Elective,2022-11-11,Aspirin,Abnormal
+227,52,Female,RBC,6.71,Million cells/µL,High,Normal for males,MaRk foRD,18,Male,B+,Asthma,2022-10-18,Steven James,Luna Inc,UnitedHealthcare,Elective,2022-11-11,Aspirin,Abnormal
+227,52,Female,Cholesterol_Total,191.98,mg/dL,Normal,Desirable range,MaRk foRD,18,Male,B+,Asthma,2022-10-18,Steven James,Luna Inc,UnitedHealthcare,Elective,2022-11-11,Aspirin,Abnormal
+227,52,Female,Glucose_Fasting,97.75,mg/dL,Normal,Normal fasting glucose,MaRk foRD,18,Male,B+,Asthma,2022-10-18,Steven James,Luna Inc,UnitedHealthcare,Elective,2022-11-11,Aspirin,Abnormal
+227,52,Female,Creatinine,0.79,mg/dL,Normal,Normal for males,MaRk foRD,18,Male,B+,Asthma,2022-10-18,Steven James,Luna Inc,UnitedHealthcare,Elective,2022-11-11,Aspirin,Abnormal
+227,52,Female,TSH,1.17,mIU/L,Normal,Normal range,MaRk foRD,18,Male,B+,Asthma,2022-10-18,Steven James,Luna Inc,UnitedHealthcare,Elective,2022-11-11,Aspirin,Abnormal
+228,43,Male,Hemoglobin,14.29,g/dL,Normal,Normal range for males,DAvID AndErSON,25,Female,AB+,Asthma,2021-01-07,Emma Allison,Sons and Cox,Medicare,Elective,2021-01-26,Lipitor,Abnormal
+228,43,Male,RBC,4.91,Million cells/µL,Normal,Normal for males,DAvID AndErSON,25,Female,AB+,Asthma,2021-01-07,Emma Allison,Sons and Cox,Medicare,Elective,2021-01-26,Lipitor,Abnormal
+228,43,Male,Cholesterol_Total,146.46,mg/dL,Normal,Desirable range,DAvID AndErSON,25,Female,AB+,Asthma,2021-01-07,Emma Allison,Sons and Cox,Medicare,Elective,2021-01-26,Lipitor,Abnormal
+228,43,Male,Glucose_Fasting,88.49,mg/dL,Normal,Normal fasting glucose,DAvID AndErSON,25,Female,AB+,Asthma,2021-01-07,Emma Allison,Sons and Cox,Medicare,Elective,2021-01-26,Lipitor,Abnormal
+228,43,Male,Creatinine,2.75,mg/dL,High,Normal for males,DAvID AndErSON,25,Female,AB+,Asthma,2021-01-07,Emma Allison,Sons and Cox,Medicare,Elective,2021-01-26,Lipitor,Abnormal
+228,43,Male,TSH,0.14,mIU/L,Low,Normal range,DAvID AndErSON,25,Female,AB+,Asthma,2021-01-07,Emma Allison,Sons and Cox,Medicare,Elective,2021-01-26,Lipitor,Abnormal
+231,51,Female,Hemoglobin,13.47,g/dL,Low,Normal range for males,cAROl PaTtERSoN,29,Female,O+,Cancer,2022-10-24,Jamie Baker,"Turner Cook, Banks and",Blue Cross,Urgent,2022-11-07,Ibuprofen,Normal
+231,51,Female,RBC,6.92,Million cells/µL,High,Normal for males,cAROl PaTtERSoN,29,Female,O+,Cancer,2022-10-24,Jamie Baker,"Turner Cook, Banks and",Blue Cross,Urgent,2022-11-07,Ibuprofen,Normal
+231,51,Female,Cholesterol_Total,125.84,mg/dL,Normal,Desirable range,cAROl PaTtERSoN,29,Female,O+,Cancer,2022-10-24,Jamie Baker,"Turner Cook, Banks and",Blue Cross,Urgent,2022-11-07,Ibuprofen,Normal
+231,51,Female,Glucose_Fasting,73.39,mg/dL,Normal,Normal fasting glucose,cAROl PaTtERSoN,29,Female,O+,Cancer,2022-10-24,Jamie Baker,"Turner Cook, Banks and",Blue Cross,Urgent,2022-11-07,Ibuprofen,Normal
+231,51,Female,Creatinine,0.28,mg/dL,Low,Normal for males,cAROl PaTtERSoN,29,Female,O+,Cancer,2022-10-24,Jamie Baker,"Turner Cook, Banks and",Blue Cross,Urgent,2022-11-07,Ibuprofen,Normal
+231,51,Female,Bilirubin_Total,0.05,mg/dL,Low,Normal range,cAROl PaTtERSoN,29,Female,O+,Cancer,2022-10-24,Jamie Baker,"Turner Cook, Banks and",Blue Cross,Urgent,2022-11-07,Ibuprofen,Normal
+231,51,Female,TSH,3.1,mIU/L,Normal,Normal range,cAROl PaTtERSoN,29,Female,O+,Cancer,2022-10-24,Jamie Baker,"Turner Cook, Banks and",Blue Cross,Urgent,2022-11-07,Ibuprofen,Normal
+234,69,Male,Hemoglobin,17.87,g/dL,High,Normal range for males,STepHaNie kEnt,42,Female,A-,Cancer,2019-06-15,Mary Moss,Beck-Galloway,Aetna,Emergency,2019-07-05,Ibuprofen,Abnormal
+234,69,Male,RBC,6.63,Million cells/µL,High,Normal for males,STepHaNie kEnt,42,Female,A-,Cancer,2019-06-15,Mary Moss,Beck-Galloway,Aetna,Emergency,2019-07-05,Ibuprofen,Abnormal
+234,69,Male,Cholesterol_Total,182.7,mg/dL,Normal,Desirable range,STepHaNie kEnt,42,Female,A-,Cancer,2019-06-15,Mary Moss,Beck-Galloway,Aetna,Emergency,2019-07-05,Ibuprofen,Abnormal
+234,69,Male,Glucose_Fasting,89.81,mg/dL,Normal,Normal fasting glucose,STepHaNie kEnt,42,Female,A-,Cancer,2019-06-15,Mary Moss,Beck-Galloway,Aetna,Emergency,2019-07-05,Ibuprofen,Abnormal
+234,69,Male,Creatinine,1.9,mg/dL,High,Normal for males,STepHaNie kEnt,42,Female,A-,Cancer,2019-06-15,Mary Moss,Beck-Galloway,Aetna,Emergency,2019-07-05,Ibuprofen,Abnormal
+234,69,Male,Bilirubin_Total,0.35,mg/dL,Normal,Normal range,STepHaNie kEnt,42,Female,A-,Cancer,2019-06-15,Mary Moss,Beck-Galloway,Aetna,Emergency,2019-07-05,Ibuprofen,Abnormal
+234,69,Male,TSH,2.85,mIU/L,Normal,Normal range,STepHaNie kEnt,42,Female,A-,Cancer,2019-06-15,Mary Moss,Beck-Galloway,Aetna,Emergency,2019-07-05,Ibuprofen,Abnormal
+241,59,Male,Hemoglobin,14.78,g/dL,Normal,Normal range for males,Erica myERS,19,Female,A+,Arthritis,2020-01-30,Ian Benitez,"Jackson and Lane, Dillon",Medicare,Elective,2020-02-12,Penicillin,Normal
+241,59,Male,RBC,7.53,Million cells/µL,High,Normal for males,Erica myERS,19,Female,A+,Arthritis,2020-01-30,Ian Benitez,"Jackson and Lane, Dillon",Medicare,Elective,2020-02-12,Penicillin,Normal
+241,59,Male,Cholesterol_Total,168.76,mg/dL,Normal,Desirable range,Erica myERS,19,Female,A+,Arthritis,2020-01-30,Ian Benitez,"Jackson and Lane, Dillon",Medicare,Elective,2020-02-12,Penicillin,Normal
+241,59,Male,Glucose_Fasting,72.29,mg/dL,Normal,Normal fasting glucose,Erica myERS,19,Female,A+,Arthritis,2020-01-30,Ian Benitez,"Jackson and Lane, Dillon",Medicare,Elective,2020-02-12,Penicillin,Normal
+241,59,Male,Creatinine,2.31,mg/dL,High,Normal for males,Erica myERS,19,Female,A+,Arthritis,2020-01-30,Ian Benitez,"Jackson and Lane, Dillon",Medicare,Elective,2020-02-12,Penicillin,Normal
+241,59,Male,Bilirubin_Total,0.71,mg/dL,Normal,Normal range,Erica myERS,19,Female,A+,Arthritis,2020-01-30,Ian Benitez,"Jackson and Lane, Dillon",Medicare,Elective,2020-02-12,Penicillin,Normal
+241,59,Male,TSH,0.58,mIU/L,Normal,Normal range,Erica myERS,19,Female,A+,Arthritis,2020-01-30,Ian Benitez,"Jackson and Lane, Dillon",Medicare,Elective,2020-02-12,Penicillin,Normal
+244,56,Female,Hemoglobin,14.05,g/dL,Normal,Normal range for males,Kim ScOtt,63,Male,A-,Asthma,2024-04-07,Cindy Ellis,Scott-Kelly,UnitedHealthcare,Emergency,2024-05-04,Ibuprofen,Inconclusive
+244,56,Female,RBC,6.38,Million cells/µL,High,Normal for males,Kim ScOtt,63,Male,A-,Asthma,2024-04-07,Cindy Ellis,Scott-Kelly,UnitedHealthcare,Emergency,2024-05-04,Ibuprofen,Inconclusive
+244,56,Female,Cholesterol_Total,136.68,mg/dL,Normal,Desirable range,Kim ScOtt,63,Male,A-,Asthma,2024-04-07,Cindy Ellis,Scott-Kelly,UnitedHealthcare,Emergency,2024-05-04,Ibuprofen,Inconclusive
+244,56,Female,Glucose_Fasting,94.97,mg/dL,Normal,Normal fasting glucose,Kim ScOtt,63,Male,A-,Asthma,2024-04-07,Cindy Ellis,Scott-Kelly,UnitedHealthcare,Emergency,2024-05-04,Ibuprofen,Inconclusive
+244,56,Female,Creatinine,0.59,mg/dL,Low,Normal for males,Kim ScOtt,63,Male,A-,Asthma,2024-04-07,Cindy Ellis,Scott-Kelly,UnitedHealthcare,Emergency,2024-05-04,Ibuprofen,Inconclusive
+244,56,Female,Bilirubin_Total,0.41,mg/dL,Normal,Normal range,Kim ScOtt,63,Male,A-,Asthma,2024-04-07,Cindy Ellis,Scott-Kelly,UnitedHealthcare,Emergency,2024-05-04,Ibuprofen,Inconclusive
+244,56,Female,TSH,3.08,mIU/L,Normal,Normal range,Kim ScOtt,63,Male,A-,Asthma,2024-04-07,Cindy Ellis,Scott-Kelly,UnitedHealthcare,Emergency,2024-05-04,Ibuprofen,Inconclusive
+245,21,Male,Hemoglobin,17.08,g/dL,Normal,Normal range for males,WilLIAM cOOPEr,78,Male,AB-,Arthritis,2023-05-18,John Hartman,Group Duncan,Medicare,Elective,2023-06-15,Penicillin,Normal
+245,21,Male,RBC,4.75,Million cells/µL,Normal,Normal for males,WilLIAM cOOPEr,78,Male,AB-,Arthritis,2023-05-18,John Hartman,Group Duncan,Medicare,Elective,2023-06-15,Penicillin,Normal
+245,21,Male,Cholesterol_Total,150.27,mg/dL,Normal,Desirable range,WilLIAM cOOPEr,78,Male,AB-,Arthritis,2023-05-18,John Hartman,Group Duncan,Medicare,Elective,2023-06-15,Penicillin,Normal
+245,21,Male,Glucose_Fasting,79.15,mg/dL,Normal,Normal fasting glucose,WilLIAM cOOPEr,78,Male,AB-,Arthritis,2023-05-18,John Hartman,Group Duncan,Medicare,Elective,2023-06-15,Penicillin,Normal
+245,21,Male,Creatinine,0.62,mg/dL,Low,Normal for males,WilLIAM cOOPEr,78,Male,AB-,Arthritis,2023-05-18,John Hartman,Group Duncan,Medicare,Elective,2023-06-15,Penicillin,Normal
+245,21,Male,TSH,3.2,mIU/L,Normal,Normal range,WilLIAM cOOPEr,78,Male,AB-,Arthritis,2023-05-18,John Hartman,Group Duncan,Medicare,Elective,2023-06-15,Penicillin,Normal
+249,71,Male,Hemoglobin,16.75,g/dL,Normal,Normal range for males,ChRISTopher BerG,58,Female,AB-,Cancer,2021-05-23,Heather Day,Padilla-Walker,UnitedHealthcare,Elective,2021-06-22,Paracetamol,Inconclusive
+249,71,Male,Hemoglobin,16.75,g/dL,Normal,Normal range for males,apRil SANTIAgO,33,Female,B-,Diabetes,2021-01-30,Jacob Rich,Jones-Scott,Cigna,Emergency,2021-02-04,Penicillin,Inconclusive
+249,71,Male,RBC,6.32,Million cells/µL,High,Normal for males,ChRISTopher BerG,58,Female,AB-,Cancer,2021-05-23,Heather Day,Padilla-Walker,UnitedHealthcare,Elective,2021-06-22,Paracetamol,Inconclusive
+249,71,Male,RBC,6.32,Million cells/µL,High,Normal for males,apRil SANTIAgO,33,Female,B-,Diabetes,2021-01-30,Jacob Rich,Jones-Scott,Cigna,Emergency,2021-02-04,Penicillin,Inconclusive
+249,71,Male,Cholesterol_Total,161.88,mg/dL,Normal,Desirable range,ChRISTopher BerG,58,Female,AB-,Cancer,2021-05-23,Heather Day,Padilla-Walker,UnitedHealthcare,Elective,2021-06-22,Paracetamol,Inconclusive
+249,71,Male,Cholesterol_Total,161.88,mg/dL,Normal,Desirable range,apRil SANTIAgO,33,Female,B-,Diabetes,2021-01-30,Jacob Rich,Jones-Scott,Cigna,Emergency,2021-02-04,Penicillin,Inconclusive
+249,71,Male,Glucose_Fasting,82.89,mg/dL,Normal,Normal fasting glucose,ChRISTopher BerG,58,Female,AB-,Cancer,2021-05-23,Heather Day,Padilla-Walker,UnitedHealthcare,Elective,2021-06-22,Paracetamol,Inconclusive
+249,71,Male,Glucose_Fasting,82.89,mg/dL,Normal,Normal fasting glucose,apRil SANTIAgO,33,Female,B-,Diabetes,2021-01-30,Jacob Rich,Jones-Scott,Cigna,Emergency,2021-02-04,Penicillin,Inconclusive
+249,71,Male,Creatinine,0.57,mg/dL,Low,Normal for males,ChRISTopher BerG,58,Female,AB-,Cancer,2021-05-23,Heather Day,Padilla-Walker,UnitedHealthcare,Elective,2021-06-22,Paracetamol,Inconclusive
+249,71,Male,Creatinine,0.57,mg/dL,Low,Normal for males,apRil SANTIAgO,33,Female,B-,Diabetes,2021-01-30,Jacob Rich,Jones-Scott,Cigna,Emergency,2021-02-04,Penicillin,Inconclusive
+249,71,Male,Bilirubin_Total,2.54,mg/dL,High,Normal range,ChRISTopher BerG,58,Female,AB-,Cancer,2021-05-23,Heather Day,Padilla-Walker,UnitedHealthcare,Elective,2021-06-22,Paracetamol,Inconclusive
+249,71,Male,Bilirubin_Total,2.54,mg/dL,High,Normal range,apRil SANTIAgO,33,Female,B-,Diabetes,2021-01-30,Jacob Rich,Jones-Scott,Cigna,Emergency,2021-02-04,Penicillin,Inconclusive
+249,71,Male,TSH,4.05,mIU/L,High,Normal range,ChRISTopher BerG,58,Female,AB-,Cancer,2021-05-23,Heather Day,Padilla-Walker,UnitedHealthcare,Elective,2021-06-22,Paracetamol,Inconclusive
+249,71,Male,TSH,4.05,mIU/L,High,Normal range,apRil SANTIAgO,33,Female,B-,Diabetes,2021-01-30,Jacob Rich,Jones-Scott,Cigna,Emergency,2021-02-04,Penicillin,Inconclusive
+250,46,Male,Hemoglobin,13.91,g/dL,Normal,Normal range for males,TAmARa hErNAndez,84,Female,B-,Asthma,2023-08-17,Kayla Powers,Mitchell-Navarro,Cigna,Elective,2023-09-11,Ibuprofen,Inconclusive
+250,46,Male,RBC,5.33,Million cells/µL,Normal,Normal for males,TAmARa hErNAndez,84,Female,B-,Asthma,2023-08-17,Kayla Powers,Mitchell-Navarro,Cigna,Elective,2023-09-11,Ibuprofen,Inconclusive
+250,46,Male,Cholesterol_Total,132.62,mg/dL,Normal,Desirable range,TAmARa hErNAndez,84,Female,B-,Asthma,2023-08-17,Kayla Powers,Mitchell-Navarro,Cigna,Elective,2023-09-11,Ibuprofen,Inconclusive
+250,46,Male,Glucose_Fasting,69.99,mg/dL,Low,Normal fasting glucose,TAmARa hErNAndez,84,Female,B-,Asthma,2023-08-17,Kayla Powers,Mitchell-Navarro,Cigna,Elective,2023-09-11,Ibuprofen,Inconclusive
+250,46,Male,Creatinine,1.01,mg/dL,Normal,Normal for males,TAmARa hErNAndez,84,Female,B-,Asthma,2023-08-17,Kayla Powers,Mitchell-Navarro,Cigna,Elective,2023-09-11,Ibuprofen,Inconclusive
+250,46,Male,TSH,1.71,mIU/L,Normal,Normal range,TAmARa hErNAndez,84,Female,B-,Asthma,2023-08-17,Kayla Powers,Mitchell-Navarro,Cigna,Elective,2023-09-11,Ibuprofen,Inconclusive
+255,23,Female,Hemoglobin,17.26,g/dL,Normal,Normal range for males,DIane scHultz,57,Male,B+,Arthritis,2021-11-21,Mark Hartman Jr.,Howe-Kelly,UnitedHealthcare,Emergency,2021-12-05,Penicillin,Inconclusive
+255,23,Female,Hemoglobin,17.26,g/dL,Normal,Normal range for males,SeaN jenniNGs,80,Female,AB-,Diabetes,2023-11-12,James Tucker,Clark-Johnson,Blue Cross,Elective,2023-12-12,Penicillin,Abnormal
+255,23,Female,RBC,6.17,Million cells/µL,High,Normal for males,DIane scHultz,57,Male,B+,Arthritis,2021-11-21,Mark Hartman Jr.,Howe-Kelly,UnitedHealthcare,Emergency,2021-12-05,Penicillin,Inconclusive
+255,23,Female,RBC,6.17,Million cells/µL,High,Normal for males,SeaN jenniNGs,80,Female,AB-,Diabetes,2023-11-12,James Tucker,Clark-Johnson,Blue Cross,Elective,2023-12-12,Penicillin,Abnormal
+255,23,Female,Cholesterol_Total,167.88,mg/dL,Normal,Desirable range,DIane scHultz,57,Male,B+,Arthritis,2021-11-21,Mark Hartman Jr.,Howe-Kelly,UnitedHealthcare,Emergency,2021-12-05,Penicillin,Inconclusive
+255,23,Female,Cholesterol_Total,167.88,mg/dL,Normal,Desirable range,SeaN jenniNGs,80,Female,AB-,Diabetes,2023-11-12,James Tucker,Clark-Johnson,Blue Cross,Elective,2023-12-12,Penicillin,Abnormal
+255,23,Female,Glucose_Fasting,87.38,mg/dL,Normal,Normal fasting glucose,DIane scHultz,57,Male,B+,Arthritis,2021-11-21,Mark Hartman Jr.,Howe-Kelly,UnitedHealthcare,Emergency,2021-12-05,Penicillin,Inconclusive
+255,23,Female,Glucose_Fasting,87.38,mg/dL,Normal,Normal fasting glucose,SeaN jenniNGs,80,Female,AB-,Diabetes,2023-11-12,James Tucker,Clark-Johnson,Blue Cross,Elective,2023-12-12,Penicillin,Abnormal
+255,23,Female,Creatinine,1.44,mg/dL,High,Normal for males,DIane scHultz,57,Male,B+,Arthritis,2021-11-21,Mark Hartman Jr.,Howe-Kelly,UnitedHealthcare,Emergency,2021-12-05,Penicillin,Inconclusive
+255,23,Female,Creatinine,1.44,mg/dL,High,Normal for males,SeaN jenniNGs,80,Female,AB-,Diabetes,2023-11-12,James Tucker,Clark-Johnson,Blue Cross,Elective,2023-12-12,Penicillin,Abnormal
+260,37,Female,Hemoglobin,15.23,g/dL,Normal,Normal range for males,LuKE BuRgEss,34,Female,A-,Hypertension,2021-03-04,Justin Moore Jr.,Houston PLC,Blue Cross,Elective,2021-03-14,Aspirin,Abnormal
+260,37,Female,RBC,5.93,Million cells/µL,Normal,Normal for males,LuKE BuRgEss,34,Female,A-,Hypertension,2021-03-04,Justin Moore Jr.,Houston PLC,Blue Cross,Elective,2021-03-14,Aspirin,Abnormal
+260,37,Female,Cholesterol_Total,199.14,mg/dL,Normal,Desirable range,LuKE BuRgEss,34,Female,A-,Hypertension,2021-03-04,Justin Moore Jr.,Houston PLC,Blue Cross,Elective,2021-03-14,Aspirin,Abnormal
+260,37,Female,Glucose_Fasting,97.03,mg/dL,Normal,Normal fasting glucose,LuKE BuRgEss,34,Female,A-,Hypertension,2021-03-04,Justin Moore Jr.,Houston PLC,Blue Cross,Elective,2021-03-14,Aspirin,Abnormal
+260,37,Female,Creatinine,0.28,mg/dL,Low,Normal for males,LuKE BuRgEss,34,Female,A-,Hypertension,2021-03-04,Justin Moore Jr.,Houston PLC,Blue Cross,Elective,2021-03-14,Aspirin,Abnormal
+260,37,Female,TSH,1.52,mIU/L,Normal,Normal range,LuKE BuRgEss,34,Female,A-,Hypertension,2021-03-04,Justin Moore Jr.,Houston PLC,Blue Cross,Elective,2021-03-14,Aspirin,Abnormal
+263,58,Female,Hemoglobin,16.01,g/dL,Normal,Normal range for males,jOhN hARTmAN,27,Male,B-,Hypertension,2023-01-07,Jack Jackson,Bullock-Ramsey,Cigna,Elective,2023-01-27,Lipitor,Inconclusive
+263,58,Female,Hemoglobin,16.01,g/dL,Normal,Normal range for males,DuANe HaneY,27,Male,AB-,Diabetes,2021-09-16,Raven Wong,Sons and Schaefer,Aetna,Urgent,2021-10-14,Penicillin,Abnormal
+263,58,Female,RBC,6.83,Million cells/µL,High,Normal for males,jOhN hARTmAN,27,Male,B-,Hypertension,2023-01-07,Jack Jackson,Bullock-Ramsey,Cigna,Elective,2023-01-27,Lipitor,Inconclusive
+263,58,Female,RBC,6.83,Million cells/µL,High,Normal for males,DuANe HaneY,27,Male,AB-,Diabetes,2021-09-16,Raven Wong,Sons and Schaefer,Aetna,Urgent,2021-10-14,Penicillin,Abnormal
+263,58,Female,Cholesterol_Total,176.26,mg/dL,Normal,Desirable range,jOhN hARTmAN,27,Male,B-,Hypertension,2023-01-07,Jack Jackson,Bullock-Ramsey,Cigna,Elective,2023-01-27,Lipitor,Inconclusive
+263,58,Female,Cholesterol_Total,176.26,mg/dL,Normal,Desirable range,DuANe HaneY,27,Male,AB-,Diabetes,2021-09-16,Raven Wong,Sons and Schaefer,Aetna,Urgent,2021-10-14,Penicillin,Abnormal
+263,58,Female,Glucose_Fasting,85.11,mg/dL,Normal,Normal fasting glucose,jOhN hARTmAN,27,Male,B-,Hypertension,2023-01-07,Jack Jackson,Bullock-Ramsey,Cigna,Elective,2023-01-27,Lipitor,Inconclusive
+263,58,Female,Glucose_Fasting,85.11,mg/dL,Normal,Normal fasting glucose,DuANe HaneY,27,Male,AB-,Diabetes,2021-09-16,Raven Wong,Sons and Schaefer,Aetna,Urgent,2021-10-14,Penicillin,Abnormal
+263,58,Female,Bilirubin_Total,1.19,mg/dL,Normal,Normal range,jOhN hARTmAN,27,Male,B-,Hypertension,2023-01-07,Jack Jackson,Bullock-Ramsey,Cigna,Elective,2023-01-27,Lipitor,Inconclusive
+263,58,Female,Bilirubin_Total,1.19,mg/dL,Normal,Normal range,DuANe HaneY,27,Male,AB-,Diabetes,2021-09-16,Raven Wong,Sons and Schaefer,Aetna,Urgent,2021-10-14,Penicillin,Abnormal
+263,58,Female,TSH,3.26,mIU/L,Normal,Normal range,jOhN hARTmAN,27,Male,B-,Hypertension,2023-01-07,Jack Jackson,Bullock-Ramsey,Cigna,Elective,2023-01-27,Lipitor,Inconclusive
+263,58,Female,TSH,3.26,mIU/L,Normal,Normal range,DuANe HaneY,27,Male,AB-,Diabetes,2021-09-16,Raven Wong,Sons and Schaefer,Aetna,Urgent,2021-10-14,Penicillin,Abnormal
+265,68,Male,Hemoglobin,13.52,g/dL,Normal,Normal range for males,LesLie TErRy,62,Male,A+,Obesity,2019-08-20,Samantha Davies,Kim Inc,Medicare,Emergency,2019-08-26,Ibuprofen,Inconclusive
+265,68,Male,RBC,6.67,Million cells/µL,High,Normal for males,LesLie TErRy,62,Male,A+,Obesity,2019-08-20,Samantha Davies,Kim Inc,Medicare,Emergency,2019-08-26,Ibuprofen,Inconclusive
+265,68,Male,Cholesterol_Total,163.0,mg/dL,Normal,Desirable range,LesLie TErRy,62,Male,A+,Obesity,2019-08-20,Samantha Davies,Kim Inc,Medicare,Emergency,2019-08-26,Ibuprofen,Inconclusive
+265,68,Male,Glucose_Fasting,99.47,mg/dL,Normal,Normal fasting glucose,LesLie TErRy,62,Male,A+,Obesity,2019-08-20,Samantha Davies,Kim Inc,Medicare,Emergency,2019-08-26,Ibuprofen,Inconclusive
+265,68,Male,Creatinine,0.65,mg/dL,Low,Normal for males,LesLie TErRy,62,Male,A+,Obesity,2019-08-20,Samantha Davies,Kim Inc,Medicare,Emergency,2019-08-26,Ibuprofen,Inconclusive
+265,68,Male,Bilirubin_Total,1.46,mg/dL,High,Normal range,LesLie TErRy,62,Male,A+,Obesity,2019-08-20,Samantha Davies,Kim Inc,Medicare,Emergency,2019-08-26,Ibuprofen,Inconclusive
+265,68,Male,TSH,2.83,mIU/L,Normal,Normal range,LesLie TErRy,62,Male,A+,Obesity,2019-08-20,Samantha Davies,Kim Inc,Medicare,Emergency,2019-08-26,Ibuprofen,Inconclusive
+268,75,Male,Hemoglobin,16.68,g/dL,Normal,Normal range for males,TInA GriFfin,49,Male,B+,Cancer,2022-06-17,Jessica Cruz,Inc Ford,Medicare,Elective,2022-06-28,Penicillin,Abnormal
+268,75,Male,RBC,5.3,Million cells/µL,Normal,Normal for males,TInA GriFfin,49,Male,B+,Cancer,2022-06-17,Jessica Cruz,Inc Ford,Medicare,Elective,2022-06-28,Penicillin,Abnormal
+268,75,Male,Cholesterol_Total,183.95,mg/dL,Normal,Desirable range,TInA GriFfin,49,Male,B+,Cancer,2022-06-17,Jessica Cruz,Inc Ford,Medicare,Elective,2022-06-28,Penicillin,Abnormal
+268,75,Male,Glucose_Fasting,81.63,mg/dL,Normal,Normal fasting glucose,TInA GriFfin,49,Male,B+,Cancer,2022-06-17,Jessica Cruz,Inc Ford,Medicare,Elective,2022-06-28,Penicillin,Abnormal
+268,75,Male,Creatinine,1.06,mg/dL,Normal,Normal for males,TInA GriFfin,49,Male,B+,Cancer,2022-06-17,Jessica Cruz,Inc Ford,Medicare,Elective,2022-06-28,Penicillin,Abnormal
+268,75,Male,Bilirubin_Total,1.24,mg/dL,High,Normal range,TInA GriFfin,49,Male,B+,Cancer,2022-06-17,Jessica Cruz,Inc Ford,Medicare,Elective,2022-06-28,Penicillin,Abnormal
+268,75,Male,TSH,3.23,mIU/L,Normal,Normal range,TInA GriFfin,49,Male,B+,Cancer,2022-06-17,Jessica Cruz,Inc Ford,Medicare,Elective,2022-06-28,Penicillin,Abnormal
+272,78,Female,Hemoglobin,14.36,g/dL,Normal,Normal range for males,PAmela fErNanDeZ,57,Female,B-,Obesity,2021-01-17,Emily Taylor,Walton-Meyer,Medicare,Urgent,2021-01-29,Penicillin,Abnormal
+272,78,Female,RBC,3.87,Million cells/µL,Low,Normal for males,PAmela fErNanDeZ,57,Female,B-,Obesity,2021-01-17,Emily Taylor,Walton-Meyer,Medicare,Urgent,2021-01-29,Penicillin,Abnormal
+272,78,Female,Cholesterol_Total,189.75,mg/dL,Normal,Desirable range,PAmela fErNanDeZ,57,Female,B-,Obesity,2021-01-17,Emily Taylor,Walton-Meyer,Medicare,Urgent,2021-01-29,Penicillin,Abnormal
+272,78,Female,Glucose_Fasting,88.37,mg/dL,Normal,Normal fasting glucose,PAmela fErNanDeZ,57,Female,B-,Obesity,2021-01-17,Emily Taylor,Walton-Meyer,Medicare,Urgent,2021-01-29,Penicillin,Abnormal
+272,78,Female,Creatinine,1.31,mg/dL,High,Normal for males,PAmela fErNanDeZ,57,Female,B-,Obesity,2021-01-17,Emily Taylor,Walton-Meyer,Medicare,Urgent,2021-01-29,Penicillin,Abnormal
+272,78,Female,TSH,2.58,mIU/L,Normal,Normal range,PAmela fErNanDeZ,57,Female,B-,Obesity,2021-01-17,Emily Taylor,Walton-Meyer,Medicare,Urgent,2021-01-29,Penicillin,Abnormal
+273,80,Female,Hemoglobin,15.26,g/dL,Normal,Normal range for males,cindY OROzco,26,Female,B-,Asthma,2023-05-12,Julie Finley,Kemp LLC,Medicare,Emergency,2023-06-10,Ibuprofen,Abnormal
+273,80,Female,RBC,3.87,Million cells/µL,Low,Normal for males,cindY OROzco,26,Female,B-,Asthma,2023-05-12,Julie Finley,Kemp LLC,Medicare,Emergency,2023-06-10,Ibuprofen,Abnormal
+273,80,Female,Cholesterol_Total,175.45,mg/dL,Normal,Desirable range,cindY OROzco,26,Female,B-,Asthma,2023-05-12,Julie Finley,Kemp LLC,Medicare,Emergency,2023-06-10,Ibuprofen,Abnormal
+273,80,Female,Glucose_Fasting,76.88,mg/dL,Normal,Normal fasting glucose,cindY OROzco,26,Female,B-,Asthma,2023-05-12,Julie Finley,Kemp LLC,Medicare,Emergency,2023-06-10,Ibuprofen,Abnormal
+273,80,Female,Creatinine,0.48,mg/dL,Low,Normal for males,cindY OROzco,26,Female,B-,Asthma,2023-05-12,Julie Finley,Kemp LLC,Medicare,Emergency,2023-06-10,Ibuprofen,Abnormal
+273,80,Female,Bilirubin_Total,0.03,mg/dL,Low,Normal range,cindY OROzco,26,Female,B-,Asthma,2023-05-12,Julie Finley,Kemp LLC,Medicare,Emergency,2023-06-10,Ibuprofen,Abnormal
+273,80,Female,TSH,1.74,mIU/L,Normal,Normal range,cindY OROzco,26,Female,B-,Asthma,2023-05-12,Julie Finley,Kemp LLC,Medicare,Emergency,2023-06-10,Ibuprofen,Abnormal
+277,72,Female,Hemoglobin,13.17,g/dL,Low,Normal range for males,CHrisTInA MARtinez,20,Female,A+,Cancer,2021-12-28,Suzanne Thomas,"Powell Robinson and Valdez,",Cigna,Emergency,2022-01-07,Paracetamol,Inconclusive
+277,72,Female,RBC,5.4,Million cells/µL,Normal,Normal for males,CHrisTInA MARtinez,20,Female,A+,Cancer,2021-12-28,Suzanne Thomas,"Powell Robinson and Valdez,",Cigna,Emergency,2022-01-07,Paracetamol,Inconclusive
+277,72,Female,Cholesterol_Total,137.78,mg/dL,Normal,Desirable range,CHrisTInA MARtinez,20,Female,A+,Cancer,2021-12-28,Suzanne Thomas,"Powell Robinson and Valdez,",Cigna,Emergency,2022-01-07,Paracetamol,Inconclusive
+277,72,Female,Glucose_Fasting,99.58,mg/dL,Normal,Normal fasting glucose,CHrisTInA MARtinez,20,Female,A+,Cancer,2021-12-28,Suzanne Thomas,"Powell Robinson and Valdez,",Cigna,Emergency,2022-01-07,Paracetamol,Inconclusive
+277,72,Female,Creatinine,2.03,mg/dL,High,Normal for males,CHrisTInA MARtinez,20,Female,A+,Cancer,2021-12-28,Suzanne Thomas,"Powell Robinson and Valdez,",Cigna,Emergency,2022-01-07,Paracetamol,Inconclusive
+277,72,Female,TSH,2.17,mIU/L,Normal,Normal range,CHrisTInA MARtinez,20,Female,A+,Cancer,2021-12-28,Suzanne Thomas,"Powell Robinson and Valdez,",Cigna,Emergency,2022-01-07,Paracetamol,Inconclusive
+285,53,Female,Hemoglobin,18.8,g/dL,High,Normal range for males,NicOlE RodriGUEz,30,Female,AB+,Diabetes,2020-01-17,Lynn Young,Poole Inc,Blue Cross,Emergency,2020-02-10,Lipitor,Normal
+285,53,Female,RBC,4.4,Million cells/µL,Low,Normal for males,NicOlE RodriGUEz,30,Female,AB+,Diabetes,2020-01-17,Lynn Young,Poole Inc,Blue Cross,Emergency,2020-02-10,Lipitor,Normal
+285,53,Female,Cholesterol_Total,163.82,mg/dL,Normal,Desirable range,NicOlE RodriGUEz,30,Female,AB+,Diabetes,2020-01-17,Lynn Young,Poole Inc,Blue Cross,Emergency,2020-02-10,Lipitor,Normal
+285,53,Female,Glucose_Fasting,88.2,mg/dL,Normal,Normal fasting glucose,NicOlE RodriGUEz,30,Female,AB+,Diabetes,2020-01-17,Lynn Young,Poole Inc,Blue Cross,Emergency,2020-02-10,Lipitor,Normal
+285,53,Female,Bilirubin_Total,0.12,mg/dL,Normal,Normal range,NicOlE RodriGUEz,30,Female,AB+,Diabetes,2020-01-17,Lynn Young,Poole Inc,Blue Cross,Emergency,2020-02-10,Lipitor,Normal
+285,53,Female,TSH,3.01,mIU/L,Normal,Normal range,NicOlE RodriGUEz,30,Female,AB+,Diabetes,2020-01-17,Lynn Young,Poole Inc,Blue Cross,Emergency,2020-02-10,Lipitor,Normal
+288,69,Female,Hemoglobin,16.08,g/dL,Normal,Normal range for males,aaRon MARtiNeZ,38,Female,A-,Hypertension,2023-08-13,Douglas Mayo,Lyons-Blair,Medicare,Urgent,2023-09-05,Lipitor,Inconclusive
+288,69,Female,RBC,4.15,Million cells/µL,Low,Normal for males,aaRon MARtiNeZ,38,Female,A-,Hypertension,2023-08-13,Douglas Mayo,Lyons-Blair,Medicare,Urgent,2023-09-05,Lipitor,Inconclusive
+288,69,Female,Cholesterol_Total,137.43,mg/dL,Normal,Desirable range,aaRon MARtiNeZ,38,Female,A-,Hypertension,2023-08-13,Douglas Mayo,Lyons-Blair,Medicare,Urgent,2023-09-05,Lipitor,Inconclusive
+288,69,Female,Glucose_Fasting,76.35,mg/dL,Normal,Normal fasting glucose,aaRon MARtiNeZ,38,Female,A-,Hypertension,2023-08-13,Douglas Mayo,Lyons-Blair,Medicare,Urgent,2023-09-05,Lipitor,Inconclusive
+288,69,Female,Creatinine,1.26,mg/dL,Normal,Normal for males,aaRon MARtiNeZ,38,Female,A-,Hypertension,2023-08-13,Douglas Mayo,Lyons-Blair,Medicare,Urgent,2023-09-05,Lipitor,Inconclusive
+288,69,Female,Bilirubin_Total,1.65,mg/dL,High,Normal range,aaRon MARtiNeZ,38,Female,A-,Hypertension,2023-08-13,Douglas Mayo,Lyons-Blair,Medicare,Urgent,2023-09-05,Lipitor,Inconclusive
+288,69,Female,TSH,0.72,mIU/L,Normal,Normal range,aaRon MARtiNeZ,38,Female,A-,Hypertension,2023-08-13,Douglas Mayo,Lyons-Blair,Medicare,Urgent,2023-09-05,Lipitor,Inconclusive
+293,32,Female,Hemoglobin,14.37,g/dL,Normal,Normal range for males,jOSHUA OLiVer,63,Female,B+,Hypertension,2023-10-03,Brandy Mitchell,Guerrero-Boone,Aetna,Elective,2023-10-12,Paracetamol,Abnormal
+293,32,Female,RBC,5.91,Million cells/µL,Normal,Normal for males,jOSHUA OLiVer,63,Female,B+,Hypertension,2023-10-03,Brandy Mitchell,Guerrero-Boone,Aetna,Elective,2023-10-12,Paracetamol,Abnormal
+293,32,Female,Cholesterol_Total,138.32,mg/dL,Normal,Desirable range,jOSHUA OLiVer,63,Female,B+,Hypertension,2023-10-03,Brandy Mitchell,Guerrero-Boone,Aetna,Elective,2023-10-12,Paracetamol,Abnormal
+293,32,Female,Glucose_Fasting,73.37,mg/dL,Normal,Normal fasting glucose,jOSHUA OLiVer,63,Female,B+,Hypertension,2023-10-03,Brandy Mitchell,Guerrero-Boone,Aetna,Elective,2023-10-12,Paracetamol,Abnormal
+293,32,Female,Creatinine,1.43,mg/dL,High,Normal for males,jOSHUA OLiVer,63,Female,B+,Hypertension,2023-10-03,Brandy Mitchell,Guerrero-Boone,Aetna,Elective,2023-10-12,Paracetamol,Abnormal
+293,32,Female,Bilirubin_Total,1.65,mg/dL,High,Normal range,jOSHUA OLiVer,63,Female,B+,Hypertension,2023-10-03,Brandy Mitchell,Guerrero-Boone,Aetna,Elective,2023-10-12,Paracetamol,Abnormal
+293,32,Female,TSH,0.23,mIU/L,Low,Normal range,jOSHUA OLiVer,63,Female,B+,Hypertension,2023-10-03,Brandy Mitchell,Guerrero-Boone,Aetna,Elective,2023-10-12,Paracetamol,Abnormal
+295,79,Male,Hemoglobin,14.04,g/dL,Normal,Normal range for males,ChRISToPHEr BRiGhT,48,Male,B+,Asthma,2020-01-21,Gregory Smith,Williams-Davis,Aetna,Urgent,2020-02-09,Lipitor,Normal
+295,79,Male,RBC,5.22,Million cells/µL,Normal,Normal for males,ChRISToPHEr BRiGhT,48,Male,B+,Asthma,2020-01-21,Gregory Smith,Williams-Davis,Aetna,Urgent,2020-02-09,Lipitor,Normal
+295,79,Male,Cholesterol_Total,194.71,mg/dL,Normal,Desirable range,ChRISToPHEr BRiGhT,48,Male,B+,Asthma,2020-01-21,Gregory Smith,Williams-Davis,Aetna,Urgent,2020-02-09,Lipitor,Normal
+295,79,Male,Glucose_Fasting,91.37,mg/dL,Normal,Normal fasting glucose,ChRISToPHEr BRiGhT,48,Male,B+,Asthma,2020-01-21,Gregory Smith,Williams-Davis,Aetna,Urgent,2020-02-09,Lipitor,Normal
+295,79,Male,Creatinine,1.77,mg/dL,High,Normal for males,ChRISToPHEr BRiGhT,48,Male,B+,Asthma,2020-01-21,Gregory Smith,Williams-Davis,Aetna,Urgent,2020-02-09,Lipitor,Normal
+295,79,Male,TSH,3.6,mIU/L,Normal,Normal range,ChRISToPHEr BRiGhT,48,Male,B+,Asthma,2020-01-21,Gregory Smith,Williams-Davis,Aetna,Urgent,2020-02-09,Lipitor,Normal
+296,60,Male,Hemoglobin,16.7,g/dL,Normal,Normal range for males,mR. DAVID pIERce Md,73,Female,A-,Hypertension,2023-11-05,Julia Cox,Group Delgado,UnitedHealthcare,Emergency,2023-11-07,Paracetamol,Inconclusive
+296,60,Male,RBC,6.88,Million cells/µL,High,Normal for males,mR. DAVID pIERce Md,73,Female,A-,Hypertension,2023-11-05,Julia Cox,Group Delgado,UnitedHealthcare,Emergency,2023-11-07,Paracetamol,Inconclusive
+296,60,Male,Cholesterol_Total,166.44,mg/dL,Normal,Desirable range,mR. DAVID pIERce Md,73,Female,A-,Hypertension,2023-11-05,Julia Cox,Group Delgado,UnitedHealthcare,Emergency,2023-11-07,Paracetamol,Inconclusive
+296,60,Male,Glucose_Fasting,87.33,mg/dL,Normal,Normal fasting glucose,mR. DAVID pIERce Md,73,Female,A-,Hypertension,2023-11-05,Julia Cox,Group Delgado,UnitedHealthcare,Emergency,2023-11-07,Paracetamol,Inconclusive
+296,60,Male,Creatinine,1.51,mg/dL,High,Normal for males,mR. DAVID pIERce Md,73,Female,A-,Hypertension,2023-11-05,Julia Cox,Group Delgado,UnitedHealthcare,Emergency,2023-11-07,Paracetamol,Inconclusive
+296,60,Male,TSH,4.09,mIU/L,High,Normal range,mR. DAVID pIERce Md,73,Female,A-,Hypertension,2023-11-05,Julia Cox,Group Delgado,UnitedHealthcare,Emergency,2023-11-07,Paracetamol,Inconclusive
+300,60,Male,Hemoglobin,16.62,g/dL,Normal,Normal range for males,lYNn MaRtinez,65,Male,O+,Cancer,2022-10-12,Daniel Murphy,Group Armstrong,Medicare,Emergency,2022-11-02,Penicillin,Normal
+300,60,Male,Hemoglobin,16.62,g/dL,Normal,Normal range for males,kyle Wiley,40,Female,AB-,Cancer,2021-01-21,Stephen Carr,Taylor-Nguyen,Aetna,Urgent,2021-02-06,Ibuprofen,Normal
+300,60,Male,RBC,5.64,Million cells/µL,Normal,Normal for males,lYNn MaRtinez,65,Male,O+,Cancer,2022-10-12,Daniel Murphy,Group Armstrong,Medicare,Emergency,2022-11-02,Penicillin,Normal
+300,60,Male,RBC,5.64,Million cells/µL,Normal,Normal for males,kyle Wiley,40,Female,AB-,Cancer,2021-01-21,Stephen Carr,Taylor-Nguyen,Aetna,Urgent,2021-02-06,Ibuprofen,Normal
+300,60,Male,Cholesterol_Total,123.79,mg/dL,Low,Desirable range,lYNn MaRtinez,65,Male,O+,Cancer,2022-10-12,Daniel Murphy,Group Armstrong,Medicare,Emergency,2022-11-02,Penicillin,Normal
+300,60,Male,Cholesterol_Total,123.79,mg/dL,Low,Desirable range,kyle Wiley,40,Female,AB-,Cancer,2021-01-21,Stephen Carr,Taylor-Nguyen,Aetna,Urgent,2021-02-06,Ibuprofen,Normal
+300,60,Male,Glucose_Fasting,73.48,mg/dL,Normal,Normal fasting glucose,lYNn MaRtinez,65,Male,O+,Cancer,2022-10-12,Daniel Murphy,Group Armstrong,Medicare,Emergency,2022-11-02,Penicillin,Normal
+300,60,Male,Glucose_Fasting,73.48,mg/dL,Normal,Normal fasting glucose,kyle Wiley,40,Female,AB-,Cancer,2021-01-21,Stephen Carr,Taylor-Nguyen,Aetna,Urgent,2021-02-06,Ibuprofen,Normal
+300,60,Male,Creatinine,0.09,mg/dL,Low,Normal for males,lYNn MaRtinez,65,Male,O+,Cancer,2022-10-12,Daniel Murphy,Group Armstrong,Medicare,Emergency,2022-11-02,Penicillin,Normal
+300,60,Male,Creatinine,0.09,mg/dL,Low,Normal for males,kyle Wiley,40,Female,AB-,Cancer,2021-01-21,Stephen Carr,Taylor-Nguyen,Aetna,Urgent,2021-02-06,Ibuprofen,Normal
+300,60,Male,Bilirubin_Total,0.4,mg/dL,Normal,Normal range,lYNn MaRtinez,65,Male,O+,Cancer,2022-10-12,Daniel Murphy,Group Armstrong,Medicare,Emergency,2022-11-02,Penicillin,Normal
+300,60,Male,Bilirubin_Total,0.4,mg/dL,Normal,Normal range,kyle Wiley,40,Female,AB-,Cancer,2021-01-21,Stephen Carr,Taylor-Nguyen,Aetna,Urgent,2021-02-06,Ibuprofen,Normal
+306,68,Male,Hemoglobin,13.76,g/dL,Normal,Normal range for males,jACqUeLINE jORdaN,51,Male,O+,Hypertension,2020-07-10,Jacob Daniel,Hunter-Grant,Aetna,Elective,2020-07-20,Paracetamol,Abnormal
+306,68,Male,RBC,4.56,Million cells/µL,Low,Normal for males,jACqUeLINE jORdaN,51,Male,O+,Hypertension,2020-07-10,Jacob Daniel,Hunter-Grant,Aetna,Elective,2020-07-20,Paracetamol,Abnormal
+306,68,Male,Cholesterol_Total,191.22,mg/dL,Normal,Desirable range,jACqUeLINE jORdaN,51,Male,O+,Hypertension,2020-07-10,Jacob Daniel,Hunter-Grant,Aetna,Elective,2020-07-20,Paracetamol,Abnormal
+306,68,Male,Glucose_Fasting,87.05,mg/dL,Normal,Normal fasting glucose,jACqUeLINE jORdaN,51,Male,O+,Hypertension,2020-07-10,Jacob Daniel,Hunter-Grant,Aetna,Elective,2020-07-20,Paracetamol,Abnormal
+306,68,Male,Creatinine,0.44,mg/dL,Low,Normal for males,jACqUeLINE jORdaN,51,Male,O+,Hypertension,2020-07-10,Jacob Daniel,Hunter-Grant,Aetna,Elective,2020-07-20,Paracetamol,Abnormal
+306,68,Male,Bilirubin_Total,1.65,mg/dL,High,Normal range,jACqUeLINE jORdaN,51,Male,O+,Hypertension,2020-07-10,Jacob Daniel,Hunter-Grant,Aetna,Elective,2020-07-20,Paracetamol,Abnormal
+306,68,Male,TSH,4.03,mIU/L,High,Normal range,jACqUeLINE jORdaN,51,Male,O+,Hypertension,2020-07-10,Jacob Daniel,Hunter-Grant,Aetna,Elective,2020-07-20,Paracetamol,Abnormal
+309,64,Male,Hemoglobin,14.4,g/dL,Normal,Normal range for males,rObeRt bAuer,68,Female,AB+,Asthma,2020-05-22,Theresa Freeman,Rivera-Gutierrez,UnitedHealthcare,Urgent,2020-06-19,Lipitor,Normal
+309,64,Male,RBC,5.89,Million cells/µL,Normal,Normal for males,rObeRt bAuer,68,Female,AB+,Asthma,2020-05-22,Theresa Freeman,Rivera-Gutierrez,UnitedHealthcare,Urgent,2020-06-19,Lipitor,Normal
+309,64,Male,Cholesterol_Total,197.49,mg/dL,Normal,Desirable range,rObeRt bAuer,68,Female,AB+,Asthma,2020-05-22,Theresa Freeman,Rivera-Gutierrez,UnitedHealthcare,Urgent,2020-06-19,Lipitor,Normal
+309,64,Male,Glucose_Fasting,73.26,mg/dL,Normal,Normal fasting glucose,rObeRt bAuer,68,Female,AB+,Asthma,2020-05-22,Theresa Freeman,Rivera-Gutierrez,UnitedHealthcare,Urgent,2020-06-19,Lipitor,Normal
+309,64,Male,Creatinine,1.2,mg/dL,Normal,Normal for males,rObeRt bAuer,68,Female,AB+,Asthma,2020-05-22,Theresa Freeman,Rivera-Gutierrez,UnitedHealthcare,Urgent,2020-06-19,Lipitor,Normal
+309,64,Male,TSH,4.11,mIU/L,High,Normal range,rObeRt bAuer,68,Female,AB+,Asthma,2020-05-22,Theresa Freeman,Rivera-Gutierrez,UnitedHealthcare,Urgent,2020-06-19,Lipitor,Normal
+316,46,Female,Hemoglobin,13.57,g/dL,Normal,Normal range for males,JASmINe aGuIlaR,82,Male,AB+,Asthma,2020-07-01,Daniel Ferguson,Sons Rich and,Cigna,Elective,2020-07-14,Aspirin,Abnormal
+316,46,Female,RBC,4.65,Million cells/µL,Low,Normal for males,JASmINe aGuIlaR,82,Male,AB+,Asthma,2020-07-01,Daniel Ferguson,Sons Rich and,Cigna,Elective,2020-07-14,Aspirin,Abnormal
+316,46,Female,Cholesterol_Total,151.91,mg/dL,Normal,Desirable range,JASmINe aGuIlaR,82,Male,AB+,Asthma,2020-07-01,Daniel Ferguson,Sons Rich and,Cigna,Elective,2020-07-14,Aspirin,Abnormal
+316,46,Female,Glucose_Fasting,79.74,mg/dL,Normal,Normal fasting glucose,JASmINe aGuIlaR,82,Male,AB+,Asthma,2020-07-01,Daniel Ferguson,Sons Rich and,Cigna,Elective,2020-07-14,Aspirin,Abnormal
+316,46,Female,Creatinine,1.2,mg/dL,Normal,Normal for males,JASmINe aGuIlaR,82,Male,AB+,Asthma,2020-07-01,Daniel Ferguson,Sons Rich and,Cigna,Elective,2020-07-14,Aspirin,Abnormal
+316,46,Female,Bilirubin_Total,0.63,mg/dL,Normal,Normal range,JASmINe aGuIlaR,82,Male,AB+,Asthma,2020-07-01,Daniel Ferguson,Sons Rich and,Cigna,Elective,2020-07-14,Aspirin,Abnormal
+316,46,Female,TSH,4.71,mIU/L,High,Normal range,JASmINe aGuIlaR,82,Male,AB+,Asthma,2020-07-01,Daniel Ferguson,Sons Rich and,Cigna,Elective,2020-07-14,Aspirin,Abnormal
+318,23,Male,Hemoglobin,13.73,g/dL,Normal,Normal range for males,TAyLoR howeLl Dds,35,Female,B+,Diabetes,2021-09-10,Kyle Patterson,Walter PLC,Blue Cross,Elective,2021-09-18,Ibuprofen,Inconclusive
+318,23,Male,RBC,2.91,Million cells/µL,Low,Normal for males,TAyLoR howeLl Dds,35,Female,B+,Diabetes,2021-09-10,Kyle Patterson,Walter PLC,Blue Cross,Elective,2021-09-18,Ibuprofen,Inconclusive
+318,23,Male,Cholesterol_Total,125.03,mg/dL,Normal,Desirable range,TAyLoR howeLl Dds,35,Female,B+,Diabetes,2021-09-10,Kyle Patterson,Walter PLC,Blue Cross,Elective,2021-09-18,Ibuprofen,Inconclusive
+318,23,Male,Glucose_Fasting,82.44,mg/dL,Normal,Normal fasting glucose,TAyLoR howeLl Dds,35,Female,B+,Diabetes,2021-09-10,Kyle Patterson,Walter PLC,Blue Cross,Elective,2021-09-18,Ibuprofen,Inconclusive
+318,23,Male,Creatinine,2.14,mg/dL,High,Normal for males,TAyLoR howeLl Dds,35,Female,B+,Diabetes,2021-09-10,Kyle Patterson,Walter PLC,Blue Cross,Elective,2021-09-18,Ibuprofen,Inconclusive
+318,23,Male,TSH,3.59,mIU/L,Normal,Normal range,TAyLoR howeLl Dds,35,Female,B+,Diabetes,2021-09-10,Kyle Patterson,Walter PLC,Blue Cross,Elective,2021-09-18,Ibuprofen,Inconclusive
+320,22,Female,Hemoglobin,19.1,g/dL,High,Normal range for males,NICOLE HUGhes,20,Male,O+,Arthritis,2020-12-04,Lori Sanchez,Shaw-Young,Blue Cross,Emergency,2020-12-08,Ibuprofen,Abnormal
+320,22,Female,RBC,6.24,Million cells/µL,High,Normal for males,NICOLE HUGhes,20,Male,O+,Arthritis,2020-12-04,Lori Sanchez,Shaw-Young,Blue Cross,Emergency,2020-12-08,Ibuprofen,Abnormal
+320,22,Female,Cholesterol_Total,180.24,mg/dL,Normal,Desirable range,NICOLE HUGhes,20,Male,O+,Arthritis,2020-12-04,Lori Sanchez,Shaw-Young,Blue Cross,Emergency,2020-12-08,Ibuprofen,Abnormal
+320,22,Female,Glucose_Fasting,97.29,mg/dL,Normal,Normal fasting glucose,NICOLE HUGhes,20,Male,O+,Arthritis,2020-12-04,Lori Sanchez,Shaw-Young,Blue Cross,Emergency,2020-12-08,Ibuprofen,Abnormal
+320,22,Female,Creatinine,0.49,mg/dL,Low,Normal for males,NICOLE HUGhes,20,Male,O+,Arthritis,2020-12-04,Lori Sanchez,Shaw-Young,Blue Cross,Emergency,2020-12-08,Ibuprofen,Abnormal
+320,22,Female,Bilirubin_Total,2.58,mg/dL,High,Normal range,NICOLE HUGhes,20,Male,O+,Arthritis,2020-12-04,Lori Sanchez,Shaw-Young,Blue Cross,Emergency,2020-12-08,Ibuprofen,Abnormal
+320,22,Female,TSH,1.14,mIU/L,Normal,Normal range,NICOLE HUGhes,20,Male,O+,Arthritis,2020-12-04,Lori Sanchez,Shaw-Young,Blue Cross,Emergency,2020-12-08,Ibuprofen,Abnormal
+321,20,Male,Hemoglobin,17.32,g/dL,Normal,Normal range for males,JUan klEiN,58,Female,B-,Arthritis,2023-08-19,Lisa Edwards,Group Hood,UnitedHealthcare,Emergency,2023-08-25,Ibuprofen,Inconclusive
+321,20,Male,RBC,6.3,Million cells/µL,High,Normal for males,JUan klEiN,58,Female,B-,Arthritis,2023-08-19,Lisa Edwards,Group Hood,UnitedHealthcare,Emergency,2023-08-25,Ibuprofen,Inconclusive
+321,20,Male,Cholesterol_Total,192.1,mg/dL,Normal,Desirable range,JUan klEiN,58,Female,B-,Arthritis,2023-08-19,Lisa Edwards,Group Hood,UnitedHealthcare,Emergency,2023-08-25,Ibuprofen,Inconclusive
+321,20,Male,Glucose_Fasting,75.68,mg/dL,Normal,Normal fasting glucose,JUan klEiN,58,Female,B-,Arthritis,2023-08-19,Lisa Edwards,Group Hood,UnitedHealthcare,Emergency,2023-08-25,Ibuprofen,Inconclusive
+321,20,Male,Creatinine,0.76,mg/dL,Normal,Normal for males,JUan klEiN,58,Female,B-,Arthritis,2023-08-19,Lisa Edwards,Group Hood,UnitedHealthcare,Emergency,2023-08-25,Ibuprofen,Inconclusive
+321,20,Male,Bilirubin_Total,1.74,mg/dL,High,Normal range,JUan klEiN,58,Female,B-,Arthritis,2023-08-19,Lisa Edwards,Group Hood,UnitedHealthcare,Emergency,2023-08-25,Ibuprofen,Inconclusive
+321,20,Male,TSH,1.09,mIU/L,Normal,Normal range,JUan klEiN,58,Female,B-,Arthritis,2023-08-19,Lisa Edwards,Group Hood,UnitedHealthcare,Emergency,2023-08-25,Ibuprofen,Inconclusive
+325,60,Female,Hemoglobin,13.73,g/dL,Normal,Normal range for males,tRAvIs carTeR,18,Male,A+,Cancer,2022-07-06,Megan Hahn,"Moss and Ferguson, Baker",UnitedHealthcare,Emergency,2022-07-18,Aspirin,Normal
+325,60,Female,RBC,4.69,Million cells/µL,Low,Normal for males,tRAvIs carTeR,18,Male,A+,Cancer,2022-07-06,Megan Hahn,"Moss and Ferguson, Baker",UnitedHealthcare,Emergency,2022-07-18,Aspirin,Normal
+325,60,Female,Cholesterol_Total,159.7,mg/dL,Normal,Desirable range,tRAvIs carTeR,18,Male,A+,Cancer,2022-07-06,Megan Hahn,"Moss and Ferguson, Baker",UnitedHealthcare,Emergency,2022-07-18,Aspirin,Normal
+325,60,Female,Glucose_Fasting,99.99,mg/dL,Normal,Normal fasting glucose,tRAvIs carTeR,18,Male,A+,Cancer,2022-07-06,Megan Hahn,"Moss and Ferguson, Baker",UnitedHealthcare,Emergency,2022-07-18,Aspirin,Normal
+325,60,Female,Creatinine,0.69,mg/dL,Low,Normal for males,tRAvIs carTeR,18,Male,A+,Cancer,2022-07-06,Megan Hahn,"Moss and Ferguson, Baker",UnitedHealthcare,Emergency,2022-07-18,Aspirin,Normal
+325,60,Female,Bilirubin_Total,0.58,mg/dL,Normal,Normal range,tRAvIs carTeR,18,Male,A+,Cancer,2022-07-06,Megan Hahn,"Moss and Ferguson, Baker",UnitedHealthcare,Emergency,2022-07-18,Aspirin,Normal
+325,60,Female,TSH,5.18,mIU/L,High,Normal range,tRAvIs carTeR,18,Male,A+,Cancer,2022-07-06,Megan Hahn,"Moss and Ferguson, Baker",UnitedHealthcare,Emergency,2022-07-18,Aspirin,Normal
+327,74,Female,Hemoglobin,18.41,g/dL,High,Normal range for males,KatHRYn StewArt,58,Female,O+,Arthritis,2022-05-12,Vanessa Newton,Clark-Mayo,Aetna,Urgent,2022-06-10,Lipitor,Inconclusive
+327,74,Female,RBC,6.53,Million cells/µL,High,Normal for males,KatHRYn StewArt,58,Female,O+,Arthritis,2022-05-12,Vanessa Newton,Clark-Mayo,Aetna,Urgent,2022-06-10,Lipitor,Inconclusive
+327,74,Female,Cholesterol_Total,134.27,mg/dL,Normal,Desirable range,KatHRYn StewArt,58,Female,O+,Arthritis,2022-05-12,Vanessa Newton,Clark-Mayo,Aetna,Urgent,2022-06-10,Lipitor,Inconclusive
+327,74,Female,Glucose_Fasting,88.14,mg/dL,Normal,Normal fasting glucose,KatHRYn StewArt,58,Female,O+,Arthritis,2022-05-12,Vanessa Newton,Clark-Mayo,Aetna,Urgent,2022-06-10,Lipitor,Inconclusive
+327,74,Female,Creatinine,0.56,mg/dL,Low,Normal for males,KatHRYn StewArt,58,Female,O+,Arthritis,2022-05-12,Vanessa Newton,Clark-Mayo,Aetna,Urgent,2022-06-10,Lipitor,Inconclusive
+327,74,Female,Bilirubin_Total,0.46,mg/dL,Normal,Normal range,KatHRYn StewArt,58,Female,O+,Arthritis,2022-05-12,Vanessa Newton,Clark-Mayo,Aetna,Urgent,2022-06-10,Lipitor,Inconclusive
+327,74,Female,TSH,1.37,mIU/L,Normal,Normal range,KatHRYn StewArt,58,Female,O+,Arthritis,2022-05-12,Vanessa Newton,Clark-Mayo,Aetna,Urgent,2022-06-10,Lipitor,Inconclusive
+328,66,Female,Hemoglobin,14.72,g/dL,Normal,Normal range for males,Bobby JacksOn,30,Male,B-,Cancer,2024-01-31,Matthew Smith,Sons and Miller,Blue Cross,Urgent,2024-02-02,Paracetamol,Normal
+328,66,Female,Hemoglobin,14.72,g/dL,Normal,Normal range for males,pAUL wILLiAmS,81,Female,AB-,Cancer,2020-08-23,Kristin Martinez,"Gates Brown, and Stuart",Medicare,Urgent,2020-09-08,Penicillin,Abnormal
+328,66,Female,RBC,4.31,Million cells/µL,Low,Normal for males,Bobby JacksOn,30,Male,B-,Cancer,2024-01-31,Matthew Smith,Sons and Miller,Blue Cross,Urgent,2024-02-02,Paracetamol,Normal
+328,66,Female,RBC,4.31,Million cells/µL,Low,Normal for males,pAUL wILLiAmS,81,Female,AB-,Cancer,2020-08-23,Kristin Martinez,"Gates Brown, and Stuart",Medicare,Urgent,2020-09-08,Penicillin,Abnormal
+328,66,Female,Cholesterol_Total,199.91,mg/dL,Normal,Desirable range,Bobby JacksOn,30,Male,B-,Cancer,2024-01-31,Matthew Smith,Sons and Miller,Blue Cross,Urgent,2024-02-02,Paracetamol,Normal
+328,66,Female,Cholesterol_Total,199.91,mg/dL,Normal,Desirable range,pAUL wILLiAmS,81,Female,AB-,Cancer,2020-08-23,Kristin Martinez,"Gates Brown, and Stuart",Medicare,Urgent,2020-09-08,Penicillin,Abnormal
+328,66,Female,Glucose_Fasting,72.52,mg/dL,Normal,Normal fasting glucose,Bobby JacksOn,30,Male,B-,Cancer,2024-01-31,Matthew Smith,Sons and Miller,Blue Cross,Urgent,2024-02-02,Paracetamol,Normal
+328,66,Female,Glucose_Fasting,72.52,mg/dL,Normal,Normal fasting glucose,pAUL wILLiAmS,81,Female,AB-,Cancer,2020-08-23,Kristin Martinez,"Gates Brown, and Stuart",Medicare,Urgent,2020-09-08,Penicillin,Abnormal
+328,66,Female,TSH,0.85,mIU/L,Normal,Normal range,Bobby JacksOn,30,Male,B-,Cancer,2024-01-31,Matthew Smith,Sons and Miller,Blue Cross,Urgent,2024-02-02,Paracetamol,Normal
+328,66,Female,TSH,0.85,mIU/L,Normal,Normal range,pAUL wILLiAmS,81,Female,AB-,Cancer,2020-08-23,Kristin Martinez,"Gates Brown, and Stuart",Medicare,Urgent,2020-09-08,Penicillin,Abnormal
+330,35,Female,Hemoglobin,14.55,g/dL,Normal,Normal range for males,beThaNY MoOrE,55,Female,A+,Cancer,2023-04-09,Penny Pruitt,"and Montes Graves, Thomas",Cigna,Emergency,2023-04-21,Paracetamol,Normal
+330,35,Female,RBC,4.44,Million cells/µL,Low,Normal for males,beThaNY MoOrE,55,Female,A+,Cancer,2023-04-09,Penny Pruitt,"and Montes Graves, Thomas",Cigna,Emergency,2023-04-21,Paracetamol,Normal
+330,35,Female,Cholesterol_Total,193.14,mg/dL,Normal,Desirable range,beThaNY MoOrE,55,Female,A+,Cancer,2023-04-09,Penny Pruitt,"and Montes Graves, Thomas",Cigna,Emergency,2023-04-21,Paracetamol,Normal
+330,35,Female,Glucose_Fasting,82.95,mg/dL,Normal,Normal fasting glucose,beThaNY MoOrE,55,Female,A+,Cancer,2023-04-09,Penny Pruitt,"and Montes Graves, Thomas",Cigna,Emergency,2023-04-21,Paracetamol,Normal
+330,35,Female,Bilirubin_Total,2.05,mg/dL,High,Normal range,beThaNY MoOrE,55,Female,A+,Cancer,2023-04-09,Penny Pruitt,"and Montes Graves, Thomas",Cigna,Emergency,2023-04-21,Paracetamol,Normal
+330,35,Female,TSH,2.47,mIU/L,Normal,Normal range,beThaNY MoOrE,55,Female,A+,Cancer,2023-04-09,Penny Pruitt,"and Montes Graves, Thomas",Cigna,Emergency,2023-04-21,Paracetamol,Normal
+333,25,Male,Hemoglobin,17.89,g/dL,High,Normal range for males,ASHleY guTIERreZ,83,Male,AB+,Obesity,2019-11-06,Tyler Braun,Miller-Lawson,Aetna,Elective,2019-11-22,Paracetamol,Inconclusive
+333,25,Male,RBC,3.77,Million cells/µL,Low,Normal for males,ASHleY guTIERreZ,83,Male,AB+,Obesity,2019-11-06,Tyler Braun,Miller-Lawson,Aetna,Elective,2019-11-22,Paracetamol,Inconclusive
+333,25,Male,Cholesterol_Total,136.55,mg/dL,Normal,Desirable range,ASHleY guTIERreZ,83,Male,AB+,Obesity,2019-11-06,Tyler Braun,Miller-Lawson,Aetna,Elective,2019-11-22,Paracetamol,Inconclusive
+333,25,Male,Glucose_Fasting,100.11,mg/dL,High,Normal fasting glucose,ASHleY guTIERreZ,83,Male,AB+,Obesity,2019-11-06,Tyler Braun,Miller-Lawson,Aetna,Elective,2019-11-22,Paracetamol,Inconclusive
+333,25,Male,Creatinine,2.19,mg/dL,High,Normal for males,ASHleY guTIERreZ,83,Male,AB+,Obesity,2019-11-06,Tyler Braun,Miller-Lawson,Aetna,Elective,2019-11-22,Paracetamol,Inconclusive
+333,25,Male,Bilirubin_Total,1.21,mg/dL,High,Normal range,ASHleY guTIERreZ,83,Male,AB+,Obesity,2019-11-06,Tyler Braun,Miller-Lawson,Aetna,Elective,2019-11-22,Paracetamol,Inconclusive
+333,25,Male,TSH,1.94,mIU/L,Normal,Normal range,ASHleY guTIERreZ,83,Male,AB+,Obesity,2019-11-06,Tyler Braun,Miller-Lawson,Aetna,Elective,2019-11-22,Paracetamol,Inconclusive
+368,32,Male,Hemoglobin,16.45,g/dL,Normal,Normal range for males,ChRiStOPhER gOnzAlez,59,Male,B+,Diabetes,2019-11-21,Patricia Dunn,Rhodes-Carey,Medicare,Emergency,2019-12-08,Penicillin,Abnormal
+368,32,Male,RBC,4.13,Million cells/µL,Low,Normal for males,ChRiStOPhER gOnzAlez,59,Male,B+,Diabetes,2019-11-21,Patricia Dunn,Rhodes-Carey,Medicare,Emergency,2019-12-08,Penicillin,Abnormal
+368,32,Male,Cholesterol_Total,178.21,mg/dL,Normal,Desirable range,ChRiStOPhER gOnzAlez,59,Male,B+,Diabetes,2019-11-21,Patricia Dunn,Rhodes-Carey,Medicare,Emergency,2019-12-08,Penicillin,Abnormal
+368,32,Male,Glucose_Fasting,74.78,mg/dL,Normal,Normal fasting glucose,ChRiStOPhER gOnzAlez,59,Male,B+,Diabetes,2019-11-21,Patricia Dunn,Rhodes-Carey,Medicare,Emergency,2019-12-08,Penicillin,Abnormal
+368,32,Male,Creatinine,1.16,mg/dL,Normal,Normal for males,ChRiStOPhER gOnzAlez,59,Male,B+,Diabetes,2019-11-21,Patricia Dunn,Rhodes-Carey,Medicare,Emergency,2019-12-08,Penicillin,Abnormal
+368,32,Male,TSH,2.68,mIU/L,Normal,Normal range,ChRiStOPhER gOnzAlez,59,Male,B+,Diabetes,2019-11-21,Patricia Dunn,Rhodes-Carey,Medicare,Emergency,2019-12-08,Penicillin,Abnormal
+371,80,Female,Hemoglobin,14.21,g/dL,Normal,Normal range for males,ThOMAS MartInEZ,34,Male,B-,Asthma,2019-08-18,Jacob Huynh,Hart Ltd,Cigna,Urgent,2019-09-01,Ibuprofen,Inconclusive
+371,80,Female,RBC,6.05,Million cells/µL,Normal,Normal for males,ThOMAS MartInEZ,34,Male,B-,Asthma,2019-08-18,Jacob Huynh,Hart Ltd,Cigna,Urgent,2019-09-01,Ibuprofen,Inconclusive
+371,80,Female,Cholesterol_Total,189.46,mg/dL,Normal,Desirable range,ThOMAS MartInEZ,34,Male,B-,Asthma,2019-08-18,Jacob Huynh,Hart Ltd,Cigna,Urgent,2019-09-01,Ibuprofen,Inconclusive
+371,80,Female,Glucose_Fasting,72.8,mg/dL,Normal,Normal fasting glucose,ThOMAS MartInEZ,34,Male,B-,Asthma,2019-08-18,Jacob Huynh,Hart Ltd,Cigna,Urgent,2019-09-01,Ibuprofen,Inconclusive
+371,80,Female,Creatinine,1.15,mg/dL,Normal,Normal for males,ThOMAS MartInEZ,34,Male,B-,Asthma,2019-08-18,Jacob Huynh,Hart Ltd,Cigna,Urgent,2019-09-01,Ibuprofen,Inconclusive
+371,80,Female,Bilirubin_Total,0.98,mg/dL,Normal,Normal range,ThOMAS MartInEZ,34,Male,B-,Asthma,2019-08-18,Jacob Huynh,Hart Ltd,Cigna,Urgent,2019-09-01,Ibuprofen,Inconclusive
+371,80,Female,TSH,1.54,mIU/L,Normal,Normal range,ThOMAS MartInEZ,34,Male,B-,Asthma,2019-08-18,Jacob Huynh,Hart Ltd,Cigna,Urgent,2019-09-01,Ibuprofen,Inconclusive
+377,63,Male,Hemoglobin,12.44,g/dL,Low,Normal range for males,JOSe LopEz,18,Male,A-,Obesity,2022-01-09,Erika Jackson,"Miles, and Weaver Hudson",Aetna,Emergency,2022-01-15,Aspirin,Inconclusive
+377,63,Male,RBC,5.46,Million cells/µL,Normal,Normal for males,JOSe LopEz,18,Male,A-,Obesity,2022-01-09,Erika Jackson,"Miles, and Weaver Hudson",Aetna,Emergency,2022-01-15,Aspirin,Inconclusive
+377,63,Male,Cholesterol_Total,188.65,mg/dL,Normal,Desirable range,JOSe LopEz,18,Male,A-,Obesity,2022-01-09,Erika Jackson,"Miles, and Weaver Hudson",Aetna,Emergency,2022-01-15,Aspirin,Inconclusive
+377,63,Male,Glucose_Fasting,71.67,mg/dL,Normal,Normal fasting glucose,JOSe LopEz,18,Male,A-,Obesity,2022-01-09,Erika Jackson,"Miles, and Weaver Hudson",Aetna,Emergency,2022-01-15,Aspirin,Inconclusive
+377,63,Male,Creatinine,1.09,mg/dL,Normal,Normal for males,JOSe LopEz,18,Male,A-,Obesity,2022-01-09,Erika Jackson,"Miles, and Weaver Hudson",Aetna,Emergency,2022-01-15,Aspirin,Inconclusive
+377,63,Male,TSH,3.47,mIU/L,Normal,Normal range,JOSe LopEz,18,Male,A-,Obesity,2022-01-09,Erika Jackson,"Miles, and Weaver Hudson",Aetna,Emergency,2022-01-15,Aspirin,Inconclusive
+378,51,Male,Hemoglobin,15.02,g/dL,Normal,Normal range for males,Nancy glOVeR,58,Male,A-,Hypertension,2020-05-08,Jennifer Larson,"Khan, and Rodriguez Fischer",Medicare,Emergency,2020-06-01,Aspirin,Abnormal
+378,51,Male,RBC,4.84,Million cells/µL,Normal,Normal for males,Nancy glOVeR,58,Male,A-,Hypertension,2020-05-08,Jennifer Larson,"Khan, and Rodriguez Fischer",Medicare,Emergency,2020-06-01,Aspirin,Abnormal
+378,51,Male,Cholesterol_Total,143.41,mg/dL,Normal,Desirable range,Nancy glOVeR,58,Male,A-,Hypertension,2020-05-08,Jennifer Larson,"Khan, and Rodriguez Fischer",Medicare,Emergency,2020-06-01,Aspirin,Abnormal
+378,51,Male,Glucose_Fasting,97.3,mg/dL,Normal,Normal fasting glucose,Nancy glOVeR,58,Male,A-,Hypertension,2020-05-08,Jennifer Larson,"Khan, and Rodriguez Fischer",Medicare,Emergency,2020-06-01,Aspirin,Abnormal
+378,51,Male,Creatinine,1.67,mg/dL,High,Normal for males,Nancy glOVeR,58,Male,A-,Hypertension,2020-05-08,Jennifer Larson,"Khan, and Rodriguez Fischer",Medicare,Emergency,2020-06-01,Aspirin,Abnormal
+378,51,Male,Bilirubin_Total,1.35,mg/dL,High,Normal range,Nancy glOVeR,58,Male,A-,Hypertension,2020-05-08,Jennifer Larson,"Khan, and Rodriguez Fischer",Medicare,Emergency,2020-06-01,Aspirin,Abnormal
+378,51,Male,TSH,1.27,mIU/L,Normal,Normal range,Nancy glOVeR,58,Male,A-,Hypertension,2020-05-08,Jennifer Larson,"Khan, and Rodriguez Fischer",Medicare,Emergency,2020-06-01,Aspirin,Abnormal
+389,45,Female,Hemoglobin,18.94,g/dL,High,Normal range for males,EMILY JOHNSOn,36,Male,A+,Asthma,2023-12-20,Taylor Newton,Nunez-Humphrey,UnitedHealthcare,Urgent,2023-12-24,Ibuprofen,Normal
+389,45,Female,Hemoglobin,18.94,g/dL,High,Normal range for males,edwArD EDWaRDs,21,Female,AB-,Diabetes,2020-11-03,Kelly Olson,Group Middleton,Medicare,Emergency,2020-11-15,Paracetamol,Inconclusive
+389,45,Female,RBC,4.88,Million cells/µL,Normal,Normal for males,EMILY JOHNSOn,36,Male,A+,Asthma,2023-12-20,Taylor Newton,Nunez-Humphrey,UnitedHealthcare,Urgent,2023-12-24,Ibuprofen,Normal
+389,45,Female,RBC,4.88,Million cells/µL,Normal,Normal for males,edwArD EDWaRDs,21,Female,AB-,Diabetes,2020-11-03,Kelly Olson,Group Middleton,Medicare,Emergency,2020-11-15,Paracetamol,Inconclusive
+389,45,Female,Cholesterol_Total,143.41,mg/dL,Normal,Desirable range,EMILY JOHNSOn,36,Male,A+,Asthma,2023-12-20,Taylor Newton,Nunez-Humphrey,UnitedHealthcare,Urgent,2023-12-24,Ibuprofen,Normal
+389,45,Female,Cholesterol_Total,143.41,mg/dL,Normal,Desirable range,edwArD EDWaRDs,21,Female,AB-,Diabetes,2020-11-03,Kelly Olson,Group Middleton,Medicare,Emergency,2020-11-15,Paracetamol,Inconclusive
+389,45,Female,Glucose_Fasting,90.95,mg/dL,Normal,Normal fasting glucose,EMILY JOHNSOn,36,Male,A+,Asthma,2023-12-20,Taylor Newton,Nunez-Humphrey,UnitedHealthcare,Urgent,2023-12-24,Ibuprofen,Normal
+389,45,Female,Glucose_Fasting,90.95,mg/dL,Normal,Normal fasting glucose,edwArD EDWaRDs,21,Female,AB-,Diabetes,2020-11-03,Kelly Olson,Group Middleton,Medicare,Emergency,2020-11-15,Paracetamol,Inconclusive
+389,45,Female,Creatinine,0.67,mg/dL,Low,Normal for males,EMILY JOHNSOn,36,Male,A+,Asthma,2023-12-20,Taylor Newton,Nunez-Humphrey,UnitedHealthcare,Urgent,2023-12-24,Ibuprofen,Normal
+389,45,Female,Creatinine,0.67,mg/dL,Low,Normal for males,edwArD EDWaRDs,21,Female,AB-,Diabetes,2020-11-03,Kelly Olson,Group Middleton,Medicare,Emergency,2020-11-15,Paracetamol,Inconclusive
+389,45,Female,TSH,4.31,mIU/L,High,Normal range,EMILY JOHNSOn,36,Male,A+,Asthma,2023-12-20,Taylor Newton,Nunez-Humphrey,UnitedHealthcare,Urgent,2023-12-24,Ibuprofen,Normal
+389,45,Female,TSH,4.31,mIU/L,High,Normal range,edwArD EDWaRDs,21,Female,AB-,Diabetes,2020-11-03,Kelly Olson,Group Middleton,Medicare,Emergency,2020-11-15,Paracetamol,Inconclusive
+394,28,Female,Hemoglobin,14.95,g/dL,Normal,Normal range for males,mIchElLe daniELs,72,Male,O+,Cancer,2020-04-19,John Duncan,Schaefer-Porter,Medicare,Urgent,2020-04-22,Paracetamol,Normal
+394,28,Female,RBC,6.5,Million cells/µL,High,Normal for males,mIchElLe daniELs,72,Male,O+,Cancer,2020-04-19,John Duncan,Schaefer-Porter,Medicare,Urgent,2020-04-22,Paracetamol,Normal
+394,28,Female,Cholesterol_Total,176.55,mg/dL,Normal,Desirable range,mIchElLe daniELs,72,Male,O+,Cancer,2020-04-19,John Duncan,Schaefer-Porter,Medicare,Urgent,2020-04-22,Paracetamol,Normal
+394,28,Female,Glucose_Fasting,73.68,mg/dL,Normal,Normal fasting glucose,mIchElLe daniELs,72,Male,O+,Cancer,2020-04-19,John Duncan,Schaefer-Porter,Medicare,Urgent,2020-04-22,Paracetamol,Normal
+394,28,Female,Creatinine,1.62,mg/dL,High,Normal for males,mIchElLe daniELs,72,Male,O+,Cancer,2020-04-19,John Duncan,Schaefer-Porter,Medicare,Urgent,2020-04-22,Paracetamol,Normal
+394,28,Female,Bilirubin_Total,0.38,mg/dL,Normal,Normal range,mIchElLe daniELs,72,Male,O+,Cancer,2020-04-19,John Duncan,Schaefer-Porter,Medicare,Urgent,2020-04-22,Paracetamol,Normal
+394,28,Female,TSH,4.11,mIU/L,High,Normal range,mIchElLe daniELs,72,Male,O+,Cancer,2020-04-19,John Duncan,Schaefer-Porter,Medicare,Urgent,2020-04-22,Paracetamol,Normal
+395,46,Female,Hemoglobin,17.61,g/dL,High,Normal range for males,pAtriCIa MEdinA,80,Male,AB+,Cancer,2022-07-07,Miguel Parker,LLC Dixon,UnitedHealthcare,Emergency,2022-07-23,Ibuprofen,Normal
+395,46,Female,RBC,7.05,Million cells/µL,High,Normal for males,pAtriCIa MEdinA,80,Male,AB+,Cancer,2022-07-07,Miguel Parker,LLC Dixon,UnitedHealthcare,Emergency,2022-07-23,Ibuprofen,Normal
+395,46,Female,Cholesterol_Total,137.49,mg/dL,Normal,Desirable range,pAtriCIa MEdinA,80,Male,AB+,Cancer,2022-07-07,Miguel Parker,LLC Dixon,UnitedHealthcare,Emergency,2022-07-23,Ibuprofen,Normal
+395,46,Female,Glucose_Fasting,95.55,mg/dL,Normal,Normal fasting glucose,pAtriCIa MEdinA,80,Male,AB+,Cancer,2022-07-07,Miguel Parker,LLC Dixon,UnitedHealthcare,Emergency,2022-07-23,Ibuprofen,Normal
+395,46,Female,Creatinine,0.08,mg/dL,Low,Normal for males,pAtriCIa MEdinA,80,Male,AB+,Cancer,2022-07-07,Miguel Parker,LLC Dixon,UnitedHealthcare,Emergency,2022-07-23,Ibuprofen,Normal
+395,46,Female,Bilirubin_Total,2.26,mg/dL,High,Normal range,pAtriCIa MEdinA,80,Male,AB+,Cancer,2022-07-07,Miguel Parker,LLC Dixon,UnitedHealthcare,Emergency,2022-07-23,Ibuprofen,Normal
+395,46,Female,TSH,4.68,mIU/L,High,Normal range,pAtriCIa MEdinA,80,Male,AB+,Cancer,2022-07-07,Miguel Parker,LLC Dixon,UnitedHealthcare,Emergency,2022-07-23,Ibuprofen,Normal
+401,68,Female,Hemoglobin,15.79,g/dL,Normal,Normal range for males,cathy sMaLl,51,Female,O-,Asthma,2023-12-23,Wendy Glenn,"Brown, and Jones Weaver",Blue Cross,Elective,2024-01-19,Ibuprofen,Normal
+401,68,Female,RBC,6.89,Million cells/µL,High,Normal for males,cathy sMaLl,51,Female,O-,Asthma,2023-12-23,Wendy Glenn,"Brown, and Jones Weaver",Blue Cross,Elective,2024-01-19,Ibuprofen,Normal
+401,68,Female,Cholesterol_Total,163.32,mg/dL,Normal,Desirable range,cathy sMaLl,51,Female,O-,Asthma,2023-12-23,Wendy Glenn,"Brown, and Jones Weaver",Blue Cross,Elective,2024-01-19,Ibuprofen,Normal
+401,68,Female,Glucose_Fasting,94.84,mg/dL,Normal,Normal fasting glucose,cathy sMaLl,51,Female,O-,Asthma,2023-12-23,Wendy Glenn,"Brown, and Jones Weaver",Blue Cross,Elective,2024-01-19,Ibuprofen,Normal
+401,68,Female,TSH,3.84,mIU/L,Normal,Normal range,cathy sMaLl,51,Female,O-,Asthma,2023-12-23,Wendy Glenn,"Brown, and Jones Weaver",Blue Cross,Elective,2024-01-19,Ibuprofen,Normal
+405,53,Male,Hemoglobin,18.16,g/dL,High,Normal range for males,MIChael MIllS,23,Male,O-,Hypertension,2022-09-21,Mrs. Lori Hurst PhD,Hall-Bentley,Aetna,Emergency,2022-09-25,Ibuprofen,Inconclusive
+405,53,Male,RBC,4.93,Million cells/µL,Normal,Normal for males,MIChael MIllS,23,Male,O-,Hypertension,2022-09-21,Mrs. Lori Hurst PhD,Hall-Bentley,Aetna,Emergency,2022-09-25,Ibuprofen,Inconclusive
+405,53,Male,Cholesterol_Total,176.3,mg/dL,Normal,Desirable range,MIChael MIllS,23,Male,O-,Hypertension,2022-09-21,Mrs. Lori Hurst PhD,Hall-Bentley,Aetna,Emergency,2022-09-25,Ibuprofen,Inconclusive
+405,53,Male,Glucose_Fasting,79.68,mg/dL,Normal,Normal fasting glucose,MIChael MIllS,23,Male,O-,Hypertension,2022-09-21,Mrs. Lori Hurst PhD,Hall-Bentley,Aetna,Emergency,2022-09-25,Ibuprofen,Inconclusive
+405,53,Male,Bilirubin_Total,0.29,mg/dL,Normal,Normal range,MIChael MIllS,23,Male,O-,Hypertension,2022-09-21,Mrs. Lori Hurst PhD,Hall-Bentley,Aetna,Emergency,2022-09-25,Ibuprofen,Inconclusive
+405,53,Male,TSH,2.11,mIU/L,Normal,Normal range,MIChael MIllS,23,Male,O-,Hypertension,2022-09-21,Mrs. Lori Hurst PhD,Hall-Bentley,Aetna,Emergency,2022-09-25,Ibuprofen,Inconclusive
+407,40,Male,Hemoglobin,14.57,g/dL,Normal,Normal range for males,kEVIn SiMmoNs Jr.,24,Male,AB-,Cancer,2023-12-28,Amanda Garcia,Evans Ltd,Cigna,Emergency,2024-01-02,Paracetamol,Abnormal
+407,40,Male,RBC,5.96,Million cells/µL,Normal,Normal for males,kEVIn SiMmoNs Jr.,24,Male,AB-,Cancer,2023-12-28,Amanda Garcia,Evans Ltd,Cigna,Emergency,2024-01-02,Paracetamol,Abnormal
+407,40,Male,Cholesterol_Total,136.54,mg/dL,Normal,Desirable range,kEVIn SiMmoNs Jr.,24,Male,AB-,Cancer,2023-12-28,Amanda Garcia,Evans Ltd,Cigna,Emergency,2024-01-02,Paracetamol,Abnormal
+407,40,Male,Glucose_Fasting,100.92,mg/dL,High,Normal fasting glucose,kEVIn SiMmoNs Jr.,24,Male,AB-,Cancer,2023-12-28,Amanda Garcia,Evans Ltd,Cigna,Emergency,2024-01-02,Paracetamol,Abnormal
+407,40,Male,Creatinine,0.54,mg/dL,Low,Normal for males,kEVIn SiMmoNs Jr.,24,Male,AB-,Cancer,2023-12-28,Amanda Garcia,Evans Ltd,Cigna,Emergency,2024-01-02,Paracetamol,Abnormal
+407,40,Male,Bilirubin_Total,0.91,mg/dL,Normal,Normal range,kEVIn SiMmoNs Jr.,24,Male,AB-,Cancer,2023-12-28,Amanda Garcia,Evans Ltd,Cigna,Emergency,2024-01-02,Paracetamol,Abnormal
+407,40,Male,TSH,0.46,mIU/L,Normal,Normal range,kEVIn SiMmoNs Jr.,24,Male,AB-,Cancer,2023-12-28,Amanda Garcia,Evans Ltd,Cigna,Emergency,2024-01-02,Paracetamol,Abnormal
+410,26,Male,Hemoglobin,15.87,g/dL,Normal,Normal range for males,KAThEriNE SmiTH,26,Female,AB+,Obesity,2021-06-09,Mary Logan,"and Mcclure White Boone,",UnitedHealthcare,Urgent,2021-07-01,Paracetamol,Normal
+410,26,Male,Hemoglobin,15.87,g/dL,Normal,Normal range for males,DIAnE brAnch,44,Male,O+,Obesity,2020-05-30,Juan Acevedo,Perez and Sons,Cigna,Emergency,2020-06-14,Aspirin,Inconclusive
+410,26,Male,RBC,5.18,Million cells/µL,Normal,Normal for males,KAThEriNE SmiTH,26,Female,AB+,Obesity,2021-06-09,Mary Logan,"and Mcclure White Boone,",UnitedHealthcare,Urgent,2021-07-01,Paracetamol,Normal
+410,26,Male,RBC,5.18,Million cells/µL,Normal,Normal for males,DIAnE brAnch,44,Male,O+,Obesity,2020-05-30,Juan Acevedo,Perez and Sons,Cigna,Emergency,2020-06-14,Aspirin,Inconclusive
+410,26,Male,Cholesterol_Total,172.26,mg/dL,Normal,Desirable range,KAThEriNE SmiTH,26,Female,AB+,Obesity,2021-06-09,Mary Logan,"and Mcclure White Boone,",UnitedHealthcare,Urgent,2021-07-01,Paracetamol,Normal
+410,26,Male,Cholesterol_Total,172.26,mg/dL,Normal,Desirable range,DIAnE brAnch,44,Male,O+,Obesity,2020-05-30,Juan Acevedo,Perez and Sons,Cigna,Emergency,2020-06-14,Aspirin,Inconclusive
+410,26,Male,Glucose_Fasting,78.74,mg/dL,Normal,Normal fasting glucose,KAThEriNE SmiTH,26,Female,AB+,Obesity,2021-06-09,Mary Logan,"and Mcclure White Boone,",UnitedHealthcare,Urgent,2021-07-01,Paracetamol,Normal
+410,26,Male,Glucose_Fasting,78.74,mg/dL,Normal,Normal fasting glucose,DIAnE brAnch,44,Male,O+,Obesity,2020-05-30,Juan Acevedo,Perez and Sons,Cigna,Emergency,2020-06-14,Aspirin,Inconclusive
+410,26,Male,Creatinine,1.45,mg/dL,High,Normal for males,KAThEriNE SmiTH,26,Female,AB+,Obesity,2021-06-09,Mary Logan,"and Mcclure White Boone,",UnitedHealthcare,Urgent,2021-07-01,Paracetamol,Normal
+410,26,Male,Creatinine,1.45,mg/dL,High,Normal for males,DIAnE brAnch,44,Male,O+,Obesity,2020-05-30,Juan Acevedo,Perez and Sons,Cigna,Emergency,2020-06-14,Aspirin,Inconclusive
+410,26,Male,Bilirubin_Total,0.61,mg/dL,Normal,Normal range,KAThEriNE SmiTH,26,Female,AB+,Obesity,2021-06-09,Mary Logan,"and Mcclure White Boone,",UnitedHealthcare,Urgent,2021-07-01,Paracetamol,Normal
+410,26,Male,Bilirubin_Total,0.61,mg/dL,Normal,Normal range,DIAnE brAnch,44,Male,O+,Obesity,2020-05-30,Juan Acevedo,Perez and Sons,Cigna,Emergency,2020-06-14,Aspirin,Inconclusive
+410,26,Male,TSH,3.09,mIU/L,Normal,Normal range,KAThEriNE SmiTH,26,Female,AB+,Obesity,2021-06-09,Mary Logan,"and Mcclure White Boone,",UnitedHealthcare,Urgent,2021-07-01,Paracetamol,Normal
+410,26,Male,TSH,3.09,mIU/L,Normal,Normal range,DIAnE brAnch,44,Male,O+,Obesity,2020-05-30,Juan Acevedo,Perez and Sons,Cigna,Emergency,2020-06-14,Aspirin,Inconclusive
+413,64,Male,Hemoglobin,13.16,g/dL,Low,Normal range for males,CHRis fRYe,58,Male,A-,Diabetes,2020-05-04,Heather Smith,Nelson-Phillips,Cigna,Urgent,2020-05-13,Aspirin,Normal
+413,64,Male,RBC,6.38,Million cells/µL,High,Normal for males,CHRis fRYe,58,Male,A-,Diabetes,2020-05-04,Heather Smith,Nelson-Phillips,Cigna,Urgent,2020-05-13,Aspirin,Normal
+413,64,Male,Cholesterol_Total,178.81,mg/dL,Normal,Desirable range,CHRis fRYe,58,Male,A-,Diabetes,2020-05-04,Heather Smith,Nelson-Phillips,Cigna,Urgent,2020-05-13,Aspirin,Normal
+413,64,Male,Glucose_Fasting,87.25,mg/dL,Normal,Normal fasting glucose,CHRis fRYe,58,Male,A-,Diabetes,2020-05-04,Heather Smith,Nelson-Phillips,Cigna,Urgent,2020-05-13,Aspirin,Normal
+413,64,Male,Creatinine,1.04,mg/dL,Normal,Normal for males,CHRis fRYe,58,Male,A-,Diabetes,2020-05-04,Heather Smith,Nelson-Phillips,Cigna,Urgent,2020-05-13,Aspirin,Normal
+413,64,Male,Bilirubin_Total,1.06,mg/dL,Normal,Normal range,CHRis fRYe,58,Male,A-,Diabetes,2020-05-04,Heather Smith,Nelson-Phillips,Cigna,Urgent,2020-05-13,Aspirin,Normal
+413,64,Male,TSH,0.87,mIU/L,Normal,Normal range,CHRis fRYe,58,Male,A-,Diabetes,2020-05-04,Heather Smith,Nelson-Phillips,Cigna,Urgent,2020-05-13,Aspirin,Normal
+418,51,Male,Hemoglobin,12.53,g/dL,Low,Normal range for males,Mr. eRiC Lane,49,Female,A-,Asthma,2022-06-24,Matthew Thomas,"and Howell Brooks, Rogers",Cigna,Elective,2022-07-18,Paracetamol,Normal
+418,51,Male,RBC,5.3,Million cells/µL,Normal,Normal for males,Mr. eRiC Lane,49,Female,A-,Asthma,2022-06-24,Matthew Thomas,"and Howell Brooks, Rogers",Cigna,Elective,2022-07-18,Paracetamol,Normal
+418,51,Male,Cholesterol_Total,132.38,mg/dL,Normal,Desirable range,Mr. eRiC Lane,49,Female,A-,Asthma,2022-06-24,Matthew Thomas,"and Howell Brooks, Rogers",Cigna,Elective,2022-07-18,Paracetamol,Normal
+418,51,Male,Glucose_Fasting,84.77,mg/dL,Normal,Normal fasting glucose,Mr. eRiC Lane,49,Female,A-,Asthma,2022-06-24,Matthew Thomas,"and Howell Brooks, Rogers",Cigna,Elective,2022-07-18,Paracetamol,Normal
+418,51,Male,Creatinine,1.73,mg/dL,High,Normal for males,Mr. eRiC Lane,49,Female,A-,Asthma,2022-06-24,Matthew Thomas,"and Howell Brooks, Rogers",Cigna,Elective,2022-07-18,Paracetamol,Normal
+418,51,Male,Bilirubin_Total,0.95,mg/dL,Normal,Normal range,Mr. eRiC Lane,49,Female,A-,Asthma,2022-06-24,Matthew Thomas,"and Howell Brooks, Rogers",Cigna,Elective,2022-07-18,Paracetamol,Normal
+418,51,Male,TSH,2.66,mIU/L,Normal,Normal range,Mr. eRiC Lane,49,Female,A-,Asthma,2022-06-24,Matthew Thomas,"and Howell Brooks, Rogers",Cigna,Elective,2022-07-18,Paracetamol,Normal
+422,44,Male,Hemoglobin,17.05,g/dL,Normal,Normal range for males,tiMOThY myers,61,Male,B+,Cancer,2024-03-02,Timothy Baker,and Sons Reyes,UnitedHealthcare,Urgent,2024-03-26,Ibuprofen,Inconclusive
+422,44,Male,RBC,5.2,Million cells/µL,Normal,Normal for males,tiMOThY myers,61,Male,B+,Cancer,2024-03-02,Timothy Baker,and Sons Reyes,UnitedHealthcare,Urgent,2024-03-26,Ibuprofen,Inconclusive
+422,44,Male,Cholesterol_Total,199.46,mg/dL,Normal,Desirable range,tiMOThY myers,61,Male,B+,Cancer,2024-03-02,Timothy Baker,and Sons Reyes,UnitedHealthcare,Urgent,2024-03-26,Ibuprofen,Inconclusive
+422,44,Male,Glucose_Fasting,68.81,mg/dL,Low,Normal fasting glucose,tiMOThY myers,61,Male,B+,Cancer,2024-03-02,Timothy Baker,and Sons Reyes,UnitedHealthcare,Urgent,2024-03-26,Ibuprofen,Inconclusive
+422,44,Male,Creatinine,1.16,mg/dL,Normal,Normal for males,tiMOThY myers,61,Male,B+,Cancer,2024-03-02,Timothy Baker,and Sons Reyes,UnitedHealthcare,Urgent,2024-03-26,Ibuprofen,Inconclusive
+422,44,Male,Bilirubin_Total,0.24,mg/dL,Normal,Normal range,tiMOThY myers,61,Male,B+,Cancer,2024-03-02,Timothy Baker,and Sons Reyes,UnitedHealthcare,Urgent,2024-03-26,Ibuprofen,Inconclusive
+422,44,Male,TSH,1.43,mIU/L,Normal,Normal range,tiMOThY myers,61,Male,B+,Cancer,2024-03-02,Timothy Baker,and Sons Reyes,UnitedHealthcare,Urgent,2024-03-26,Ibuprofen,Inconclusive
+428,68,Male,Hemoglobin,13.4,g/dL,Low,Normal range for males,wILLIAM hIlL,38,Female,A+,Cancer,2023-05-16,Matthew Walker,Lindsey Inc,Cigna,Elective,2023-06-01,Aspirin,Abnormal
+428,68,Male,Hemoglobin,13.4,g/dL,Low,Normal range for males,heatHER mIller,76,Male,A+,Diabetes,2021-04-17,Scott Grant,"Powell Ward, and Mercado",Aetna,Elective,2021-05-10,Lipitor,Inconclusive
+428,68,Male,RBC,6.58,Million cells/µL,High,Normal for males,wILLIAM hIlL,38,Female,A+,Cancer,2023-05-16,Matthew Walker,Lindsey Inc,Cigna,Elective,2023-06-01,Aspirin,Abnormal
+428,68,Male,RBC,6.58,Million cells/µL,High,Normal for males,heatHER mIller,76,Male,A+,Diabetes,2021-04-17,Scott Grant,"Powell Ward, and Mercado",Aetna,Elective,2021-05-10,Lipitor,Inconclusive
+428,68,Male,Cholesterol_Total,125.81,mg/dL,Normal,Desirable range,wILLIAM hIlL,38,Female,A+,Cancer,2023-05-16,Matthew Walker,Lindsey Inc,Cigna,Elective,2023-06-01,Aspirin,Abnormal
+428,68,Male,Cholesterol_Total,125.81,mg/dL,Normal,Desirable range,heatHER mIller,76,Male,A+,Diabetes,2021-04-17,Scott Grant,"Powell Ward, and Mercado",Aetna,Elective,2021-05-10,Lipitor,Inconclusive
+428,68,Male,Glucose_Fasting,77.69,mg/dL,Normal,Normal fasting glucose,wILLIAM hIlL,38,Female,A+,Cancer,2023-05-16,Matthew Walker,Lindsey Inc,Cigna,Elective,2023-06-01,Aspirin,Abnormal
+428,68,Male,Glucose_Fasting,77.69,mg/dL,Normal,Normal fasting glucose,heatHER mIller,76,Male,A+,Diabetes,2021-04-17,Scott Grant,"Powell Ward, and Mercado",Aetna,Elective,2021-05-10,Lipitor,Inconclusive
+428,68,Male,Creatinine,0.97,mg/dL,Normal,Normal for males,wILLIAM hIlL,38,Female,A+,Cancer,2023-05-16,Matthew Walker,Lindsey Inc,Cigna,Elective,2023-06-01,Aspirin,Abnormal
+428,68,Male,Creatinine,0.97,mg/dL,Normal,Normal for males,heatHER mIller,76,Male,A+,Diabetes,2021-04-17,Scott Grant,"Powell Ward, and Mercado",Aetna,Elective,2021-05-10,Lipitor,Inconclusive
+428,68,Male,Bilirubin_Total,0.87,mg/dL,Normal,Normal range,wILLIAM hIlL,38,Female,A+,Cancer,2023-05-16,Matthew Walker,Lindsey Inc,Cigna,Elective,2023-06-01,Aspirin,Abnormal
+428,68,Male,Bilirubin_Total,0.87,mg/dL,Normal,Normal range,heatHER mIller,76,Male,A+,Diabetes,2021-04-17,Scott Grant,"Powell Ward, and Mercado",Aetna,Elective,2021-05-10,Lipitor,Inconclusive
+428,68,Male,TSH,4.02,mIU/L,High,Normal range,wILLIAM hIlL,38,Female,A+,Cancer,2023-05-16,Matthew Walker,Lindsey Inc,Cigna,Elective,2023-06-01,Aspirin,Abnormal
+428,68,Male,TSH,4.02,mIU/L,High,Normal range,heatHER mIller,76,Male,A+,Diabetes,2021-04-17,Scott Grant,"Powell Ward, and Mercado",Aetna,Elective,2021-05-10,Lipitor,Inconclusive
+449,48,Female,Hemoglobin,13.33,g/dL,Low,Normal range for males,mRS. jamiE cAMPBELl,38,Male,AB-,Obesity,2020-03-08,Justin Kim,"Torres, and Harrison Jones",Cigna,Urgent,2020-04-02,Paracetamol,Abnormal
+449,48,Female,RBC,7.26,Million cells/µL,High,Normal for males,mRS. jamiE cAMPBELl,38,Male,AB-,Obesity,2020-03-08,Justin Kim,"Torres, and Harrison Jones",Cigna,Urgent,2020-04-02,Paracetamol,Abnormal
+449,48,Female,Cholesterol_Total,182.09,mg/dL,Normal,Desirable range,mRS. jamiE cAMPBELl,38,Male,AB-,Obesity,2020-03-08,Justin Kim,"Torres, and Harrison Jones",Cigna,Urgent,2020-04-02,Paracetamol,Abnormal
+449,48,Female,Glucose_Fasting,101.13,mg/dL,High,Normal fasting glucose,mRS. jamiE cAMPBELl,38,Male,AB-,Obesity,2020-03-08,Justin Kim,"Torres, and Harrison Jones",Cigna,Urgent,2020-04-02,Paracetamol,Abnormal
+449,48,Female,Bilirubin_Total,1.74,mg/dL,High,Normal range,mRS. jamiE cAMPBELl,38,Male,AB-,Obesity,2020-03-08,Justin Kim,"Torres, and Harrison Jones",Cigna,Urgent,2020-04-02,Paracetamol,Abnormal
+449,48,Female,TSH,4.76,mIU/L,High,Normal range,mRS. jamiE cAMPBELl,38,Male,AB-,Obesity,2020-03-08,Justin Kim,"Torres, and Harrison Jones",Cigna,Urgent,2020-04-02,Paracetamol,Abnormal
+450,28,Male,Hemoglobin,17.38,g/dL,Normal,Normal range for males,andrEw waTtS,28,Female,O+,Diabetes,2020-11-18,Kevin Wells,"Hernandez Rogers and Vang,",Medicare,Elective,2020-12-18,Ibuprofen,Abnormal
+450,28,Male,RBC,3.88,Million cells/µL,Low,Normal for males,andrEw waTtS,28,Female,O+,Diabetes,2020-11-18,Kevin Wells,"Hernandez Rogers and Vang,",Medicare,Elective,2020-12-18,Ibuprofen,Abnormal
+450,28,Male,Cholesterol_Total,181.98,mg/dL,Normal,Desirable range,andrEw waTtS,28,Female,O+,Diabetes,2020-11-18,Kevin Wells,"Hernandez Rogers and Vang,",Medicare,Elective,2020-12-18,Ibuprofen,Abnormal
+450,28,Male,Glucose_Fasting,99.35,mg/dL,Normal,Normal fasting glucose,andrEw waTtS,28,Female,O+,Diabetes,2020-11-18,Kevin Wells,"Hernandez Rogers and Vang,",Medicare,Elective,2020-12-18,Ibuprofen,Abnormal
+450,28,Male,Creatinine,1.79,mg/dL,High,Normal for males,andrEw waTtS,28,Female,O+,Diabetes,2020-11-18,Kevin Wells,"Hernandez Rogers and Vang,",Medicare,Elective,2020-12-18,Ibuprofen,Abnormal
+450,28,Male,Bilirubin_Total,0.23,mg/dL,Normal,Normal range,andrEw waTtS,28,Female,O+,Diabetes,2020-11-18,Kevin Wells,"Hernandez Rogers and Vang,",Medicare,Elective,2020-12-18,Ibuprofen,Abnormal
+450,28,Male,TSH,3.45,mIU/L,Normal,Normal range,andrEw waTtS,28,Female,O+,Diabetes,2020-11-18,Kevin Wells,"Hernandez Rogers and Vang,",Medicare,Elective,2020-12-18,Ibuprofen,Abnormal
+456,34,Male,Hemoglobin,17.93,g/dL,High,Normal range for males,mIchael LiU,30,Male,AB-,Hypertension,2024-04-05,Vicki Nguyen,"Fernandez and Phillips, Singh",Medicare,Emergency,2024-04-22,Paracetamol,Inconclusive
+456,34,Male,RBC,5.57,Million cells/µL,Normal,Normal for males,mIchael LiU,30,Male,AB-,Hypertension,2024-04-05,Vicki Nguyen,"Fernandez and Phillips, Singh",Medicare,Emergency,2024-04-22,Paracetamol,Inconclusive
+456,34,Male,Cholesterol_Total,129.2,mg/dL,Normal,Desirable range,mIchael LiU,30,Male,AB-,Hypertension,2024-04-05,Vicki Nguyen,"Fernandez and Phillips, Singh",Medicare,Emergency,2024-04-22,Paracetamol,Inconclusive
+456,34,Male,Glucose_Fasting,96.2,mg/dL,Normal,Normal fasting glucose,mIchael LiU,30,Male,AB-,Hypertension,2024-04-05,Vicki Nguyen,"Fernandez and Phillips, Singh",Medicare,Emergency,2024-04-22,Paracetamol,Inconclusive
+456,34,Male,Creatinine,0.45,mg/dL,Low,Normal for males,mIchael LiU,30,Male,AB-,Hypertension,2024-04-05,Vicki Nguyen,"Fernandez and Phillips, Singh",Medicare,Emergency,2024-04-22,Paracetamol,Inconclusive
+456,34,Male,Bilirubin_Total,0.15,mg/dL,Normal,Normal range,mIchael LiU,30,Male,AB-,Hypertension,2024-04-05,Vicki Nguyen,"Fernandez and Phillips, Singh",Medicare,Emergency,2024-04-22,Paracetamol,Inconclusive
+456,34,Male,TSH,2.67,mIU/L,Normal,Normal range,mIchael LiU,30,Male,AB-,Hypertension,2024-04-05,Vicki Nguyen,"Fernandez and Phillips, Singh",Medicare,Emergency,2024-04-22,Paracetamol,Inconclusive
+458,41,Male,Hemoglobin,13.81,g/dL,Normal,Normal range for males,adrIENNE bEll,43,Female,AB+,Cancer,2022-09-19,Kathleen Hanna,White-White,Aetna,Urgent,2022-10-09,Penicillin,Abnormal
+458,41,Male,RBC,6.11,Million cells/µL,High,Normal for males,adrIENNE bEll,43,Female,AB+,Cancer,2022-09-19,Kathleen Hanna,White-White,Aetna,Urgent,2022-10-09,Penicillin,Abnormal
+458,41,Male,Cholesterol_Total,126.66,mg/dL,Normal,Desirable range,adrIENNE bEll,43,Female,AB+,Cancer,2022-09-19,Kathleen Hanna,White-White,Aetna,Urgent,2022-10-09,Penicillin,Abnormal
+458,41,Male,Glucose_Fasting,82.5,mg/dL,Normal,Normal fasting glucose,adrIENNE bEll,43,Female,AB+,Cancer,2022-09-19,Kathleen Hanna,White-White,Aetna,Urgent,2022-10-09,Penicillin,Abnormal
+458,41,Male,Creatinine,0.65,mg/dL,Low,Normal for males,adrIENNE bEll,43,Female,AB+,Cancer,2022-09-19,Kathleen Hanna,White-White,Aetna,Urgent,2022-10-09,Penicillin,Abnormal
+458,41,Male,Bilirubin_Total,1.34,mg/dL,High,Normal range,adrIENNE bEll,43,Female,AB+,Cancer,2022-09-19,Kathleen Hanna,White-White,Aetna,Urgent,2022-10-09,Penicillin,Abnormal
+458,41,Male,TSH,3.09,mIU/L,Normal,Normal range,adrIENNE bEll,43,Female,AB+,Cancer,2022-09-19,Kathleen Hanna,White-White,Aetna,Urgent,2022-10-09,Penicillin,Abnormal
+459,71,Female,Hemoglobin,18.06,g/dL,High,Normal range for males,TOdd coopeR,55,Female,A+,Diabetes,2022-12-10,Jason Price,Henderson-Taylor,UnitedHealthcare,Elective,2022-12-31,Ibuprofen,Normal
+459,71,Female,RBC,5.8,Million cells/µL,Normal,Normal for males,TOdd coopeR,55,Female,A+,Diabetes,2022-12-10,Jason Price,Henderson-Taylor,UnitedHealthcare,Elective,2022-12-31,Ibuprofen,Normal
+459,71,Female,Cholesterol_Total,188.04,mg/dL,Normal,Desirable range,TOdd coopeR,55,Female,A+,Diabetes,2022-12-10,Jason Price,Henderson-Taylor,UnitedHealthcare,Elective,2022-12-31,Ibuprofen,Normal
+459,71,Female,Glucose_Fasting,83.56,mg/dL,Normal,Normal fasting glucose,TOdd coopeR,55,Female,A+,Diabetes,2022-12-10,Jason Price,Henderson-Taylor,UnitedHealthcare,Elective,2022-12-31,Ibuprofen,Normal
+459,71,Female,TSH,1.77,mIU/L,Normal,Normal range,TOdd coopeR,55,Female,A+,Diabetes,2022-12-10,Jason Price,Henderson-Taylor,UnitedHealthcare,Elective,2022-12-31,Ibuprofen,Normal
+465,57,Male,Hemoglobin,16.07,g/dL,Normal,Normal range for males,MS. nAtalIE gAMble,46,Female,AB-,Obesity,2023-01-01,Maria Dougherty,Cline-Williams,Blue Cross,Elective,2023-01-11,Aspirin,Inconclusive
+465,57,Male,Hemoglobin,16.07,g/dL,Normal,Normal range for males,dANIEL schmIdt,63,Male,B+,Asthma,2022-11-15,Denise Galloway,Hammond Ltd,Cigna,Elective,2022-11-22,Penicillin,Normal
+465,57,Male,RBC,3.37,Million cells/µL,Low,Normal for males,MS. nAtalIE gAMble,46,Female,AB-,Obesity,2023-01-01,Maria Dougherty,Cline-Williams,Blue Cross,Elective,2023-01-11,Aspirin,Inconclusive
+465,57,Male,RBC,3.37,Million cells/µL,Low,Normal for males,dANIEL schmIdt,63,Male,B+,Asthma,2022-11-15,Denise Galloway,Hammond Ltd,Cigna,Elective,2022-11-22,Penicillin,Normal
+465,57,Male,Cholesterol_Total,154.99,mg/dL,Normal,Desirable range,MS. nAtalIE gAMble,46,Female,AB-,Obesity,2023-01-01,Maria Dougherty,Cline-Williams,Blue Cross,Elective,2023-01-11,Aspirin,Inconclusive
+465,57,Male,Cholesterol_Total,154.99,mg/dL,Normal,Desirable range,dANIEL schmIdt,63,Male,B+,Asthma,2022-11-15,Denise Galloway,Hammond Ltd,Cigna,Elective,2022-11-22,Penicillin,Normal
+465,57,Male,Glucose_Fasting,99.98,mg/dL,Normal,Normal fasting glucose,MS. nAtalIE gAMble,46,Female,AB-,Obesity,2023-01-01,Maria Dougherty,Cline-Williams,Blue Cross,Elective,2023-01-11,Aspirin,Inconclusive
+465,57,Male,Glucose_Fasting,99.98,mg/dL,Normal,Normal fasting glucose,dANIEL schmIdt,63,Male,B+,Asthma,2022-11-15,Denise Galloway,Hammond Ltd,Cigna,Elective,2022-11-22,Penicillin,Normal
+465,57,Male,Creatinine,1.08,mg/dL,Normal,Normal for males,MS. nAtalIE gAMble,46,Female,AB-,Obesity,2023-01-01,Maria Dougherty,Cline-Williams,Blue Cross,Elective,2023-01-11,Aspirin,Inconclusive
+465,57,Male,Creatinine,1.08,mg/dL,Normal,Normal for males,dANIEL schmIdt,63,Male,B+,Asthma,2022-11-15,Denise Galloway,Hammond Ltd,Cigna,Elective,2022-11-22,Penicillin,Normal
+468,24,Female,Hemoglobin,14.45,g/dL,Normal,Normal range for males,JessIca king,27,Male,AB-,Cancer,2019-12-09,William Hess,Sons Watson and,Medicare,Urgent,2019-12-21,Lipitor,Abnormal
+468,24,Female,RBC,5.35,Million cells/µL,Normal,Normal for males,JessIca king,27,Male,AB-,Cancer,2019-12-09,William Hess,Sons Watson and,Medicare,Urgent,2019-12-21,Lipitor,Abnormal
+468,24,Female,Cholesterol_Total,169.11,mg/dL,Normal,Desirable range,JessIca king,27,Male,AB-,Cancer,2019-12-09,William Hess,Sons Watson and,Medicare,Urgent,2019-12-21,Lipitor,Abnormal
+468,24,Female,Glucose_Fasting,73.91,mg/dL,Normal,Normal fasting glucose,JessIca king,27,Male,AB-,Cancer,2019-12-09,William Hess,Sons Watson and,Medicare,Urgent,2019-12-21,Lipitor,Abnormal
+468,24,Female,Creatinine,0.23,mg/dL,Low,Normal for males,JessIca king,27,Male,AB-,Cancer,2019-12-09,William Hess,Sons Watson and,Medicare,Urgent,2019-12-21,Lipitor,Abnormal
+468,24,Female,Bilirubin_Total,0.67,mg/dL,Normal,Normal range,JessIca king,27,Male,AB-,Cancer,2019-12-09,William Hess,Sons Watson and,Medicare,Urgent,2019-12-21,Lipitor,Abnormal
+468,24,Female,TSH,1.81,mIU/L,Normal,Normal range,JessIca king,27,Male,AB-,Cancer,2019-12-09,William Hess,Sons Watson and,Medicare,Urgent,2019-12-21,Lipitor,Abnormal
+478,19,Female,Hemoglobin,12.89,g/dL,Low,Normal range for males,chRiSTOPHer LEe,74,Female,B-,Hypertension,2021-09-15,William Reynolds,PLC Young,Cigna,Emergency,2021-10-05,Lipitor,Normal
+478,19,Female,RBC,6.62,Million cells/µL,High,Normal for males,chRiSTOPHer LEe,74,Female,B-,Hypertension,2021-09-15,William Reynolds,PLC Young,Cigna,Emergency,2021-10-05,Lipitor,Normal
+478,19,Female,Cholesterol_Total,148.2,mg/dL,Normal,Desirable range,chRiSTOPHer LEe,74,Female,B-,Hypertension,2021-09-15,William Reynolds,PLC Young,Cigna,Emergency,2021-10-05,Lipitor,Normal
+478,19,Female,Glucose_Fasting,72.75,mg/dL,Normal,Normal fasting glucose,chRiSTOPHer LEe,74,Female,B-,Hypertension,2021-09-15,William Reynolds,PLC Young,Cigna,Emergency,2021-10-05,Lipitor,Normal
+478,19,Female,Bilirubin_Total,1.18,mg/dL,Normal,Normal range,chRiSTOPHer LEe,74,Female,B-,Hypertension,2021-09-15,William Reynolds,PLC Young,Cigna,Emergency,2021-10-05,Lipitor,Normal
+478,19,Female,TSH,3.09,mIU/L,Normal,Normal range,chRiSTOPHer LEe,74,Female,B-,Hypertension,2021-09-15,William Reynolds,PLC Young,Cigna,Emergency,2021-10-05,Lipitor,Normal
+481,53,Female,Hemoglobin,14.95,g/dL,Normal,Normal range for males,DEnIse ToRRES,33,Male,AB+,Diabetes,2019-10-14,Laura Myers,LLC Martin,Aetna,Urgent,2019-10-19,Paracetamol,Inconclusive
+481,53,Female,RBC,4.1,Million cells/µL,Low,Normal for males,DEnIse ToRRES,33,Male,AB+,Diabetes,2019-10-14,Laura Myers,LLC Martin,Aetna,Urgent,2019-10-19,Paracetamol,Inconclusive
+481,53,Female,Cholesterol_Total,139.9,mg/dL,Normal,Desirable range,DEnIse ToRRES,33,Male,AB+,Diabetes,2019-10-14,Laura Myers,LLC Martin,Aetna,Urgent,2019-10-19,Paracetamol,Inconclusive
+481,53,Female,Glucose_Fasting,78.73,mg/dL,Normal,Normal fasting glucose,DEnIse ToRRES,33,Male,AB+,Diabetes,2019-10-14,Laura Myers,LLC Martin,Aetna,Urgent,2019-10-19,Paracetamol,Inconclusive
+481,53,Female,Creatinine,0.69,mg/dL,Low,Normal for males,DEnIse ToRRES,33,Male,AB+,Diabetes,2019-10-14,Laura Myers,LLC Martin,Aetna,Urgent,2019-10-19,Paracetamol,Inconclusive
+481,53,Female,Bilirubin_Total,0.61,mg/dL,Normal,Normal range,DEnIse ToRRES,33,Male,AB+,Diabetes,2019-10-14,Laura Myers,LLC Martin,Aetna,Urgent,2019-10-19,Paracetamol,Inconclusive
+481,53,Female,TSH,1.8,mIU/L,Normal,Normal range,DEnIse ToRRES,33,Male,AB+,Diabetes,2019-10-14,Laura Myers,LLC Martin,Aetna,Urgent,2019-10-19,Paracetamol,Inconclusive
+482,71,Male,Hemoglobin,13.12,g/dL,Low,Normal range for males,CARL BEst,60,Male,B+,Hypertension,2022-08-22,Gregory Hansen,Ltd Wang,Blue Cross,Elective,2022-09-07,Paracetamol,Inconclusive
+482,71,Male,RBC,6.93,Million cells/µL,High,Normal for males,CARL BEst,60,Male,B+,Hypertension,2022-08-22,Gregory Hansen,Ltd Wang,Blue Cross,Elective,2022-09-07,Paracetamol,Inconclusive
+482,71,Male,Cholesterol_Total,200.59,mg/dL,High,Desirable range,CARL BEst,60,Male,B+,Hypertension,2022-08-22,Gregory Hansen,Ltd Wang,Blue Cross,Elective,2022-09-07,Paracetamol,Inconclusive
+482,71,Male,Glucose_Fasting,78.33,mg/dL,Normal,Normal fasting glucose,CARL BEst,60,Male,B+,Hypertension,2022-08-22,Gregory Hansen,Ltd Wang,Blue Cross,Elective,2022-09-07,Paracetamol,Inconclusive
+482,71,Male,Creatinine,2.66,mg/dL,High,Normal for males,CARL BEst,60,Male,B+,Hypertension,2022-08-22,Gregory Hansen,Ltd Wang,Blue Cross,Elective,2022-09-07,Paracetamol,Inconclusive
+482,71,Male,Bilirubin_Total,1.57,mg/dL,High,Normal range,CARL BEst,60,Male,B+,Hypertension,2022-08-22,Gregory Hansen,Ltd Wang,Blue Cross,Elective,2022-09-07,Paracetamol,Inconclusive
+482,71,Male,TSH,3.54,mIU/L,Normal,Normal range,CARL BEst,60,Male,B+,Hypertension,2022-08-22,Gregory Hansen,Ltd Wang,Blue Cross,Elective,2022-09-07,Paracetamol,Inconclusive
+489,28,Female,Hemoglobin,17.5,g/dL,Normal,Normal range for males,MicHAEl MillEr,31,Male,B+,Diabetes,2024-02-06,Jonathan Drake,"Clark Brown, and Myers",UnitedHealthcare,Emergency,2024-02-10,Penicillin,Normal
+489,28,Female,RBC,5.54,Million cells/µL,Normal,Normal for males,MicHAEl MillEr,31,Male,B+,Diabetes,2024-02-06,Jonathan Drake,"Clark Brown, and Myers",UnitedHealthcare,Emergency,2024-02-10,Penicillin,Normal
+489,28,Female,Cholesterol_Total,182.0,mg/dL,Normal,Desirable range,MicHAEl MillEr,31,Male,B+,Diabetes,2024-02-06,Jonathan Drake,"Clark Brown, and Myers",UnitedHealthcare,Emergency,2024-02-10,Penicillin,Normal
+489,28,Female,Glucose_Fasting,75.02,mg/dL,Normal,Normal fasting glucose,MicHAEl MillEr,31,Male,B+,Diabetes,2024-02-06,Jonathan Drake,"Clark Brown, and Myers",UnitedHealthcare,Emergency,2024-02-10,Penicillin,Normal
+489,28,Female,Creatinine,1.5,mg/dL,High,Normal for males,MicHAEl MillEr,31,Male,B+,Diabetes,2024-02-06,Jonathan Drake,"Clark Brown, and Myers",UnitedHealthcare,Emergency,2024-02-10,Penicillin,Normal
+489,28,Female,Bilirubin_Total,0.27,mg/dL,Normal,Normal range,MicHAEl MillEr,31,Male,B+,Diabetes,2024-02-06,Jonathan Drake,"Clark Brown, and Myers",UnitedHealthcare,Emergency,2024-02-10,Penicillin,Normal
+489,28,Female,TSH,2.73,mIU/L,Normal,Normal range,MicHAEl MillEr,31,Male,B+,Diabetes,2024-02-06,Jonathan Drake,"Clark Brown, and Myers",UnitedHealthcare,Emergency,2024-02-10,Penicillin,Normal
+492,49,Male,Hemoglobin,12.62,g/dL,Low,Normal range for males,JessE BaNks,67,Female,AB+,Cancer,2022-10-29,Alexander Garcia,"Decker Glover, and Christensen",Aetna,Urgent,2022-11-20,Penicillin,Inconclusive
+492,49,Male,RBC,6.52,Million cells/µL,High,Normal for males,JessE BaNks,67,Female,AB+,Cancer,2022-10-29,Alexander Garcia,"Decker Glover, and Christensen",Aetna,Urgent,2022-11-20,Penicillin,Inconclusive
+492,49,Male,Cholesterol_Total,166.95,mg/dL,Normal,Desirable range,JessE BaNks,67,Female,AB+,Cancer,2022-10-29,Alexander Garcia,"Decker Glover, and Christensen",Aetna,Urgent,2022-11-20,Penicillin,Inconclusive
+492,49,Male,Glucose_Fasting,91.97,mg/dL,Normal,Normal fasting glucose,JessE BaNks,67,Female,AB+,Cancer,2022-10-29,Alexander Garcia,"Decker Glover, and Christensen",Aetna,Urgent,2022-11-20,Penicillin,Inconclusive
+492,49,Male,Creatinine,1.07,mg/dL,Normal,Normal for males,JessE BaNks,67,Female,AB+,Cancer,2022-10-29,Alexander Garcia,"Decker Glover, and Christensen",Aetna,Urgent,2022-11-20,Penicillin,Inconclusive
+492,49,Male,Bilirubin_Total,0.31,mg/dL,Normal,Normal range,JessE BaNks,67,Female,AB+,Cancer,2022-10-29,Alexander Garcia,"Decker Glover, and Christensen",Aetna,Urgent,2022-11-20,Penicillin,Inconclusive
+492,49,Male,TSH,3.05,mIU/L,Normal,Normal range,JessE BaNks,67,Female,AB+,Cancer,2022-10-29,Alexander Garcia,"Decker Glover, and Christensen",Aetna,Urgent,2022-11-20,Penicillin,Inconclusive
+494,39,Male,Hemoglobin,12.8,g/dL,Low,Normal range for males,Erin oRTEga,43,Male,AB-,Cancer,2023-05-24,Heather Garcia,Lopez-Phillips,Medicare,Elective,2023-06-03,Ibuprofen,Normal
+494,39,Male,RBC,5.53,Million cells/µL,Normal,Normal for males,Erin oRTEga,43,Male,AB-,Cancer,2023-05-24,Heather Garcia,Lopez-Phillips,Medicare,Elective,2023-06-03,Ibuprofen,Normal
+494,39,Male,Cholesterol_Total,158.75,mg/dL,Normal,Desirable range,Erin oRTEga,43,Male,AB-,Cancer,2023-05-24,Heather Garcia,Lopez-Phillips,Medicare,Elective,2023-06-03,Ibuprofen,Normal
+494,39,Male,Glucose_Fasting,99.27,mg/dL,Normal,Normal fasting glucose,Erin oRTEga,43,Male,AB-,Cancer,2023-05-24,Heather Garcia,Lopez-Phillips,Medicare,Elective,2023-06-03,Ibuprofen,Normal
+494,39,Male,Creatinine,2.46,mg/dL,High,Normal for males,Erin oRTEga,43,Male,AB-,Cancer,2023-05-24,Heather Garcia,Lopez-Phillips,Medicare,Elective,2023-06-03,Ibuprofen,Normal
+494,39,Male,Bilirubin_Total,0.91,mg/dL,Normal,Normal range,Erin oRTEga,43,Male,AB-,Cancer,2023-05-24,Heather Garcia,Lopez-Phillips,Medicare,Elective,2023-06-03,Ibuprofen,Normal
+494,39,Male,TSH,0.68,mIU/L,Normal,Normal range,Erin oRTEga,43,Male,AB-,Cancer,2023-05-24,Heather Garcia,Lopez-Phillips,Medicare,Elective,2023-06-03,Ibuprofen,Normal

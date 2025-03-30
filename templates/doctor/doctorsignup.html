@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+{% load widget_tweaks %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Doctor Registration - Hospital Management System</title>
+  
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/css/bootstrap.min.css">
+  <!-- Include Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Include Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style type="text/css">
+    body {
+      color: #333;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      font-family: 'Poppins', sans-serif;
+      min-height: 100vh;
+      padding-bottom: 50px;
+    }
+
+    .page-container {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-header {
+      background: linear-gradient(135deg, #4e73df, #1cc88a);
+      color: #fff;
+      text-align: center;
+      padding: 25px 15px;
+      border-bottom: none;
+      position: relative;
+    }
+
+    .card-header h4 {
+      font-weight: 700;
+      margin-bottom: 0;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-header .header-subtitle {
+      font-size: 1rem;
+      opacity: 0.9;
+      margin-top: 8px;
+    }
+
+    .card-body {
+      padding: 30px;
+      background-color: #fff;
+    }
+
+    .form-group label {
+      font-weight: 500;
+      color: #555;
+      margin-bottom: 8px;
+      font-size: 0.9rem;
+    }
+
+    .form-control {
+      border-radius: 10px;
+      padding: 12px 15px;
+      border: 1px solid #e1e5eb;
+      font-size: 0.95rem;
+      transition: all 0.3s ease;
+      height: auto;
+      background-color: #f9fafc;
+    }
+
+    .form-control:focus {
+      border-color: #4e73df;
+      box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.15);
+      background-color: #fff;
+    }
+
+    .field-icon {
+      position: absolute;
+      top: 14px;
+      right: 25px;
+      color: #4e73df;
+      opacity: 0.6;
+    }
+
+    .form-group {
+      position: relative;
+      margin-bottom: 20px;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #4e73df, #1cc88a);
+      border: none;
+      border-radius: 10px;
+      padding: 12px 25px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      transition: all 0.3s ease;
+      box-shadow: 0 5px 15px rgba(78, 115, 223, 0.3);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(78, 115, 223, 0.4);
+      background: linear-gradient(135deg, #3a5ace, #06b16c);
+    }
+
+    .login-link {
+      color: #4e73df;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .login-link:hover {
+      color: #1cc88a;
+      text-decoration: none;
+    }
+
+    .upload-area {
+      background-color: #f9fafc;
+      border: 2px dashed #e1e5eb;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .upload-area:hover {
+      border-color: #4e73df;
+      background-color: #f5f7ff;
+    }
+
+    .upload-icon {
+      font-size: 24px;
+      color: #4e73df;
+      margin-bottom: 10px;
+    }
+
+    .upload-text {
+      color: #666;
+      font-size: 0.9rem;
+    }
+
+    .file-input {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    .form-check-label {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .section-divider {
+      position: relative;
+      text-align: center;
+      margin: 25px 0;
+    }
+
+    .section-divider span {
+      background-color: #fff;
+      padding: 0 15px;
+      position: relative;
+      z-index: 1;
+      color: #999;
+      font-size: 0.9rem;
+    }
+
+    .section-divider:after {
+      content: "";
+      display: block;
+      border-bottom: 1px solid #e1e5eb;
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      left: 0;
+      z-index: 0;
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .animated {
+      animation-duration: 0.7s;
+      animation-fill-mode: both;
+    }
+
+    .fadeInUp {
+      animation-name: fadeInUp;
+    }
+
+    .form-row {
+      margin-left: -10px;
+      margin-right: -10px;
+    }
+
+    .form-row > [class*="col-"] {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .btn-block {
+      display: block;
+      width: 100%;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .mt-4 {
+      margin-top: 1.5rem;
+    }
+
+    .mb-2 {
+      margin-bottom: 0.5rem;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .card-header {
+        padding: 20px 15px;
+      }
+      
+      .card-body {
+        padding: 20px;
+      }
+      
+      .btn-primary {
+        padding: 10px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  {% include "hospital/navbar.html" %}
+
+  <div class="container page-container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10 animated fadeInUp">
+        <div class="card">
+          <div class="card-header">
+            <h4><i class="fas fa-user-md mr-2"></i>Doctor Registration</h4>
+            <div class="header-subtitle">Join our medical team and enhance patient care</div>
+          </div>
+          
+          <div class="card-body">
+            <form method="post" enctype="multipart/form-data">
+              {% csrf_token %}
+              
+              <div class="form-row">
+                <div class="col-md-6">
+                  <h5 class="mb-3"><i class="fas fa-id-card mr-2"></i>Personal Information</h5>
+                  
+                  <div class="form-group">
+                    <label for="id_first_name">First Name</label>
+                    {% render_field userForm.first_name class="form-control" placeholder="Enter your first name" %}
+                    <i class="fas fa-user field-icon"></i>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="id_last_name">Last Name</label>
+                    {% render_field userForm.last_name class="form-control" placeholder="Enter your last name" %}
+                    <i class="fas fa-user field-icon"></i>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="id_mobile">Mobile</label>
+                    {% render_field doctorForm.mobile class="form-control" placeholder="Enter your mobile number" %}
+                    <i class="fas fa-phone field-icon"></i>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="id_address">Address</label>
+                    {% render_field doctorForm.address class="form-control" placeholder="Enter your address" %}
+                    <i class="fas fa-map-marker-alt field-icon"></i>
+                  </div>
+                </div>
+                
+                <div class="col-md-6">
+                  <h5 class="mb-3"><i class="fas fa-clipboard-list mr-2"></i>Account & Professional Details</h5>
+                  
+                  <div class="form-group">
+                    <label for="id_username">Username</label>
+                    {% render_field userForm.username class="form-control" placeholder="Choose a username" %}
+                    <i class="fas fa-at field-icon"></i>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="id_password">Password</label>
+                    {% render_field userForm.password class="form-control" placeholder="Create a strong password" type="password" %}
+                    <i class="fas fa-lock field-icon"></i>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="id_department">Department</label>
+                    {% render_field doctorForm.department class="form-control" placeholder="Your medical specialization" %}
+                    <i class="fas fa-hospital field-icon"></i>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="id_profile_pic">Profile Picture</label>
+                    <div class="upload-area">
+                      <div class="upload-icon">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                      </div>
+                      <div class="upload-text">
+                        <p class="mb-0">Click or drag a file to upload your profile picture</p>
+                        <p class="text-muted small mb-0">JPG, PNG or GIF (Max. 2MB)</p>
+                      </div>
+                      {% render_field doctorForm.profile_pic required="required" class="file-input" %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="section-divider">
+                <span>Registration Agreement</span>
+              </div>
+              
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="agreeTerms" required>
+                  <label class="form-check-label" for="agreeTerms">
+                    I agree to the <a href="#" class="login-link">Terms of Service</a> and <a href="#" class="login-link">Privacy Policy</a>
+                  </label>
+                </div>
+              </div>
+              
+              <div class="form-group mt-4">
+                <button type="submit" class="btn btn-primary btn-block">
+                  <i class="fas fa-user-plus mr-2"></i>Register as Doctor
+                </button>
+              </div>
+              
+              <div class="text-center mt-4">
+                <p>Already have an account? <a href="doctorlogin" class="login-link">Login here</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% include "hospital/footer.html" %}
+
+  <!-- Include Bootstrap JS and dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.0/js/bootstrap.min.js"></script>
+  
+  <script>
+    // Display filename when file is selected
+    document.querySelector('.file-input').addEventListener('change', function(e) {
+      const fileName = e.target.files[0].name;
+      const uploadText = document.querySelector('.upload-text p:first-child');
+      uploadText.textContent = 'Selected file: ' + fileName;
+    });
+    
+    // Form validation
+    const form = document.querySelector('form');
+    form.addEventListener('submit', function(event) {
+      const password = document.querySelector('input[type="password"]');
+      const checkbox = document.getElementById('agreeTerms');
+      
+      let isValid = true;
+      
+      // Simple password validation
+      if (password.value.length < 8) {
+        password.classList.add('is-invalid');
+        isValid = false;
+      } else {
+        password.classList.remove('is-invalid');
+      }
+      
+      // Terms agreement validation
+      if (!checkbox.checked) {
+        checkbox.classList.add('is-invalid');
+        isValid = false;
+      } else {
+        checkbox.classList.remove('is-invalid');
+      }
+      
+      if (!isValid) {
+        event.preventDefault();
+      }
+    });
+  </script>
+</body>
+</html>

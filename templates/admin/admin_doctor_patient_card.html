@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      /* General Body Styling */
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+      }
+
+      /* Grid Container for Cards */
+      .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 30px;
+        margin-top: 80px; /* For space above the cards */
+      }
+
+      /* Card Styling */
+      .card {
+        background: linear-gradient(145deg, #6a11cb, #2575fc); /* Gradient from purple to blue */
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1); /* Elevated shadow */
+        border-radius: 20px; /* Rounded corners */
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        transition: all 0.3s ease-in-out; /* Smooth animation */
+        overflow: hidden;
+        position: relative;
+        padding: 20px;
+      }
+
+      /* Card Image Styling */
+      .card img {
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+        border-radius: 10px; /* Rounded corners for images */
+        transition: transform 0.3s ease-in-out;
+      }
+
+      /* Card Image Hover Effect */
+      .card:hover img {
+        transform: scale(1.05); /* Slight zoom on image on hover */
+      }
+
+      /* Card Title Styling */
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        color: white;
+        margin-top: 15px;
+        transition: color 0.3s ease-in-out;
+      }
+
+      /* Button Styling */
+      button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 12px;
+        color: white;
+        background-color: #ff416c;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        border-radius: 25px; /* Rounded button */
+        margin-top: 20px;
+        transition: all 0.3s ease;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Button Hover Effects */
+      button:hover {
+        background-color: #ff7b54;
+        transform: translateY(-5px); /* Slight lift effect */
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Link Styling */
+      a:link,
+      a:visited {
+        text-decoration: none;
+        color: white;
+      }
+
+      a:hover {
+        opacity: 0.9;
+      }
+
+      /* Hover Effect for Cards */
+      .card:hover {
+        transform: translateY(-10px); /* Subtle lift effect */
+        box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
+      }
+
+      /* Responsive Design: Mobile View */
+      @media screen and (max-width: 768px) {
+        .grid-container {
+          grid-template-columns: 1fr 1fr; /* 2 cards per row on smaller screens */
+        }
+      }
+
+      @media screen and (max-width: 500px) {
+        .grid-container {
+          grid-template-columns: 1fr; /* 1 card per row on mobile */
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Main content section with cards -->
+    <div class="grid-container">
+      <!-- Admin Card -->
+      <div class="grid-item">
+        <div class="card">
+          <img src="{% static 'images/admin.png' %}" alt="Admin" />
+          <p class="title">ADMIN</p>
+          <p>
+            <button><a href="/adminclick">View</a></button>
+          </p>
+        </div>
+      </div>
+
+      <!-- Doctor Card -->
+      <div class="grid-item">
+        <div class="card">
+          <img src="{% static 'images/doctor.jpg' %}" alt="Doctor" />
+          <p class="title">DOCTOR</p>
+          <p>
+            <button><a href="/doctorclick">View</a></button>
+          </p>
+        </div>
+      </div>
+
+      <!-- Patient Card -->
+      <div class="grid-item">
+        <div class="card">
+          <img src="{% static 'images/patient.jpg' %}" alt="Patient" />
+          <p class="title">PATIENT</p>
+          <p>
+            <button><a href="/patientclick">View</a></button>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer (if required, can be added below) -->
+
+  </body>
+</html>

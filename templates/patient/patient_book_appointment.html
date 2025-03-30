@@ -1,0 +1,112 @@
+{% extends 'patient/patient_base.html' %}
+{% load widget_tweaks %}
+{% block content %}
+
+<head>
+  <style media="screen">
+    a:link {
+      text-decoration: none;
+    }
+
+    .note {
+      text-align: center;
+      height: 80px;
+      background: -webkit-linear-gradient(left, #0072ff, #8811c5);
+      color: #fff;
+      font-weight: bold;
+      line-height: 80px;
+    }
+
+    .form-content {
+      padding: 5%;
+      border: 1px solid #ced4da;
+      margin-bottom: 2%;
+    }
+
+    .form-control {
+      border-radius: 1.5rem;
+    }
+
+    .btnSubmit {
+      border: none;
+      border-radius: 1.5rem;
+      padding: 1%;
+      width: 20%;
+      cursor: pointer;
+      background: #0062cc;
+      color: #fff;
+    }
+
+    .menu {
+      top: 50px;
+    }
+  </style>
+
+  <link
+    href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    rel="stylesheet"
+    id="bootstrap-css"
+  />
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<br /><br />
+{% if message %}
+<script>
+  var a = "{{message}}";
+  alert(a);
+</script>
+{% endif %}
+<script>
+  // Check if the selected date is a holiday
+  document.getElementById('appointment_date').addEventListener('change', function() {
+    var selectedDate = this.value;
+    var holidays = {{ holidays|safe }};  // List of holidays passed from the backend
+
+    if (holidays.includes(selectedDate)) {
+        document.getElementById('holiday_check').innerText = 'Selected date is a holiday! Please choose another date.';
+        // Prevent form submission if date is holiday
+        document.querySelector('form').onsubmit = function() {
+            return false;  // Prevent form submission
+        };
+    } else {
+        document.getElementById('holiday_check').innerText = '';
+        document.querySelector('form').onsubmit = function() {
+            return true;  // Allow form submission
+        };
+    }
+});
+
+</script>
+
+<form method="post">
+  {% csrf_token %}
+  <div class="container register-form">
+    <div class="form">
+      <div class="note">
+        <p>Book Appointment Details</p>
+      </div>
+      <div class="form-content">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group ">
+              {% render_field appointmentForm.description class="form-control" placeholder="Description" rows="4" %}
+            </div>
+            <div class="form-group">
+              {% render_field appointmentForm.doctorId class="form-control" placeholder="Doctor" %}
+            </div>
+            <div class="form-group">
+              <label for="appointment_date">Select Appointment Date:</label>
+              <input type="date" id="appointment_date" name="appointment_date" class="form-control" required>
+            </div>
+            <div id="holiday_check" style="color: red;"></div>
+          </div>
+        </div>
+        <button type="submit" class="btnSubmit">Book</button>
+      </div>
+    </div>
+  </div>
+</form>
+
+
+{% endblock %}

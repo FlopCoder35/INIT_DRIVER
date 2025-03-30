@@ -1,0 +1,94 @@
+{% extends 'admin/admin_base.html' %}
+{% load static %}
+{% block content %}
+{% include 'admin/admin_dashboard_cards.html' %}
+<br><br><br><br>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-5" style="margin-left:2%;">
+      <div class="card shadow-lg border-0 rounded-lg" style="background: linear-gradient(135deg, #667eea, #764ba2); color: #fff;">
+        <div class="card-header text-center">
+          <h6 class="font-weight-bold">Recent Doctors</h6>
+        </div>
+        <div class="card-body">
+          <table class="table table-hover text-white" id="dev-table">
+            <thead>
+              <tr>
+                <th style="width: 25%;">Name</th>
+                <th style="width: 25%;">Department</th>
+                <th style="width: 25%;">Mobile</th>
+                <th style="width: 25%;">Status</th>
+              </tr>
+            </thead>
+            {% for d in doctors %}
+            <tr class="animate__animated animate__fadeInUp">
+              <td>{{ d.get_name }}</td>
+              <td>{{ d.department }}</td>
+              <td>{{ d.mobile }}</td>
+              {% if d.status %}
+              <td> <span class="badge bg-primary">Permanent</span></td>
+              {% else %}
+              <td> <span class="badge bg-warning text-dark">On Hold</span></td>
+              {% endif %}
+            </tr>
+            {% endfor %}
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6" style="margin-left:2%;">
+      <div class="card shadow-lg border-0 rounded-lg" style="background: linear-gradient(135deg, #43cea2, #185a9d); color: #fff;">
+        <div class="card-header text-center">
+          <h6 class="font-weight-bold">Recent Patients</h6>
+        </div>
+        <div class="card-body">
+          <table class="table table-hover text-white" id="dev-table">
+            <thead>
+              <tr>
+                <th style="width: 20%;">Name</th>
+                <th style="width: 20%;">Symptoms</th>
+                <th style="width: 20%;">Mobile</th>
+                <th style="width: 20%;">Address</th>
+                <th style="width: 20%;">Status</th>
+              </tr>
+            </thead>
+            {% for p in patients %}
+            <tr class="animate__animated animate__fadeInUp animate__delay-1s">
+              <td>{{ p.get_name }}</td>
+              <td>{{ p.symptoms }}</td>
+              <td>{{ p.mobile }}</td>
+              <td>{{ p.address }}</td>
+              {% if p.status %}
+              <td> <span class="badge bg-primary">Admitted</span></td>
+              {% else %}
+              <td> <span class="badge bg-success">On Hold</span></td>
+              {% endif %}
+            </tr>
+            {% endfor %}
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #f3f4f6;
+  }
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  }
+  .table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+</style>
+
+{% endblock content %}

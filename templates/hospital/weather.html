@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Weather App</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f0f2f5;
+            color: #333;
+            padding: 20px;
+        }
+        /* Layout */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        /* Header Styles */
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .header h1 {
+            color: #2196F3;
+            margin-bottom: 10px;
+        }
+        /* Search Section */
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            justify-content: center;
+        }
+        .search-box input {
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .search-box button {
+            padding: 10px 20px;
+            background: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .search-box button:hover {
+            background: #1976D2;
+        }
+        /* Weather Display */
+        .weather-info {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .location {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #1976D2;
+        }
+        .weather-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .weather-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .weather-value {
+            font-size: 24px;
+            color: #2196F3;
+            margin: 10px 0;
+        }
+        /* Loading and Error States */
+        .loading {
+            display: none;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .error {
+            display: none;
+            background: #ffebee;
+            color: #c62828;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            .search-box {
+                flex-direction: column;
+            }
+            .search-box input {
+                width: 100%;
+            }
+            .weather-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Weather Dashboard</h1>
+        </div>
+        <div class="error" id="error"></div>
+        
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Enter location...">
+            <button onclick="searchWeather()">Search</button>
+            <button onclick="getCurrentLocation()">Current Location</button>
+        </div>
+        <div class="weather-info">
+            <div class="location" id="location">Location</div>
+            <div class="weather-grid">
+                <div class="weather-item">
+                    <div>Temperature</div>
+                    <div class="weather-value" id="temperature">--°C</div>
+                </div>
+                <div class="weather-item">
+                    <div>Condition</div>
+                    <div class="weather-value" id="condition">--</div>
+                </div>
+                <div class="weather-item">
+                    <div>Humidity</div>
+                    <div class="weather-value" id="humidity">--%</div>
+                </div>
+                <div class="weather-item">
+                    <div>Wind Speed</div>
+                    <div class="weather-value" id="windSpeed">-- km/h</div>
+                </div>
+            </div>
+        </div>
+        <div class="loading" id="loading">Loading...</div>
+    </div>
+    <script>
+        // Configuration
+        const API_KEY = '168771779c71f3d64106d8a88376808a';
+        const BASE_URL = 'https://api.openweathermap.org/data/2.5';
+        // DOM Elements
+        const elements = {
+            searchInput: document.getElementById('searchInput'),
+            error: document.getElementById('error'),
+            loading: document.getElementById('loading'),
+            location: document.getElementById('location'),
+            temperature: document.getElementById('temperature'),
+            condition: document.getElementById('condition'),
+            humidity: document.getElementById('humidity'),
+            windSpeed: document.getElementById('windSpeed')
+        };
+        // Utility Functions
+        function showLoading(show = true) {
+            elements.loading.style.display = show ? 'block' : 'none';
+        }
+        function showError(message) {
+            elements.error.textContent = message;
+            elements.error.style.display = 'block';
+            setTimeout(() => {
+                elements.error.style.display = 'none';
+            }, 5000);
+        }
+        // Weather API Functions
+        async function fetchWeather(lat, lon) {
+            const response = await fetch(
+                `${BASE_URL}/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`
+            );
+            if (!response.ok) throw new Error('Weather data not available');
+            return response.json();
+        }
+        async function geocodeLocation(query) {
+            const response = await fetch(
+                `https://api.openweathermap.org/geo/1.0/direct?q=${encodeURIComponent(query)}&limit=1&appid=${API_KEY}`
+            );
+            const data = await response.json();
+            if (!data.length) throw new Error('Location not found');
+            return data[0];
+        }
+        // Update UI
+        function updateWeatherDisplay(data) {
+            elements.temperature.textContent = `${Math.round(data.main.temp)}°C`;
+            elements.condition.textContent = data.weather[0].main;
+            elements.humidity.textContent = `${data.main.humidity}%`;
+            elements.windSpeed.textContent = `${Math.round(data.wind.speed * 3.6)} km/h`;
+        }
+        // Main Functions
+        async function searchWeather() {
+            const query = elements.searchInput.value.trim();
+            if (!query) {
+                showError('Please enter a location');
+                return;
+            }
+            showLoading();
+            try {
+                const locationData = await geocodeLocation(query);
+                const weatherData = await fetchWeather(locationData.lat, locationData.lon);
+                
+                elements.location.textContent = `${locationData.name}, ${locationData.country}`;
+                updateWeatherDisplay(weatherData);
+            } catch (error) {
+                showError(error.message);
+            } finally {
+                showLoading(false);
+            }
+        }
+        async function getCurrentLocation() {
+            if (!navigator.geolocation) {
+                showError('Geolocation is not supported by your browser');
+                return;
+            }
+            showLoading();
+            navigator.geolocation.getCurrentPosition(
+                async position => {
+                    try {
+                        const weatherData = await fetchWeather(
+                            position.coords.latitude,
+                            position.coords.longitude
+                        );
+                        elements.location.textContent = 'Current Location';
+                        updateWeatherDisplay(weatherData);
+                    } catch (error) {
+                        showError('Error fetching weather data');
+                    } finally {
+                        showLoading(false);
+                    }
+                },
+                error => {
+                    showError('Unable to get your location');
+                    showLoading(false);
+                }
+            );
+        }
+        // Event Listeners
+        elements.searchInput.addEventListener('keypress', event => {
+            if (event.key === 'Enter') {
+                searchWeather();
+            }
+        });
+        // Initial Load
+        (async () => {
+            try {
+                const defaultWeather = await fetchWeather(40.7128, -74.0060);
+                elements.location.textContent = 'New York, US';
+                updateWeatherDisplay(defaultWeather);
+            } catch (error) {
+                showError('Failed to load initial weather data');
+            }
+        })();
+    </script>
+</body>
+</html>

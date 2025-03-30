@@ -1,0 +1,255 @@
+{% extends 'hospital/homebase.html' %}
+{% load static %}
+
+{% block content %}
+
+<head>
+  <style media="screen">
+    :root {
+      --primary-color: #2c7da0; /* Soothing blue */
+      --secondary-color: #468faf; /* Lighter blue */
+      --accent-color: #61a5c2; /* Accent blue */
+      --dark-color: #184e77; /* Dark blue */
+      --light-color: #e9f5fb; /* Light blue-white */
+    }
+
+    /* Jumbotron Styles */
+    .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      background-image: url('{% static "images/bgs.jpg" %}');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      position: relative;
+      border-radius: 10px;
+      box-shadow: inset 0 0 300px rgba(0, 0, 0, 0.5);
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    /* Elegant Header with Gradient */
+    .display-3 {
+      font-size: 3rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, var(--light-color), var(--accent-color));
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      letter-spacing: 1px;
+      text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+      animation: textFadeIn 1.5s ease-in-out;
+      margin-bottom: 1.5rem;
+    }
+
+    @keyframes textFadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Content Container with Clean Design */
+    .content-container {
+      max-width: 800px;
+      padding: 40px;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 15px;
+      border-left: 4px solid var(--primary-color);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    /* Emergency Section with Icon */
+    .emergency-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px 0;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .emergency-section i {
+      font-size: 2.5rem;
+      color: #ff6b6b;
+      margin-right: 15px;
+    }
+
+    .emergency-section h3 {
+      font-size: 2rem;
+      color: #fff;
+      font-weight: 500;
+      margin: 0;
+    }
+
+    /* Modern Button Design */
+    .btn-appointment {
+      background-color: var(--primary-color);
+      border: none;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 50px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      transition: all 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      animation: buttonFadeIn 2s ease-in-out;
+    }
+
+    .btn-appointment i {
+      margin-right: 10px;
+      font-size: 1.2rem;
+    }
+
+    .btn-appointment:hover {
+      background-color: var(--dark-color);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    @keyframes buttonFadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Lead Text */
+    .lead {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #e0e0e0;
+      margin-top: 20px;
+      letter-spacing: 0.5px;
+    }
+
+    /* Feature Cards Container */
+    .features-container {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    /* Feature Cards */
+    .feature-card {
+      background: white;
+      border-radius: 10px;
+      padding: 25px;
+      margin-bottom: 20px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      border-top: 4px solid var(--primary-color);
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .feature-card i {
+      font-size: 2.5rem;
+      color: var(--primary-color);
+      margin-bottom: 15px;
+    }
+
+    .feature-card h4 {
+      font-size: 1.5rem;
+      color: var(--dark-color);
+      margin-bottom: 15px;
+    }
+
+    .feature-card p {
+      color: #555;
+      font-size: 1rem;
+    }
+  </style>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<div class="jumbotron">
+  <div class="content-container">
+    <h5 class="display-3">Your Health, Our Priority – Compassionate Care at Its Best!</h5>
+    
+    <div class="emergency-section">
+      <i class="fas fa-heartbeat"></i>
+      <h3>Need Emergency Care?</h3>
+    </div>
+    
+    <p class="lead">
+      <a class="btn btn-appointment" href="/patientclick" role="button">
+        <i class="fas fa-calendar-check"></i> Book Appointment
+      </a>
+    </p>
+    
+    <p class="lead">Professional healthcare available 24/7</p>
+  </div>
+</div>
+
+<div class="container features-container">
+  <div class="row">
+      <div class="col-md-6">
+          <div class="feature-card text-center">
+              <i class="fas fa-comments"></i>
+              <a href="/chatbot">
+              <h4>Chat with Us</h4>
+              <p>Get instant medical advice from our experts through our 24/7 live chat service.</p>
+              </a> 
+            </div>
+      </div>
+      <div class="col-md-6">
+          <div class="feature-card text-center">
+              <i class="fas fa-prescription-bottle-alt"></i>
+              <a href="/prescription">
+                <h4 >Symptom Analyzer</h4>
+                <p>Easily manage and refill your symptoms with our hassle-free digital system.</p>
+              </a>
+          </div>
+      </div>
+  </div>
+
+  <div class="row">
+      <div class="col-md-6">
+          <div class="feature-card text-center">
+              <i class="fas fa-vials"></i>
+              <a href="/lab-tests">
+              <h4>Lab Analyzer</h4>
+              <p>Upload your test results and receive instant analysis and expert recommendations.</p>
+              </a>
+            </div>
+      </div>
+      <div class="col-md-6">
+          <div class="feature-card text-center">
+              <i class="fas fa-map-marker-alt"></i>
+              <a href="/nearbyhospital">
+                <h4>Nearby Hospital Locator</h4>
+                <p>Find the nearest hospitals and clinics based on your location in just one click.</p>
+              </a>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+<br><br><br>
+
+{% endblock content %}

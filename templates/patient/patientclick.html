@@ -1,0 +1,213 @@
+{% extends 'hospital/homebase.html' %}
+{% block content %}
+
+<!-- Hero Section with Enhanced Visuals -->
+<div class="hero-container animated fadeIn">
+  <div class="jumbotron text-center" style="margin-bottom: 3rem; background: linear-gradient(135deg, #4e73df, #1cc88a, #36b9cc); color: white; border-radius: 12px; padding: 3rem 2rem; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);">
+    <h1 class="display-4" style="font-family: 'Montserrat', sans-serif; font-weight: 700; text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3); margin-bottom: 1.5rem;">
+      Welcome to Your Health Journey
+    </h1>
+    <p class="lead" style="font-size: 1.4rem; letter-spacing: 0.5px; margin-bottom: 1.5rem; max-width: 800px; margin-left: auto; margin-right: auto;">
+      Your personal healthcare portal designed for simplicity and excellence.
+    </p>
+    <hr class="my-4" style="border-top: 2px solid rgba(255, 255, 255, 0.3); width: 70%; margin: 2rem auto;" />
+    <p style="font-size: 1.2rem; margin-bottom: 2rem;">
+      Experience healthcare management reimagined. Access your records, schedule appointments, and communicate with your healthcare team—all in one secure place.
+    </p>
+    <div class="button-container" style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+      <a class="btn btn-lg px-5 py-3 animated bounceInUp delay-1" href="/patientsignup" role="button"
+        style="background-color: #fff; color: #4e73df; border-radius: 50px; font-weight: 600; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+        <i class="fas fa-user-plus mr-2"></i> Create Account
+      </a>
+      <a class="btn btn-lg px-5 py-3 animated bounceInUp delay-2" href="/patientlogin" role="button"
+        style="background-color: rgba(255,255,255,0.2); color: white; border: 2px solid white; border-radius: 50px; font-weight: 600; transition: all 0.3s ease;">
+        <i class="fas fa-sign-in-alt mr-2"></i> Sign In
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- Features Section -->
+<div class="container animated fadeIn delay-3">
+  <div class="row text-center" style="margin-bottom: 3rem;">
+    <div class="col-md-4 mb-4">
+      <div class="feature-card" style="padding: 2rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); height: 100%; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+        <div class="icon-container" style="margin-bottom: 1.5rem;">
+          <i class="fas fa-calendar-check" style="font-size: 3rem; color: #4e73df;"></i>
+        </div>
+        <h3 style="margin-bottom: 1rem; color: #3a3a3a; font-weight: 600;">Easy Appointments</h3>
+        <p style="color: #6c757d;">Schedule, reschedule, or cancel appointments with just a few clicks. Receive timely reminders.</p>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="feature-card" style="padding: 2rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); height: 100%; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+        <div class="icon-container" style="margin-bottom: 1.5rem;">
+          <i class="fas fa-file-medical-alt" style="font-size: 3rem; color: #1cc88a;"></i>
+        </div>
+        <h3 style="margin-bottom: 1rem; color: #3a3a3a; font-weight: 600;">Medical Records</h3>
+        <p style="color: #6c757d;">Access your complete medical history, test results, and prescriptions securely anytime.</p>
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="feature-card" style="padding: 2rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); height: 100%; transition: transform 0.3s ease, box-shadow 0.3s ease;">
+        <div class="icon-container" style="margin-bottom: 1.5rem;">
+          <i class="fas fa-comments" style="font-size: 3rem; color: #36b9cc;"></i>
+        </div>
+        <h3 style="margin-bottom: 1rem; color: #3a3a3a; font-weight: 600;">Doctor Communication</h3>
+        <p style="color: #6c757d;">Message your healthcare providers directly and receive responses through our secure platform.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Testimonial Section -->
+<div class="testimonial-section animated fadeIn delay-4" style="background-color: #f8f9fc; padding: 3rem 0; border-radius: 12px; margin-bottom: 3rem;">
+  <div class="container">
+    <h2 class="text-center mb-4" style="color: #3a3a3a; font-weight: 600;">What Our Patients Say</h2>
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonial-card text-center" style="padding: 2rem; background-color: white; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                <p style="font-style: italic; color: #6c757d;">"This portal has transformed how I manage my healthcare. Scheduling appointments is now a breeze, and I love having all my records in one place."</p>
+                <p style="font-weight: 600; color: #3a3a3a;">- Sarah Johnson</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="testimonial-card text-center" style="padding: 2rem; background-color: white; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.05);">
+                <p style="font-style: italic; color: #6c757d;">"Being able to message my doctor directly has made such a difference. I get quick responses to my questions without needing to schedule an appointment."</p>
+                <p style="font-weight: 600; color: #3a3a3a;">- Michael Rodriguez</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#testimonialCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true" style="background-color: #4e73df; border-radius: 50%; padding: 10px;"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#testimonialCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true" style="background-color: #4e73df; border-radius: 50%; padding: 10px;"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- CTA Section -->
+<div class="cta-section text-center animated fadeIn delay-5" style="margin-bottom: 3rem;">
+  <h2 style="color: #3a3a3a; font-weight: 600; margin-bottom: 1.5rem;">Ready to Get Started?</h2>
+  <p style="color: #6c757d; max-width: 700px; margin: 0 auto 2rem auto;">Join thousands of patients who have already discovered the convenience of our hospital management system.</p>
+  <a class="btn btn-primary btn-lg px-5 py-3" href="/patientsignup" role="button" 
+    style="background: linear-gradient(to right, #4e73df, #1cc88a); border: none; border-radius: 50px; font-weight: 600; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: all 0.3s ease;">
+    Register Now
+  </a>
+</div>
+
+<!-- Add the following CSS for animations and interactivity -->
+<style>
+  /* Import Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap');
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .hero-container {
+    padding: 2rem 1rem;
+  }
+  
+  /* Smooth animations */
+  .animated {
+    animation-duration: 1.2s;
+    animation-fill-mode: both;
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Button animations */
+  .btn {
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Adding a bounceInUp effect */
+  .bounceInUp {
+    animation-name: bounceInUp;
+  }
+  
+  @keyframes bounceInUp {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    60% {
+      transform: translateY(-20px);
+      opacity: 1;
+    }
+    80% {
+      transform: translateY(5px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  /* Delay animations */
+  .delay-1 {
+    animation-delay: 0.3s;
+  }
+  
+  .delay-2 {
+    animation-delay: 0.6s;
+  }
+  
+  .delay-3 {
+    animation-delay: 0.9s;
+  }
+  
+  .delay-4 {
+    animation-delay: 1.2s;
+  }
+  
+  .delay-5 {
+    animation-delay: 1.5s;
+  }
+  
+  /* Feature card hover effects */
+  .feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .button-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .button-container .btn {
+      margin-bottom: 1rem;
+      width: 80%;
+    }
+  }
+</style>
+
+{% endblock content %}

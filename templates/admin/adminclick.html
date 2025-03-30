@@ -1,0 +1,67 @@
+{% extends 'hospital/homebase.html' %} {% block content %}
+
+<br />
+<br />
+
+<div class="jumbotron text-center animated fadeIn" style="margin-bottom: 0px; background: linear-gradient(45deg, #4e73df, #1cc88a); color: white; border-radius: 10px;">
+  <h1 class="display-4" style="font-family: 'Arial', sans-serif; font-weight: bold; text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);">
+    Hello, Admin
+  </h1>
+  <p class="lead" style="font-size: 1.3rem; letter-spacing: 1px;">
+    Welcome to Hospital Management System.
+  </p>
+  <hr class="my-4" style="border-top: 2px solid #f8f9fc;" />
+  <p class="lead" style="font-size: 1.1rem; font-style: italic;">
+    You can access various features after Login/SignUp.
+  </p>
+  <p class="lead">
+    <a class="btn btn-light btn-lg px-4 py-2 mr-3 animated bounceInUp" href="/adminsignup" role="button"
+      style="background-color: #ff7f50; color: white; border-radius: 30px; transition: transform 0.3s ease;">
+      SignUp
+    </a>
+    <a class="btn btn-light btn-lg px-4 py-2 animated bounceInUp" href="/adminlogin" role="button"
+      style="background-color: #4e73df; color: white; border-radius: 30px; transition: transform 0.3s ease;">
+      Login
+    </a>
+  </p>
+</div>
+
+<!-- Add the following CSS for animations and interactivity -->
+<style>
+  /* Add some smooth fadeIn effect on page load */
+  .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+
+  /* Adding Hover Effects to Buttons */
+  .btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Adding a bounceInUp effect to make the buttons come from below */
+  .bounceInUp {
+    animation-name: bounceInUp;
+  }
+
+  @keyframes bounceInUp {
+    0% {
+      transform: translateY(2000px);
+      opacity: 0;
+    }
+    60% {
+      transform: translateY(-30px);
+      opacity: 1;
+    }
+    80% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+</style>
+
+
+{% endblock content %}

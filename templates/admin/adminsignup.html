@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+
+{% load widget_tweaks %}
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Admin Registration | Hospital Management System</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style type="text/css">
+    body {
+      background: linear-gradient(135deg, #f5f7fa 0%, #e4e9f2 100%);
+      font-family: 'Poppins', sans-serif;
+      color: #334155;
+      min-height: 100vh;
+    }
+
+    .card {
+      border: none;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    }
+
+    .card-header {
+      background: linear-gradient(to right, #4e73df, #8811c5);
+      color: white;
+      text-align: center;
+      padding: 25px 20px;
+      border-bottom: none;
+    }
+
+    .card-header h3 {
+      margin: 0;
+      font-weight: 600;
+      font-size: 1.8rem;
+      letter-spacing: 0.5px;
+    }
+
+    .card-body {
+      padding: 40px 30px;
+    }
+
+    .form-label {
+      font-weight: 500;
+      font-size: 0.9rem;
+      color: #4a5568;
+      margin-bottom: 8px;
+    }
+
+    .form-control {
+      border-radius: 10px;
+      padding: 12px 20px;
+      font-size: 1rem;
+      border: 1px solid #e2e8f0;
+      background-color: #f8fafc;
+      transition: all 0.3s ease;
+    }
+
+    .form-control:focus {
+      box-shadow: 0 0 0 3px rgba(78, 115, 223, 0.25);
+      border-color: #4e73df;
+      background-color: #fff;
+    }
+
+    .input-group-text {
+      background-color: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px 0 0 10px;
+      color: #64748b;
+    }
+
+    .form-floating > .form-control {
+      padding: 1.5rem 1rem;
+    }
+
+    .btn-primary {
+      background: linear-gradient(to right, #4e73df, #6c5ce7);
+      border: none;
+      border-radius: 50px;
+      padding: 12px 30px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      box-shadow: 0 10px 20px rgba(78, 115, 223, 0.3);
+      transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 25px rgba(78, 115, 223, 0.4);
+      background: linear-gradient(to right, #3a5bc7, #5d4edb);
+    }
+
+    .btn-outline-secondary {
+      border-radius: 50px;
+      padding: 12px 25px;
+      font-weight: 500;
+      border-color: #cbd5e1;
+      color: #64748b;
+      transition: all 0.3s ease;
+    }
+
+    .btn-outline-secondary:hover {
+      background-color: #f1f5f9;
+      color: #334155;
+    }
+
+    .login-link {
+      color: #4e73df;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .login-link:hover {
+      color: #3a5bc7;
+      text-decoration: underline;
+    }
+
+    .form-text {
+      color: #64748b;
+      font-size: 0.85rem;
+    }
+
+    .animated {
+      animation-duration: 1s;
+      animation-fill-mode: both;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .fadeIn {
+      animation-name: fadeIn;
+    }
+
+    .error-feedback {
+      color: #ef4444;
+      font-size: 0.85rem;
+      margin-top: 0.25rem;
+      display: none;
+    }
+
+    .form-control.is-invalid ~ .error-feedback {
+      display: block;
+    }
+    
+    .password-toggle {
+      cursor: pointer;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+      .card-body {
+        padding: 30px 20px;
+      }
+      
+      .btn-primary {
+        width: 100%;
+        margin-bottom: 0.5rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  {% include "hospital/navbar.html" %}
+
+  <div class="container py-5 animated fadeIn">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10">
+        <div class="card">
+          <div class="card-header">
+            <h3><i class="fas fa-user-shield me-2"></i>Administrator Registration</h3>
+            <p class="text-white-50 mb-0 mt-2">Create a new admin account for hospital management</p>
+          </div>
+          
+          <div class="card-body">
+            <form method="post" id="adminSignupForm">
+              {% csrf_token %}
+              
+              <div class="row g-4">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="first_name" class="form-label">First Name</label>
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="fas fa-user"></i></span>
+                      {% render_field form.first_name class="form-control" placeholder="Enter first name" id="first_name" %}
+                    </div>
+                    <div class="error-feedback">Please enter your first name</div>
+                  </div>
+                </div>
+                
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="last_name" class="form-label">Last Name</label>
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="fas fa-user"></i></span>
+                      {% render_field form.last_name class="form-control" placeholder="Enter last name" id="last_name" %}
+                    </div>
+                    <div class="error-feedback">Please enter your last name</div>
+                  </div>
+                </div>
+                
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="username" class="form-label">Username</label>
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="fas fa-at"></i></span>
+                      {% render_field form.username class="form-control" placeholder="Choose a username" id="username" %}
+                    </div>
+                    <div class="form-text">Username must be unique and will be used for login</div>
+                    <div class="error-feedback">Please choose a valid username</div>
+                  </div>
+                </div>
+                
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="password" class="form-label">Password</label>
+                    <div class="input-group">
+                      <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                      {% render_field form.password class="form-control" placeholder="Create a strong password" id="password" type="password" %}
+                      <span class="input-group-text password-toggle" onclick="togglePassword()">
+                        <i class="fas fa-eye" id="toggleIcon"></i>
+                      </span>
+                    </div>
+                    <div class="form-text">Use a strong password with letters, numbers, and symbols</div>
+                    <div class="error-feedback">Password must be at least 8 characters</div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="form-check mt-4">
+                <input class="form-check-input" type="checkbox" id="termsCheck">
+                <label class="form-check-label" for="termsCheck">
+                  I agree to the <a href="#" class="login-link">Terms of Service</a> and <a href="#" class="login-link">Privacy Policy</a>
+                </label>
+              </div>
+              
+              <div class="d-grid gap-2 d-md-flex justify-content-md-between mt-4 pt-2">
+                <button type="submit" class="btn btn-primary">
+                  <i class="fas fa-user-plus me-2"></i>Create Admin Account
+                </button>
+                <a href="adminlogin" class="btn btn-outline-secondary">
+                  <i class="fas fa-sign-in-alt me-2"></i>Login Instead
+                </a>
+              </div>
+              
+              <div class="text-center mt-4">
+                <p class="mb-0">Already have an account? <a href="adminlogin" class="login-link">Login here</a></p>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="text-center mt-4">
+          <p class="text-muted">
+            <small>© 2025 Hospital Management System. All rights reserved.</small>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  
+  <script>
+    // Password visibility toggle
+    function togglePassword() {
+      const passwordField = document.getElementById('password');
+      const toggleIcon = document.getElementById('toggleIcon');
+      
+      if (passwordField.type === 'password') {
+        passwordField.type = 'text';
+        toggleIcon.classList.remove('fa-eye');
+        toggleIcon.classList.add('fa-eye-slash');
+      } else {
+        passwordField.type = 'password';
+        toggleIcon.classList.remove('fa-eye-slash');
+        toggleIcon.classList.add('fa-eye');
+      }
+    }
+    
+    // Simple form validation
+    document.getElementById('adminSignupForm').addEventListener('submit', function(event) {
+      let isValid = true;
+      const firstName = document.getElementById('first_name');
+      const lastName = document.getElementById('last_name');
+      const username = document.getElementById('username');
+      const password = document.getElementById('password');
+      const termsCheck = document.getElementById('termsCheck');
+      
+      // Reset previous validation
+      [firstName, lastName, username, password].forEach(field => {
+        field.classList.remove('is-invalid');
+      });
+      
+      // Validate fields
+      if (!firstName.value.trim()) {
+        firstName.classList.add('is-invalid');
+        isValid = false;
+      }
+      
+      if (!lastName.value.trim()) {
+        lastName.classList.add('is-invalid');
+        isValid = false;
+      }
+      
+      if (!username.value.trim()) {
+        username.classList.add('is-invalid');
+        isValid = false;
+      }
+      
+      if (password.value.length < 8) {
+        password.classList.add('is-invalid');
+        isValid = false;
+      }
+      
+      if (!termsCheck.checked) {
+        termsCheck.classList.add('is-invalid');
+        isValid = false;
+      }
+      
+      // Prevent form submission if validation fails
+      if (!isValid) {
+        event.preventDefault();
+      }
+    });
+  </script>
+
+  {% include "hospital/footer.html" %}
+</body>
+
+</html>
