@@ -58,7 +58,7 @@ The platform aims to revolutionize healthcare by providing an AI-driven system t
 ## Future Add-ons
 
 - Medical Image Analysis – AI-assisted detection of tumors, fractures, and infections with high accuracy.  
-- Telemedicine Integration** – Seamless video consultations with doctors.  
+- Telemedicine Integration – Seamless video consultations with doctors.  
 - **Wearable Health Data Sync** – Connects with smartwatches for real-time vitals monitoring.  
 - **WhatsApp Integration** – Enables direct communication with healthcare professionals.  
 
@@ -74,10 +74,16 @@ The platform aims to revolutionize healthcare by providing an AI-driven system t
 ---
 
 ## **Screenshots**
-- Screenshot 2025-01-22 234330  
-- Screenshot 2025-01-23 185712  
-- Screenshot 2025-01-23 185850  
-- Screenshot 2025-01-23 185947  
+![Screenshot 2025-03-30 123424](https://github.com/user-attachments/assets/2d7078da-20db-4589-812d-77b84c576587)
+![Screenshot 2025-03-30 123443](https://github.com/user-attachments/assets/26860df6-1189-4b39-ac0d-79fa862ca943)
+![Screenshot 2025-03-30 123551](https://github.com/user-attachments/assets/daeef319-2012-4c10-8ab9-fee6da35f9db)
+![Screenshot 2025-03-30 123627](https://github.com/user-attachments/assets/ece1c0cd-a2bf-45df-ba80-0f07bfab0758)
+![Screenshot 2025-03-30 123719](https://github.com/user-attachments/assets/63f54197-b737-45bb-996f-00ae4f67dd49)
+![Screenshot 2025-03-30 123808](https://github.com/user-attachments/assets/11b31dca-4a67-4815-b44e-fb93ae3a0296)
+![Screenshot 2025-03-30 123933](https://github.com/user-attachments/assets/98452eef-9feb-4d8e-b424-69880ed2b0ea)
+
+## 🎥 **Watch the Preview Video:** [📺 Click Here](https://drive.google.com/file/d/1VOb-CUonklgmEApXftBLAzNrojJt_mb9/view?usp=drive_link)  
+  
 
 ---
 
@@ -85,8 +91,8 @@ The platform aims to revolutionize healthcare by providing an AI-driven system t
 
 ### 1. Clone this repository:
 ```bash
-git clone https://github.com/FlopCoder35/healthcare_system
-cd healthcare_system
+git clone https://github.com/FlopCoder35/INIT_DRIVER
+cd INIT_DRIVER
 ```
 
 ### 2. Create a virtual environment and activate it:
@@ -97,7 +103,7 @@ venv\Scripts\activate  # For Windows
 
 ### 3. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 ### 4. Apply migrations:
@@ -115,6 +121,18 @@ python manage.py createsuperuser
 python manage.py runserver
 ```
 
+
+### 7. Lab Report Analyzer
+```bash
+cd medical-report-analyser-main
+streamlit run app.py
+```
+
+### 8. Medisupport Chatbot
+```bash
+cd gemini
+npm start
+```
 ---
 
 ## **Contributing**
